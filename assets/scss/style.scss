@@ -1,0 +1,82 @@
+@use 'typography';
+/*-----Font size-----*/
+$size64: 64px;
+$size48: 48px;
+$size40: 40px;
+$size32: 32px;
+$size26: 26px;
+$size22: 22px;
+$size18: 18px;
+$size16: 16px;
+$size14: 14px;
+
+/*-----Font weight-----*/
+$light: 300;
+$normal: 400;
+$semibold: 500;
+$bold: 700;
+$extrabold: 900;
+
+/*-----Color-----*/
+$yellow: #FFA823;
+$red: #ED1F24;
+$green: #2AB56B;
+$light: #FFFEFA;
+$white: #ffffff;
+$lightblue: #F5F9FF;
+$mediumblue: #E8F1FF;
+$lightpurple: #C1CEFF;
+$gray60: #000414;
+$gray50: #333643;
+$gray: #D9DADC;
+
+.bgyellow{ background-color: $yellow;}
+.bgprimary{ background-color: #d9d9d9;}
+
+/*-----Site Header-----*/
+.site-header{
+    .navbar-collapse{
+        flex-grow: 0;
+    }
+    .navbar-nav{
+        .nav-link{
+            font-size: $size18;
+            font-weight: 400;
+            color: $gray60 ;
+        }
+    }
+}
+
+/*-----Hero header-----*/
+.mainhero{
+
+    .title{ font-size: $size22;}
+    .heading{font-size: $size64;}
+    .subheading{ font-size: $size26;}
+}
+
+/*---Global----*/
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1400px;
+    }
+}
+
+
+body{font-family: "Poppins", sans-serif;}
+.fw-light{ font-weight: $light;}
+.fw-normal{ font-weight: $normal;}
+.fw-semibold{ font-weight: $semibold;}
+.fw-bold{ font-weight: $bold;}
+.fw-extrabold{ font-weight: $extrabold;}
+
+.sectionheading{
+    .heading{
+        font-size: $size48;
+        font-weight: $bold;
+        color: $gray60;
+    }
+    .subheading{
+        font-size: $size18;
+    }
+}
