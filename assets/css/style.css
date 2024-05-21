@@ -114,8 +114,16 @@
   background-color: #FFA823;
 }
 
-.bgprimary {
-  background-color: #d9d9d9;
+.bglightyellow {
+  background-color: #FFF9E8;
+}
+
+.bglightred {
+  background-color: #FFF7F7;
+}
+
+.bgred {
+  background-color: #ED1F24;
 }
 
 /*-----Button-----*/
@@ -213,6 +221,13 @@
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
 }
+.pageheader--full .tagline {
+  height: 480px;
+}
+.pageheader--column {
+  height: 600px;
+  color: #ffffff;
+}
 /*---Global----*/
 @media (min-width: 1400px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
@@ -251,6 +266,59 @@ body {
 }
 .sectionheading .subheading {
   font-size: 18px;
+}
+
+.card--key {
+  min-height: 210px;
+}
+.card--key .card-body .card-title {
+  font-size: 40px;
+}
+.card--key .card-body .card-title::first-letter {
+  font-size: 64px;
+  color: #E6B325;
+}
+.card--key .card-body .card-text {
+  font-size: 18px;
+}
+.card--team span {
+  background: #FFFAEB;
+  border-radius: 100px;
+  font-size: 14px;
+  color: #333643;
+  padding: 5px 20px;
+}
+.card--team .card-body {
+  row-gap: 8px;
+}
+.card--team .card-body .card-text {
+  font-size: 18px;
+  color: #333643;
+}
+.card--timeline .card-body {
+  position: relative;
+}
+.card--timeline .card-body .card-title {
+  font-size: 32px;
+  color: #000414;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #FFA823;
+  position: relative;
+}
+.card--timeline .card-body .card-title:after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 0px;
+  top: 70px;
+  border-radius: 100px;
+  background: #FFFFFF;
+  border: 2px solid #FFA823;
+}
+.card--timeline .card-body .card-text {
+  font-size: 18px;
+  color: #333643;
 }
 
 .brandpartner .brand-slide img {

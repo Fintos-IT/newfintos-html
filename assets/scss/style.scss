@@ -23,6 +23,7 @@ $red: #ED1F24;
 $green: #2AB56B;
 $lightwhite: #FFFEFA;
 $lightyellow: #FFF9E8;
+$lightred: #FFF7F7;
 $white: #ffffff;
 $lightblue: #F5F9FF;
 $mediumblue: #E8F1FF;
@@ -32,7 +33,9 @@ $gray50: #333643;
 $gray: #D9DADC;
 
 .bgyellow{ background-color: $yellow;}
-.bgprimary{ background-color: #d9d9d9;}
+.bglightyellow{ background-color: $lightyellow;}
+.bglightred{ background-color: $lightred;}
+.bgred{ background-color: $red;}
 
 
 /*-----Button-----*/
@@ -113,7 +116,20 @@ $gray: #D9DADC;
         }
     }
 }
+.pageheader{
+    &--full{
+        .tagline{
+            height: 480px;
+        }
+    }
+    &--column{
+        .tagline{
 
+        }
+        height: 600px;
+        color: $white;
+    }
+}
 /*---Global----*/
 @media (min-width: 1400px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
@@ -139,7 +155,67 @@ body{font-family: "Poppins", sans-serif; background-color: #FFFEFA;}
         font-size: $size18;
     }
 }
-
+.card{
+    &--key{
+        min-height: 210px;
+        .card-body{
+            .card-title{
+                font-size: $size40;
+            }
+            .card-title::first-letter{
+                font-size: $size64;
+                color: #E6B325;
+            }
+            .card-text{
+                font-size: $size18;
+            }
+        }
+    }
+    &--team{
+        span{
+            background: #FFFAEB;
+            border-radius: 100px;
+            font-size: $size14;
+            color: $gray50;
+            padding:5px 20px;
+        }
+        
+        .card-body{
+            row-gap: 8px;
+            .card-text{
+                font-size: $size18;
+                color: $gray50;
+            }
+        }
+    }
+    &--timeline{
+        .card-body{
+            position: relative;
+            .card-title{
+                font-size: $size32;
+                color: $gray60;
+                padding-bottom: 40px;
+                border-bottom: 2px solid $yellow;
+                position: relative;
+                &:after{
+                    content: "";
+                    position: absolute;
+                    width: 18px;
+                    height: 18px;
+                    left: 0px;
+                    top: 70px;
+                    border-radius: 100px;
+                    background: #FFFFFF;
+                    border: 2px solid #FFA823;
+                }
+            }
+            .card-text{
+                font-size: $size18;
+                color: $gray50;
+            }
+        }
+    }
+}
 .brandpartner{
     .brand-slide{
         img{
