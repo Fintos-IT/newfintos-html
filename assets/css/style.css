@@ -122,8 +122,35 @@
   background-color: #FFF7F7;
 }
 
+.bglightgreen {
+  background-color: #EFFFF6;
+}
+
+.bglightblue {
+  background-color: #F5F9FF;
+}
+
 .bgred {
   background-color: #ED1F24;
+}
+
+.bggreen {
+  background-color: #2AB56B;
+}
+
+.text-bg-lightgray {
+  color: #666872;
+  background-color: #F4F4F5;
+  font-weight: 400;
+  padding: 11px 18px;
+  font-size: 18px;
+}
+
+.text-bg-lightblue {
+  color: #5D79E3;
+  background-color: #F5F9FF;
+  font-size: 14px;
+  padding: 11px 18px;
 }
 
 /*-----Button-----*/
@@ -153,6 +180,15 @@
   text-align: center;
   font-weight: 500;
   font-size: 18px;
+}
+
+.btn-outline-primary {
+  color: #FFA823;
+  border-color: #FFA823;
+}
+.btn-outline-primary:hover {
+  background-color: #FFA823;
+  border-color: #FFA823;
 }
 
 .btn-lg {
@@ -221,13 +257,15 @@
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
 }
+
 .pageheader--full .tagline {
-  height: 480px;
+  /* height: 480px;*/
 }
 .pageheader--column {
-  height: 600px;
-  color: #ffffff;
+  /*height: 600px;*/
+  /*color: $white;*/
 }
+
 /*---Global----*/
 @media (min-width: 1400px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
@@ -237,6 +275,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #FFFEFA;
+  font-size: 18px;
 }
 
 .fw-light {
@@ -319,6 +358,19 @@ body {
 .card--timeline .card-body .card-text {
   font-size: 18px;
   color: #333643;
+}
+.card--thumbcolor .card-thumb {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  border-radius: 15px;
+}
+.card--position {
+  height: 222px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
 }
 
 .brandpartner .brand-slide img {
@@ -409,17 +461,20 @@ body {
   font-size: 18px;
 }
 
-.cta {
-  height: 500px;
-  border-radius: 30px;
-  margin-top: 200px;
+.faq .accordion-button {
+  font-size: 22px;
+  font-weight: 500;
+  color: #000414;
 }
-.cta .row {
-  background-color: #FFF9E8;
+.faq .accordion-body {
+  font-size: 18px;
+  color: #333643;
 }
-.cta .thumb-cta {
-  margin-top: -100px;
+.faq .accordion-body a {
+  color: #FFA823;
+  text-decoration: none;
 }
+
 .cta .sectionheading {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -436,6 +491,14 @@ body {
   min-width: 344px;
   line-height: 54px;
   border-radius: 8px;
+}
+.cta--boxed {
+  height: 500px;
+  border-radius: 30px;
+  margin-top: 200px;
+}
+.cta--boxed .thumb-cta {
+  margin-top: -100px;
 }
 
 /*---Site Footer----*/
@@ -474,4 +537,32 @@ body {
 }
 .site-footer .copyright .row ul li a:hover {
   color: #FFA823;
+}
+
+.plan .labelplan {
+  height: 70px;
+}
+.plan .titleplan {
+  font-size: 18px;
+  height: 70px;
+  border-bottom: 1px solid #D9DADC;
+}
+.plan .titleplan:last-child {
+  border-bottom: 0;
+}
+.plan .entryplan {
+  font-size: 16px;
+  height: 70px;
+  border-bottom: 1px solid #D9DADC;
+}
+.plan .entryplan span {
+  font-size: 26px;
+  font-weight: 500;
+}
+.plan .entryplan:last-child {
+  border-bottom: 0;
+}
+
+.fintosform .fieldwrap {
+  margin-bottom: 30px;
 }

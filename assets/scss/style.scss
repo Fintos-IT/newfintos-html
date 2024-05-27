@@ -23,6 +23,7 @@ $red: #ED1F24;
 $green: #2AB56B;
 $lightwhite: #FFFEFA;
 $lightyellow: #FFF9E8;
+$lightgreen: #EFFFF6;
 $lightred: #FFF7F7;
 $white: #ffffff;
 $lightblue: #F5F9FF;
@@ -35,9 +36,24 @@ $gray: #D9DADC;
 .bgyellow{ background-color: $yellow;}
 .bglightyellow{ background-color: $lightyellow;}
 .bglightred{ background-color: $lightred;}
+.bglightgreen{ background-color: $lightgreen;}
+.bglightblue{background-color: $lightblue;}
 .bgred{ background-color: $red;}
+.bggreen{ background-color: $green;}
 
-
+.text-bg-lightgray{
+    color: #666872;
+    background-color: #F4F4F5;
+    font-weight: $normal;
+    padding: 11px 18px;
+    font-size: $size18;
+}
+.text-bg-lightblue{
+    color: #5D79E3;
+    background-color: $lightblue;
+    font-size: $size14;
+    padding: 11px 18px;
+}
 /*-----Button-----*/
 @mixin button_styles($background, $color){
     background-color: $background;
@@ -60,6 +76,14 @@ $gray: #D9DADC;
 .btn-secondary{
     @include button_styles($white, $gray60);
     font-size: $size18;
+}
+.btn-outline-primary{
+    color: $yellow;
+    border-color: $yellow;
+    &:hover{
+        background-color: $yellow;
+        border-color: $yellow;
+    }
 }
 .btn-lg{
     min-width: 320px;
@@ -111,23 +135,19 @@ $gray: #D9DADC;
             animation-delay: 0.5s;
             animation-duration: 1s;
         }
-        .thumb-second{
-            
-        }
+      
     }
 }
 .pageheader{
     &--full{
         .tagline{
-            height: 480px;
+           /* height: 480px;*/
         }
     }
     &--column{
-        .tagline{
-
-        }
-        height: 600px;
-        color: $white;
+       
+        /*height: 600px;*/
+        /*color: $white;*/
     }
 }
 /*---Global----*/
@@ -138,7 +158,7 @@ $gray: #D9DADC;
 }
 
 
-body{font-family: "Poppins", sans-serif; background-color: #FFFEFA;}
+body{font-family: "Poppins", sans-serif; background-color: #FFFEFA; font-size: $size18;}
 .fw-light{ font-weight: $light;}
 .fw-normal{ font-weight: $normal;}
 .fw-semibold{ font-weight: $semibold;}
@@ -214,6 +234,20 @@ body{font-family: "Poppins", sans-serif; background-color: #FFFEFA;}
                 color: $gray50;
             }
         }
+    }
+    &--thumbcolor{
+        .card-thumb{
+            width: 80px;
+            height: 80px;
+            text-align: center;
+            line-height: 80px;
+            border-radius: 15px;
+        }
+    }
+    &--position{
+        height: 222px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
     }
 }
 .brandpartner{
@@ -309,16 +343,22 @@ body{font-family: "Poppins", sans-serif; background-color: #FFFEFA;}
         row-gap: 20px;
     }
 }
-.cta{
-    height: 500px;
-    border-radius: 30px;
-    margin-top: 200px;
-    .row{
-        background-color: $lightyellow;
+.faq{
+    .accordion-button{
+        font-size: $size22;
+        font-weight: $semibold;
+        color: $gray60;
     }
-    .thumb-cta{
-        margin-top: -100px;
+    .accordion-body{
+        font-size: $size18;
+        color: $gray50;
+        a{
+            color: $yellow;
+            text-decoration: none;
+        }
     }
+}
+.cta{    
     .sectionheading{
         align-items: center;
         justify-content: center;
@@ -333,6 +373,15 @@ body{font-family: "Poppins", sans-serif; background-color: #FFFEFA;}
           
         }
     }
+    &--boxed{
+        height: 500px;
+        border-radius: 30px;
+        margin-top: 200px;
+        .thumb-cta{
+            margin-top: -100px;
+        }
+    }
+   
 }
 
 /*---Site Footer----*/
@@ -377,3 +426,36 @@ body{font-family: "Poppins", sans-serif; background-color: #FFFEFA;}
     }
 }
 
+.plan{
+    .labelplan{
+        height: 70px;
+    }
+    .titleplan{
+        font-size: $size18;
+        height: 70px;
+        border-bottom: 1px solid #D9DADC;
+        &:last-child{
+            border-bottom: 0;
+        }
+    }
+    .entryplan{
+        font-size: $size16;
+        height: 70px;
+        border-bottom: 1px solid #D9DADC;
+        span{
+            font-size: $size26;
+            font-weight: $semibold;
+        }
+        &:last-child{
+            border-bottom: 0;
+        }
+    }
+}
+
+
+    
+.fintosform{
+    .fieldwrap{ 
+        margin-bottom: 30px;
+    }
+}
