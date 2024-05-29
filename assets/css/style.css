@@ -164,6 +164,7 @@
   text-align: center;
   font-weight: 500;
   font-size: 18px;
+  color: #000414;
 }
 .btn-primary:hover {
   background-color: #F4980B;
@@ -563,6 +564,142 @@ body {
   border-bottom: 0;
 }
 
+.modal-fullscreen {
+  height: auto !important;
+}
+
+.fintosform {
+  padding: 30px 0;
+}
+.fintosform .formhead .brand {
+  margin-bottom: 60px;
+}
+.fintosform .formhead .tagline h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.fintosform .formhead .back-btn a {
+  text-decoration: none;
+  color: #000414;
+  font-size: 14px;
+}
+.fintosform .formbody .link {
+  color: #FFA823;
+  text-decoration: underline;
+}
+.fintosform .btn {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000414;
+  background-color: #F3AF1A;
+}
+.fintosform .btn:hover {
+  background-color: #FFA823;
+}
 .fintosform .fieldwrap {
   margin-bottom: 30px;
+}
+.fintosform .fieldwrap .form-label {
+  color: #000414;
+  font-size: 18px;
+}
+.fintosform .fieldwrap .form-check-label {
+  line-height: 24px;
+  padding-left: 10px;
+}
+.fintosform .fieldwrap .form-control {
+  background: #F6F9FD;
+  border: 1px solid #DEE5EF;
+  border-radius: 3px;
+  height: 47px;
+}
+.fintosform .fieldwrap .form-control::-webkit-input-placeholder {
+  color: #A2AAB6;
+  opacity: 1;
+}
+.fintosform .fieldwrap .form-control::-moz-placeholder {
+  color: #A2AAB6;
+  opacity: 1;
+}
+.fintosform .fieldwrap .form-control:-ms-input-placeholder {
+  color: #A2AAB6;
+  opacity: 1;
+}
+.fintosform .fieldwrap .form-control::-ms-input-placeholder {
+  color: #A2AAB6;
+  opacity: 1;
+}
+.fintosform .fieldwrap .form-control::placeholder {
+  color: #A2AAB6;
+  opacity: 1;
+}
+.fintosform .fieldwrap .form-control::-ms-input-placeholder {
+  color: #A2AAB6;
+}
+.fintosform .fieldwrap .form-control:focus {
+  outline: none !important;
+  border: 1px solid #FFA823;
+  -webkit-box-shadow: 0 0 20px #C1CEFF;
+          box-shadow: 0 0 20px #C1CEFF;
+}
+.fintosform .fieldwrap .form-check-input {
+  width: 22px;
+  height: 22px;
+  border-color: #A4B0C0;
+  margin-top: 0;
+}
+.fintosform .fieldwrap .form-check-input:checked {
+  background-color: #FFA823;
+  border-color: #FFA823;
+}
+.fintosform .fieldwrap .input-group-text {
+  background-color: #ffffff;
+  border-color: #DEE5EF;
+}
+.fintosform .fieldwrap .card {
+  background-color: #ffffff;
+  border-color: #DEE5EF;
+}
+.fintosform .fieldwrap .card .form-check-input {
+  width: 18px;
+  height: 18px;
+  border-color: #DEE5EF;
+}
+.fintosform .fieldwrap .card .form-check-input:checked {
+  background-color: #5D79E3;
+  border-color: #5D79E3;
+}
+.fintosform .fieldwrap .card .entrylabel {
+  font-size: 14px;
+  color: #666872;
+}
+.fintosform .fieldwrap .card .entryresult {
+  font-size: 18px;
+  color: #333643;
+}
+.fintosform .fieldwrap .selected {
+  border-color: #5D79E3;
+}
+.fintosform .fieldwrap--radiocustom .form-check-label {
+  line-height: 47px;
+  padding-top: 0;
+  padding-left: 0;
+  height: 47px;
+  width: 200px;
+  background: #F6F9FD;
+  border: 1px solid #DEE5EF;
+  text-align: center;
+}
+.fintosform .fieldwrap--radiocustom input[type=radio] {
+  visibility: hidden;
+  display: none;
+  height: 0;
+  width: 0;
+}
+.fintosform .fieldwrap--radiocustom input[type=radio]:checked + label {
+  background-color: #ffffff;
+  border: 1px solid #5D79E3;
+}
+#multi-step-form {
+  overflow-x: hidden;
 }

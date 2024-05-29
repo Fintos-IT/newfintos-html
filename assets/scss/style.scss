@@ -1,4 +1,5 @@
 @use 'typography';
+
 /*-----Font size-----*/
 $size64: 64px;
 $size48: 48px;
@@ -31,6 +32,7 @@ $mediumblue: #E8F1FF;
 $lightpurple: #C1CEFF;
 $gray60: #000414;
 $gray50: #333643;
+$gray40: #666872;
 $gray: #D9DADC;
 
 .bgyellow{ background-color: $yellow;}
@@ -68,6 +70,7 @@ $gray: #D9DADC;
 .btn-primary{
     @include button_styles($yellow, $gray60);
     font-size: $size18;
+    color: $gray60;
     &:hover{
         background-color: #F4980B;
         color: $gray60;
@@ -98,6 +101,7 @@ $gray: #D9DADC;
     min-width: 180px;
     line-height: 37px;
 }
+
 /*-----Site Header-----*/
 .site-header{
     .navbar-collapse{
@@ -454,8 +458,142 @@ body{font-family: "Poppins", sans-serif; background-color: #FFFEFA; font-size: $
 
 
     
+.modal-fullscreen{
+    height: auto !important;
+}
 .fintosform{
-    .fieldwrap{ 
+    padding: 30px 0;
+   
+    .formhead{
+       .brand{
+            margin-bottom: 60px;
+       }
+       .tagline{
+            h2{
+                font-size: $size26;
+                font-weight: $bold;
+           }
+       }
+       .back-btn{
+            a{
+                text-decoration: none;
+                color: $gray60;  
+                font-size: 14px;
+            }
+       }
+    }
+    .formbody{
+        .link{
+            color: $yellow;
+            text-decoration: underline;
+        }
+    }
+    .btn{
+        font-size: $size18;
+        font-weight: $bold;
+        color: $gray60;
+        background-color: #F3AF1A;
+        &:hover{
+            background-color: $yellow;
+        }
+    }
+    .fieldwrap{
         margin-bottom: 30px;
+        .form-label{
+            color: $gray60;
+            font-size: $size18;
+        }
+        .form-check-label{
+            line-height: 24px;
+            padding-left: 10px;
+        }
+        .form-control{
+            background: #F6F9FD;
+            border: 1px solid #DEE5EF;
+            border-radius: 3px;
+            height: 47px;
+        }
+        .form-control::placeholder {
+            color: #A2AAB6;
+            opacity: 1; 
+          }
+        .form-control::-ms-input-placeholder { 
+            color: #A2AAB6;
+        }  
+        .form-control:focus {
+            outline: none !important;
+            border:1px solid $yellow;
+            box-shadow: 0 0 20px $lightpurple;
+        }
+        .form-check-input{
+            width: 22px;
+            height: 22px;
+            border-color: #A4B0C0;
+            margin-top: 0;
+        }
+        .form-check-input:checked{
+            background-color: $yellow;
+            border-color: $yellow;
+        }
+        .input-group-text{
+            background-color: $white;
+            border-color: #DEE5EF;
+        }
+        .card{
+            background-color: $white;
+            border-color: #DEE5EF;
+            .form-check-input{
+                width: 18px;
+                height: 18px;
+                border-color: #DEE5EF;
+            }
+            .form-check-input:checked{
+                background-color: #5D79E3;
+                border-color: #5D79E3;
+            }
+            .entrylabel{
+                font-size: $size14;
+                color: $gray40;
+            }
+            .entryresult{
+                font-size: $size18;
+                color: $gray50;
+            }
+
+        }
+        .selected{
+            border-color: #5D79E3;
+        }
+        &--radiocustom{
+            .form-check-label{
+                line-height: 47px;
+                padding-top: 0;
+                padding-left: 0;
+                height: 47px;
+                width: 200px;
+                background: #F6F9FD;
+                border: 1px solid #DEE5EF;
+                text-align: center;
+                
+            }
+            input[type="radio"]{
+                visibility: hidden;
+                display: none;
+                height: 0;
+                width: 0;
+              }
+            input[type="radio"]:checked + label{
+                background-color: $white;
+                border: 1px solid #5D79E3;
+            }
+            .ms-overlap{
+                
+            }  
+              
+        }
     }
 }
+
+#multi-step-form{
+    overflow-x: hidden;
+  }
