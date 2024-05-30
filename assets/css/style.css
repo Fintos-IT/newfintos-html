@@ -565,7 +565,7 @@ body {
 }
 
 .modal-fullscreen {
-  height: auto !important;
+  /*height: auto !important;*/
 }
 
 .fintosform {
@@ -587,6 +587,19 @@ body {
   color: #FFA823;
   text-decoration: underline;
 }
+.fintosform .formbody .alert-success h2 {
+  color: #0BC196;
+  font-size: 26px;
+}
+.fintosform .formbody .alert-success p {
+  font-size: 18px;
+}
+.fintosform .formbody .alert-success .link {
+  text-decoration: none;
+}
+.fintosform .formbody .alert-success .contactsupport .link {
+  color: #6FAE4F;
+}
 .fintosform .btn {
   font-size: 18px;
   font-weight: 700;
@@ -602,6 +615,7 @@ body {
 .fintosform .fieldwrap .form-label {
   color: #000414;
   font-size: 18px;
+  margin-bottom: 5px;
 }
 .fintosform .fieldwrap .form-check-label {
   line-height: 24px;
@@ -655,6 +669,16 @@ body {
 .fintosform .fieldwrap .input-group-text {
   background-color: #ffffff;
   border-color: #DEE5EF;
+  width: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  text-align: center;
+  border-radius: 3px;
 }
 .fintosform .fieldwrap .card {
   background-color: #ffffff;
@@ -676,6 +700,11 @@ body {
 .fintosform .fieldwrap .card .entryresult {
   font-size: 18px;
   color: #333643;
+}
+@media (max-width: 768px) {
+  .fintosform .fieldwrap .card--check .form-check-input {
+    margin-top: 15px;
+  }
 }
 .fintosform .fieldwrap .selected {
   border-color: #5D79E3;

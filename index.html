@@ -47,7 +47,8 @@
                         <span class="title fw-semibold w-100">Your instant loan consultant</span>
                         <h1 class="heading fw-bold">Effortless Financing Starts Here</h1>
                         <h2 class="subheading">We cut through the complexity to get you fast, clear loan options</h2>
-                        <a href="#" class="btn btn-secondary btn-lg" data-bs-toggle="modal" data-bs-target="#loancalculator">Get Loan Calculator</a>
+                        <!--<button type="button" class="btn btn-secondary btn-lg" data-bs-toggle="modal" data-bs-target="#loancalculator">Get Loan Calculator</button>-->
+                        <a href="form-getloan.html" class="btn btn-secondary btn-lg">Get Loan Calculator</a>
                     </div>
                 </div>
                 <div class="col-md-5">
@@ -498,7 +499,7 @@
             </div>
         </div>
     </footer>
-    <!--[strar:modal loan calculator]-->
+    <!--[start:modal loan calculator]-->
     <div class="modal fade" id="loancalculator" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-fullscreen">
             <div class="modal-content">
@@ -506,7 +507,7 @@
                 <div class="fintosform step step-1"><!--[start:fintosform]-->
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-6 justify-content-between">
+                            <div class="col-12 col-md-6 justify-content-between">
                                 <div class="formhead"><!--[start:formhead]-->
                                     <div class="row d-flex justify-content-between mb-5">
                                         <div class="col">
@@ -523,7 +524,7 @@
                                 </div><!--[end:formhead]-->
                                 <div class="formbody"><!--[start:formbody]-->
                                     <div class="row">
-                                        <div class="col-8">
+                                        <div class="col-12 col-md-8">
                                             <div class="fieldwrap ">
                                                 <div class="mb-3">
                                                     <label>Net Icome</label>
@@ -562,7 +563,7 @@
                 <div class="fintosform step step-2"><!--[start:fintosform]-->
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-6 justify-content-between">
+                            <div class="col-12 col-md-6 justify-content-between">
                                 <div class="formhead"><!--[start:formhead]-->
                                     <div class="row d-flex justify-content-between mb-5">
                                         <div class="col">
@@ -720,7 +721,7 @@
                 <div class="fintosform step step-3"><!--[start:fintosform]-->
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-6 justify-content-between">
+                            <div class="col-12 col-md-6 justify-content-between">
                                 <div class="formhead"><!--[start:formhead]-->
                                     <div class="row d-flex justify-content-between mb-5">
                                         <div class="col">
@@ -765,7 +766,7 @@
                                 </div><!--[end:formhead]-->
                                 <div class="formbody"><!--[start:formbody]-->
                                     <div class="row">
-                                        <div class="col-8">
+                                        <div class="col-12 col-md-8">
                                             <div class="fieldwrap">
                                                 <label for="name" class="form-label">Name</label>
                                                 <input type="text" class="form-control" id="" placeholder="Type your name" />
@@ -861,13 +862,13 @@
         </div>
     </div>        
     <!--[end: modal loan calculator]-->
-    <div class="modal fade" id="prescrening" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="prescrening" data-keyboard="false" data-backdrop="static">
         <div class="modal-dialog modal-fullscreen">
             <div class="modal-content">
                 <div class="fintosform">
                     <div class="container">
                         <div class="row  justify-content-center">
-                            <div class="col-6">
+                            <div class="col-12 col-md-6">
                                 <div class="formhead">
                                     <div class="row d-flex justify-content-between mb-5">
                                         <div class="col">
@@ -885,7 +886,7 @@
                                 </div>
                                 <div class="formbody">
                                     <div class="row">
-                                        <div class="col-8">
+                                        <div class="col-12 col-md-8">
                                             <div class="fieldwrap">
                                                 <label for="name" class="form-label">Name</label>
                                                 <input type="text" class="form-control" id="" placeholder="Type your name" />
@@ -945,60 +946,10 @@
             </div>
           </div>
       </div>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-      <script>
-          $('.card--check').click(function() {
-          $('.card--check').removeClass('selected');
-          $(this).find('input')
-          $(this).addClass('selected');
-          });
-  
-          var currentStep = 1;
-          var updateProgressBar;
-  
-          function displayStep(stepNumber) {
-          if (stepNumber >= 1 && stepNumber <= 3) {
-              $(".step-" + currentStep).hide();
-              $(".step-" + stepNumber).show();
-              currentStep = stepNumber;
-              updateProgressBar();
-          }
-          }
-  
-          $(document).ready(function() {
-              $('#multi-step-form').find('.step').slice(1).hide();
-          
-              $(".next-step").click(function() {
-              if (currentStep < 3) {
-                  $(".step-" + currentStep).addClass("animate__animated animate__fadeOutLeft");
-                  currentStep++;
-                  setTimeout(function() {
-                  $(".step").removeClass("animate__animated animate__fadeOutLeft").hide();
-                  $(".step-" + currentStep).show().addClass("animate__animated animate__fadeInRight");
-                  updateProgressBar();
-                  }, 500);
-              }
-              });
-  
-              $(".prev-step").click(function() {
-              if (currentStep > 1) {
-                  $(".step-" + currentStep).addClass("animate__animated animate__fadeOutRight");
-                  currentStep--;
-                  setTimeout(function() {
-                  $(".step").removeClass("animate__animated animate__fadeOutRight").hide();
-                  $(".step-" + currentStep).show().addClass("animate__animated animate__fadeInLeft");
-                  updateProgressBar();
-                  }, 500);
-              }
-              });
-  
-              updateProgressBar = function() {
-              var progressPercentage = ((currentStep - 1) / 2) * 100;
-              $(".progress-bar").css("width", progressPercentage + "%");
-              }
-          });
-      </script>
+      <script src="./assets/js/custom.js"></script>
 </body>
 </html>
 

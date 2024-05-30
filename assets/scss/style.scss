@@ -459,7 +459,7 @@ body{font-family: "Poppins", sans-serif; background-color: #FFFEFA; font-size: $
 
     
 .modal-fullscreen{
-    height: auto !important;
+    /*height: auto !important;*/
 }
 .fintosform{
     padding: 30px 0;
@@ -487,6 +487,23 @@ body{font-family: "Poppins", sans-serif; background-color: #FFFEFA; font-size: $
             color: $yellow;
             text-decoration: underline;
         }
+        .alert-success{
+            h2{
+                color:#0BC196;
+                font-size: $size26;
+            }   
+            p{
+                font-size: $size18;
+            } 
+            .link{
+                text-decoration: none;
+            }
+            .contactsupport{
+                .link{
+                    color: #6FAE4F;
+                }
+            }
+        }
     }
     .btn{
         font-size: $size18;
@@ -502,6 +519,7 @@ body{font-family: "Poppins", sans-serif; background-color: #FFFEFA; font-size: $
         .form-label{
             color: $gray60;
             font-size: $size18;
+            margin-bottom: 5px;
         }
         .form-check-label{
             line-height: 24px;
@@ -538,6 +556,12 @@ body{font-family: "Poppins", sans-serif; background-color: #FFFEFA; font-size: $
         .input-group-text{
             background-color: $white;
             border-color: #DEE5EF;
+            width: 65px;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            text-align: center;
+            border-radius: 3px;
         }
         .card{
             background-color: $white;
@@ -559,7 +583,13 @@ body{font-family: "Poppins", sans-serif; background-color: #FFFEFA; font-size: $
                 font-size: $size18;
                 color: $gray50;
             }
-
+            &--check{
+                @media(max-width:768px){
+                   .form-check-input{
+                    margin-top: 15px;
+                   }
+                }
+            }
         }
         .selected{
             border-color: #5D79E3;
