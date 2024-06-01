@@ -6,10 +6,11 @@
     <title>Fintos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link href="./assets/css/style.css" rel="stylesheet">
 </head>
-  <body>
-    <div class="site-header bgyellow">
+<body>
+    <div class="site-header bgyellow d-flex align-items-center">
         <div class="container">
             <div class="row">
                 <nav class="navbar navbar-expand-lg">
@@ -20,17 +21,66 @@
                       </button>
                       <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Solutions
+                                </a>
+                                <ul class="dropdown-menu rounded-4 dropdown-menu--megamenu border-0">
+                                    <div class="d-flex py-3 px-4 mx-1 flex-col flex-lg-row gap-4 flex-column flex-md-row">
+                                        <div class="col">
+                                            <div class="card card--nav border-0">
+                                                <div class="card-head mb-3">
+                                                    <img src="./assets/images/fintos-advice-logo-nav.png" alt="fintos advice" class="img-fluid"  />
+                                                    <p class="my-2">Make smart choices with your finances</p>
+                                                    <a href="#" class="fw-semibold">Learn More <img src="./assets/images/arrow-right.png" alt="fintos advice" class="img-fluid"  /></a>
+                                                </div>
+                                                <div class="card-body bgred">
+                                                    <img src="./assets/images/thumb-fintosadvice-hero.png" alt="fintos advice" class="img-fluid"  />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card card--nav border-0">
+                                                <div class="card-head mb-3">
+                                                    <img src="./assets/images/fintos-finance-logo-nav.png" alt="fintos finance" class="img-fluid"  />
+                                                    <p class="my-2">Regain own financial independence</p>
+                                                    <a href="#" class="fw-semibold">Learn More <img src="./assets/images/arrow-right.png" alt="fintos advice" class="img-fluid"  /></a>
+                                                </div>
+                                                <div class="card-body bggreen">
+                                                    <img src="./assets/images/thumb-fintosfinance-hero.png" alt="fintos advice" class="img-fluid"  />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card card--nav border-0">
+                                                <div class="card-head mb-3">
+                                                    <img src="./assets/images/fintos-tech-logo-nav.png" alt="fintos tech" class="img-fluid"  />
+                                                    <p class="my-2">Make smart choices with your finances</p>
+                                                    <a href="#" class="fw-semibold">Learn More <img src="./assets/images/arrow-right.png" alt="fintos advice" class="img-fluid"  /></a>
+                                                </div>
+                                                <div class="card-body bgyellow">
+                                                    <img src="./assets/images/thumb-fintos-tech2.png" alt="fintos advice" class="img-fluid"  />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                              </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Product
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link px-3" href="#">About</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                            <a class="nav-link px-3" href="#">Contact</a>
                           </li>
                         </ul>
                       </div>
@@ -39,7 +89,7 @@
             </div>
         </div>
     </div>
-    <div class="mainhero align-items-center bgyellow pt-4">
+    <div class="mainhero align-items-center bgyellow">
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
@@ -47,8 +97,7 @@
                         <span class="title fw-semibold w-100">Your instant loan consultant</span>
                         <h1 class="heading fw-bold">Effortless Financing Starts Here</h1>
                         <h2 class="subheading">We cut through the complexity to get you fast, clear loan options</h2>
-                        <!--<button type="button" class="btn btn-secondary btn-lg" data-bs-toggle="modal" data-bs-target="#loancalculator">Get Loan Calculator</button>-->
-                        <a href="form-getloan.html" class="btn btn-secondary btn-lg">Get Loan Calculator</a>
+                        <a href="#" class="btn btn-secondary btn-lg">Get Loan Calculator</a>
                     </div>
                 </div>
                 <div class="col-md-5">
@@ -57,7 +106,7 @@
                             <img src="./assets/images/mortgageresult.png" alt="app" class="img-fluid"  />
                         </div>
                         <div class="thumb-second animate__animated animate__fadeIn">
-                            <img src="./assets/images/phonescreen.png" alt="app" class="img-fluid"  />
+                            <img src="./assets/images/phonescreen.png" alt="app" class="img-fluid img-hero"  />
                         </div>    
                     </div>
                     
@@ -65,13 +114,13 @@
             </div>
         </div>
     </div>
-    <div class="brandpartner my-5"><!--[start:brandparner]-->
+    <div class="brandpartner"><!--[start:brandparner]-->
         <div class="container">
             <div class="row text-center">
-                <h5 class="fw-normal">Trusted by</h5>
+                <h5 class="fw-normal heading-logo">Trusted by</h5>
                 <div class="pt-2 brand-slide">
                     <div class="col-md-12 overflow-hidden">
-                        <ul class="d-flex flex-row list-unstyled gap-5">
+                        <ul class="d-flex flex-row list-unstyled gap-5 logo-container">
                             <li><img src="./assets/images/brandpartner/fwdinsurance-brand.png" alt="bureau" class="img-fluid"/></li>
                             <li><img src="./assets/images/brandpartner/creditbureau-brand.png" alt="bureau" class="img-fluid"/></li>
                             <li><img src="./assets/images/brandpartner/kohata-brand.png" alt="bureau" class="img-fluid"/></li>
@@ -95,23 +144,23 @@
                 <div class="sectionheading mb-5">
                     <h2 class="heading">Explore Our Financial Products</h2>
                 </div>    
-                <div class="col-md-4">
+                <div class="col-md-4 card-container">
                     <div class="card border-0 text-center align-items-center justify-content-center">
-                        <img src="./assets/images/loan-icon.svg" alt="property income eligibility" />
+                        <img src="./assets/images/property-icon.svg" alt="property income eligibility" />
                         <div class="card-body p-0 mt-4">
                           <h5 class="card-title m-0">Property Income Eligibility</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 card-container">
                     <div class="card border-0 text-center align-items-center justify-content-center">
-                        <img src="./assets/images/mortgage-icon.svg" alt="Mortgage Loan Eligibility" />
+                        <img src="./assets/images/loan-icon.svg" alt="Mortgage Loan Eligibility" />
                         <div class="card-body p-0 mt-4">
                           <h5 class="card-title m-0">Mortgage Loan Eligibility</h5>
                         </div>
                       </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 card-container">
                     <div class="card border-0 text-center align-items-center justify-content-center">
                         <img src="./assets/images/mortgage-icon.svg" alt="Mortgage Refinance Eligibility" />
                         <div class="card-body p-0 mt-4">
@@ -129,7 +178,7 @@
                     <h2 class="heading">Why we're different</h2>
                     <p>We just do it faster and better</p>
                 </div>  
-                <div class="col-md-3">
+                <div class="col-md-3 icon-container">
                     <div class="card border-0">
                         <div class="card-thumb">
                             <div class="thumb-first animate__animated animate__fadeIn z-1 position-absolute">
@@ -145,7 +194,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 icon-container">
                     <div class="card border-0">
                         <div class="card-thumb">
                             <div class="thumb-first animate__animated animate__fadeIn z-1 position-absolute">
@@ -161,7 +210,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 icon-container">
                     <div class="card border-0">
                         <div class="card-thumb">
                             <div class="thumb-first animate__animated animate__fadeIn z-1 position-absolute">
@@ -177,7 +226,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 icon-container">
                     <div class="card border-0">
                         <div class="card-thumb">
                             <div class="thumb-first animate__animated animate__fadeIn z-1 position-absolute">
@@ -200,140 +249,200 @@
         <div class="container">
             <div class="row text-center">
                 <div class="sectionheading my-5">
-                    <h2 class="heading">Testimonial</h2>
+                    <h2 class="heading">Customer Love</h2>
                 </div> 
-                <div class="col-md-4">
-                    <div class="card border-0 bg-white text-center align-items-start py-3 px-3">
-                        <div class="card-body">
-                            <div class="d-flex w-100 justify-content-between">
-                                <div class="rating">
-                                    <ul class="list-unstyled gap-1 d-flex flex-row">
-                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                          </svg>
-                                        </li>
-                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                          </svg>
-                                        </li>
-                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                          </svg>
-                                        </li>
-                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                          </svg>
-                                        </li> 
-                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                          </svg>
-                                        </li>  
-                                    </ul>
+
+                <div class="col-md-12">
+                    <div class="row carousel-dots">
+                        <div class="col-md-4">
+                            <div class="card border-0 bg-white text-center align-items-start">
+                                <div class="card-body d-flex justify-content-between flex-column">
+                                    <div>
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <div class="rating">
+                                                <ul class="list-unstyled gap-1 d-flex flex-row">
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                      </svg>
+                                                    </li>
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                      </svg>
+                                                    </li>
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                      </svg>
+                                                    </li>
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                      </svg>
+                                                    </li> 
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                      </svg>
+                                                    </li>  
+                                                </ul>
+                                            </div>
+                                            <div class="brandreview">
+                                                <img src="./assets/images/google-review-logo.png" alt="google" class="img-fluid"  />
+                                            </div>
+                                        </div>
+                                        <p class="card-text text-start">
+                                        Working with Fintos was a breeze. Their team was attentive and incredibly helpful throughout the entire loan process. I couldn't believe how quickly everything was handled!
+                                        </p>
+                                    </div>
+                                    <div class="reviewauthor d-flex align-items-center gap-2">
+                                        <div class="thumbreview">
+                                            <svg class="rounded-circle bd-placeholder-img bd-placeholder-img-lg img-fluid" width="30px" height="30" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#868e96"></rect></svg>
+                                        </div>
+                                        <div class="namereview">Jhon</div>
+                                    </div>
                                 </div>
-                                <div class="brandreview">
-                                    <img src="./assets/images/google-review-logo.png" alt="google" class="img-fluid"  />
-                                </div>
-                            </div>
-                            <p class="card-text text-start">
-                            Working with Fintos was a breeze. Their team was attentive and incredibly helpful throughout the entire loan process. I couldn't believe how quickly everything was handled!
-                            </p>
-                            <div class="reviewauthor d-flex align-items-center gap-2">
-                                <div class="thumbreview">
-                                    <svg class="rounded-circle bd-placeholder-img bd-placeholder-img-lg img-fluid" width="30px" height="30" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#868e96"></rect></svg>
-                                </div>
-                                <div class="namereview">Jhon</div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card border-0 bg-white text-center align-items-start py-3 px-3">
-                        <div class="card-body">
-                            <div class="d-flex w-100 justify-content-between">
-                                <div class="rating">
-                                    <ul class="list-unstyled gap-1 d-flex flex-row">
-                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                          </svg>
-                                        </li>
-                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                          </svg>
-                                        </li>
-                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                          </svg>
-                                        </li>
-                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                          </svg>
-                                        </li> 
-                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                          </svg>
-                                        </li>  
-                                    </ul>
+                        <div class="col-md-4">
+                            <div class="card border-0 bg-white text-center align-items-start">
+                                <div class="card-body d-flex justify-content-between flex-column">
+                                    <div>
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <div class="rating">
+                                                <ul class="list-unstyled gap-1 d-flex flex-row">
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                      </svg>
+                                                    </li>
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                      </svg>
+                                                    </li>
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                      </svg>
+                                                    </li>
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                      </svg>
+                                                    </li> 
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                      </svg>
+                                                    </li>  
+                                                </ul>
+                                            </div>
+                                            <div class="brandreview">
+                                                <img src="./assets/images/google-review-logo.png" alt="google" class="img-fluid"  />
+                                            </div>
+                                        </div>
+                                        <p class="card-text text-start">
+                                        Working with Fintos was a breeze. Their team was attentive and incredibly helpful throughout the entire loan process. I couldn't believe how quickly everything was handled!
+                                        </p>
+                                    </div>
+                                    <div class="reviewauthor d-flex align-items-center gap-2">
+                                        <div class="thumbreview">
+                                            <svg class="rounded-circle bd-placeholder-img bd-placeholder-img-lg img-fluid" width="30px" height="30" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#868e96"></rect></svg>
+                                        </div>
+                                        <div class="namereview">Jhon</div>
+                                    </div>
                                 </div>
-                                <div class="brandreview">
-                                    <img src="./assets/images/google-review-logo.png" alt="google" class="img-fluid"  />
-                                </div>
-                            </div>
-                            <p class="card-text text-start">
-                            Working with Fintos was a breeze. Their team was attentive and incredibly helpful throughout the entire loan process. I couldn't believe how quickly everything was handled!
-                            </p>
-                            <div class="reviewauthor d-flex align-items-center gap-2">
-                                <div class="thumbreview">
-                                    <svg class="rounded-circle bd-placeholder-img bd-placeholder-img-lg img-fluid" width="30px" height="30" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#868e96"></rect></svg>
-                                </div>
-                                <div class="namereview">Jhon</div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card border-0 bg-white text-center align-items-start py-3 px-3">
-                        <div class="card-body">
-                            <div class="d-flex w-100 justify-content-between">
-                                <div class="rating">
-                                    <ul class="list-unstyled gap-1 d-flex flex-row">
-                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                          </svg>
-                                        </li>
-                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                          </svg>
-                                        </li>
-                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                          </svg>
-                                        </li>
-                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                          </svg>
-                                        </li> 
-                                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                          </svg>
-                                        </li>  
-                                    </ul>
+                        <div class="col-md-4">
+                            <div class="card border-0 bg-white text-center align-items-start">
+                                <div class="card-body d-flex justify-content-between flex-column">
+                                    <div>
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <div class="rating">
+                                                <ul class="list-unstyled gap-1 d-flex flex-row">
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                      </svg>
+                                                    </li>
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                      </svg>
+                                                    </li>
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                      </svg>
+                                                    </li>
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                      </svg>
+                                                    </li> 
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                      </svg>
+                                                    </li>  
+                                                </ul>
+                                            </div>
+                                            <div class="brandreview">
+                                                <img src="./assets/images/google-review-logo.png" alt="google" class="img-fluid"  />
+                                            </div>
+                                        </div>
+                                        <p class="card-text text-start">
+                                        I was really impressed by the transparency at Fintos. They explained all the terms clearly, and I felt very secure knowing there were no hidden fees involved.
+                                        </p>    
+                                    </div>
+                                    <div class="reviewauthor d-flex align-items-center gap-2">
+                                        <div class="thumbreview">
+                                            <svg class="rounded-circle bd-placeholder-img bd-placeholder-img-lg img-fluid" width="30px" height="30" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#868e96"></rect></svg>
+                                        </div>
+                                        <div class="namereview">Samantha R</div>
+                                    </div>
                                 </div>
-                                <div class="brandreview">
-                                    <img src="./assets/images/google-review-logo.png" alt="google" class="img-fluid"  />
-                                </div>
-                            </div>
-                            <p class="card-text text-start">
-                            Working with Fintos was a breeze. Their team was attentive and incredibly helpful throughout the entire loan process. I couldn't believe how quickly everything was handled!
-                            </p>
-                            <div class="reviewauthor d-flex align-items-center gap-2">
-                                <div class="thumbreview">
-                                    <svg class="rounded-circle bd-placeholder-img bd-placeholder-img-lg img-fluid" width="30px" height="30" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#868e96"></rect></svg>
-                                </div>
-                                <div class="namereview">Jhon</div>
                             </div>
                         </div>
+                        <div class="col-md-4">
+                            <div class="card border-0 bg-white text-center align-items-start">
+                                <div class="card-body d-flex justify-content-between flex-column">
+                                    <div>
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <div class="rating">
+                                                <ul class="list-unstyled gap-1 d-flex flex-row">
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                      </svg>
+                                                    </li>
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                      </svg>
+                                                    </li>
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                      </svg>
+                                                    </li>
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                      </svg>
+                                                    </li> 
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFB800" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                      </svg>
+                                                    </li>  
+                                                </ul>
+                                            </div>
+                                            <div class="brandreview">
+                                                <img src="./assets/images/google-review-logo.png" alt="google" class="img-fluid"  />
+                                            </div>
+                                        </div>
+                                        <p class="card-text text-start">
+                                        The dedicated loan specialist at Fintos was amazing. They guided me from start to finish and made sure I got the best deal possible.
+                                        </p>
+                                    </div>
+                                    <div class="reviewauthor d-flex align-items-center gap-2">
+                                        <div class="thumbreview">
+                                            <svg class="rounded-circle bd-placeholder-img bd-placeholder-img-lg img-fluid" width="30px" height="30" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#868e96"></rect></svg>
+                                        </div>
+                                        <div class="namereview">Elizabeth W.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      
                     </div>
                 </div>
+
+                
             </div>
         </div>
     </div><!--[end:testimonial]-->
@@ -344,8 +453,8 @@
                     <h2 class="heading">All Your Financial Solutions, <br/>One Convenient Ecosystem</h2>
                     <p>We provide access to a wide range of financial products, services, and resources <br/>designed to help you reach your goals and make the most of your money.</p>
                 </div>
-                <div class="col-md-4">
-                    <div class="card border-0 p-4 align-items-start">
+                <div class="col-md-4 card-container">
+                    <div class="card border-0 align-items-start">
                         <img src="./assets/images/fintosadvice-logo.png" alt="fintos advice"  />
                         <div class="card-body p-0 d-flex flex-column">
                           <h5 class="card-title">Navigation Better <br/>Financial Moves</h5>
@@ -358,8 +467,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card border-0 p-4 align-items-start">
+                <div class="col-md-4 card-container">
+                    <div class="card border-0 align-items-start">
                         <img src="./assets/images/fintosfinance-logo.png" alt="google" width="212px" height="55px"  />
                         <div class="card-body p-0 d-flex flex-column">
                           <h5 class="card-title">Ace All of Life's <br/>Financial Needs</h5>
@@ -372,11 +481,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card border-0 p-4 align-items-start">
+                <div class="col-md-4 card-container">
+                    <div class="card border-0 align-items-start">
                         <img src="./assets/images/fintostech-logo.png" alt="google" width="212px" height="55px"  />
                         <div class="card-body p-0 d-flex flex-column">
-                          <h5 class="card-title">Navigation Better <br/>Financial Moves</h5>
+                          <h5 class="card-title">Better Decisions.<br/>Better Insights.</h5>
                           <ul class="card-text list-unstyled text-start">
                             <li class="d-flex flex-row gap-1 align-items-center"><img src="./assets/images/check-circle.png" alt="check" />Mortgage Solution System</li>
                             <li class="d-flex flex-row gap-1 align-items-center"><img src="./assets/images/check-circle.png" alt="check" />Lending Management System</li>
@@ -393,17 +502,16 @@
         <div class="container">
             <div class="row text-center">
                 <div class="sectionheading my-5">
-                    <h2 class="heading">All Your Financial Solutions, <br/>One Convenient Ecosystem</h2>
-                    <p>We provide access to a wide range of financial products, services, and resources <br/>designed to help you reach your goals and make the most of your money.</p>
+                    <h2 class="heading">Shaping the Future of Finance, <br/>with Integrity and Innovation</h2>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 video-fn">
                     <div class="tagline text-start align-items-start d-flex flex-column">
                         <h5 class="fw-semibold">Meet Fintos</h5>
                         <img src="./assets/images/fintos-logo-dark.png" alt="google" width="" height="32"  />
                         <p>We are committed to shaping a future where sustainability takes center stage, and we achieve this by harnessing the power of our innovative products, solutions, unwavering passion, and robust financial resilience.</p>
                         <a href="#" class="btn btn-primary btn-md">About us</a>
                         <div class="award">
-                            <ul class="list-unstyled d-flex flex-row">
+                            <ul class="list-unstyled d-flex flex-row award-container">
                                 <li><img src="./assets/images/award1.png" alt="award"/></li>
                                 <li><img src="./assets/images/award2.png" alt="award"/></li>
                                 <li><img src="./assets/images/award3.png" alt="award"/></li>
@@ -412,24 +520,25 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="videowrap">
+                    <div class="videowrap position-relative">
+                        <a href="#" class="btn-play" data-bs-toggle="modal" data-bs-target="#videoplayer"><img src="./assets/images/icon-play.png" alt="video" /></a>
                         <img src="./assets/images/thumb-player.png" alt="video" />
                     </div>
                 </div>
             </div>
-            <div class="row mt-5">
-                <div class="col-md-4"><img src="./assets/images/thumb-about-1.png" alt="thumbnail" /></div>
-                <div class="col-md-4"><img src="./assets/images/thumb-about-2.png" alt="thumbnail" /></div>
-                <div class="col-md-4"><img src="./assets/images/thumb-about-3.png" alt="thumbnail" /></div>
+            <div class="row mt-5 gallery-fin">
+                <div class="col-md-4 img-container"><img src="./assets/images/thumb-about-1.png" alt="thumbnail" /></div>
+                <div class="col-md-4 img-container"><img src="./assets/images/thumb-about-2.png" alt="thumbnail" /></div>
+                <div class="col-md-4 img-container"><img src="./assets/images/thumb-about-3.png" alt="thumbnail" /></div>
             </div>
         </div>
     </div><!--[end:aboutus]-->
     <div class="cta cta--boxed"><!--[start: cta]-->
         <div class="container">
             <div class="row bglightyellow">
-                <div class="col-md-5">
+                <div class="col-md-5 img-ct">
                     <div class="thumb-cta">
-                        <img src="./assets/images/thumb-cta.png" alt="thumbnail" />
+                        <img src="./assets/images/thumb-cta.png" alt="thumbnail" class="img-fluid"/>
                     </div>
                 </div>
                 <div class="col-md-5">
@@ -446,7 +555,7 @@
     <footer class="site-footer bgprimary pt-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 footer-1">
                     <h3 class="fw-semibold">Products</h3>
                     <ul class="list-unstyled d-flex flex-column">
                         <li><a href="#">Housing Loan</a></li>
@@ -454,7 +563,7 @@
                         <li><a href="#">Mortgage Loan</a></li>
                     </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 footer-2">
                     <h3 class="fw-semibold">Solutions</h3>
                     <ul class="list-unstyled d-flex flex-column">
                         <li><a href="#">Advise</a></li>
@@ -462,7 +571,7 @@
                         <li><a href="#">Tech</a></li>
                     </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 footer-3">
                     <h3 class="fw-semibold">Company</h3>
                     <ul class="list-unstyled d-flex flex-column">
                         <li><a href="#">About</a></li>
@@ -472,7 +581,7 @@
                         <li><a href="#">Careers</a></li>
                     </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 footer-4">
                     <h3 class="fw-semibold">Contact</h3>
                     <p>Mon - Fri:10am - 6pm</p>
                     <p>+603 8089 0777</p>
@@ -495,463 +604,39 @@
                         <li><a href="#">Privacy Policy</a></li>
                         <li><a href="#">Cookies</a></li>
                     </ul>
+                    <div class="justify-content-center mobile-sosmed d-flex gap-5 mt-4">
+                        <a href="#"><img src="./assets/images/fb-icon.png" alt="facebook" /></a>
+                        <a href="#"><img src="./assets/images/li-icon.png" alt="linkedin" /></a>
+                        <a href="#"><img src="./assets/images/tik-icon.png" alt="tiktok" /></a>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
-    <!--[start:modal loan calculator]-->
-    <div class="modal fade" id="loancalculator" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content">
-                <form id="multi-step-form">
-                <div class="fintosform step step-1"><!--[start:fintosform]-->
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-md-6 justify-content-between">
-                                <div class="formhead"><!--[start:formhead]-->
-                                    <div class="row d-flex justify-content-between mb-5">
-                                        <div class="col">
-                                            <img src="./assets/images/fintos-logo-dark.png" alt="fintos" />
-                                        </div>
-                                        <div class="col text-end">
-                                            <a hre="#" class="btnclose" data-bs-dismiss="modal" aria-label="Close"><img src="./assets/images/close-btn-form.png" alt="close" /></a>
-                                        </div>
-                                    </div>
-                                        <div class="row tagline">
-                                        <h2 class="fw-bold">Mortgage Loan Eligibility</h2>
-                                        <p>Estimate the best mortgage loan amount and rates</p>
-                                    </div>
-                                </div><!--[end:formhead]-->
-                                <div class="formbody"><!--[start:formbody]-->
-                                    <div class="row">
-                                        <div class="col-12 col-md-8">
-                                            <div class="fieldwrap ">
-                                                <div class="mb-3">
-                                                    <label>Net Icome</label>
-                                                    <div class="input-group">
-                                                        <span class="input-group-text" id="basic-addon1">RM</span>
-                                                        <input type="text" class="form-control" placeholder="0">
-                                                    </div>
-                                                </div>
-                                                <div class="mb-3">
-                                                    <label>Your Age</label>
-                                                    <div class="input-group">
-                                                        <input type="text" class="form-control" placeholder="Type your age">
-                                                    </div>
-                                                </div>
-                                                <div class="mb-3">
-                                                    <label>Your loan commitment (if any)</label>
-                                                    <div class="input-group">
-                                                        <span class="input-group-text" id="basic-addon1">RM</span>
-                                                        <input type="text" class="form-control" placeholder="0">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-12">
-                                                
-                                                <button type="button" class="btn btn-lg btn-primary next-step">Calculate</button>
-                                            </div>
-                                        </div> 
-                                    </div>
-                                </div><!--[end:formbody]-->
-                            </div>
-                        </div>
-                    </div>
-                </div><!--[end:fintosform]-->
-                <div class="fintosform step step-2"><!--[start:fintosform]-->
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-md-6 justify-content-between">
-                                <div class="formhead"><!--[start:formhead]-->
-                                    <div class="row d-flex justify-content-between mb-5">
-                                        <div class="col">
-                                            <img src="./assets/images/fintos-logo-dark.png" alt="fintos" />
-                                        </div>
-                                        <div class="col text-end">
-                                            <a hre="#" class="btnclose" data-bs-dismiss="modal" aria-label="Close"><img src="./assets/images/close-btn-form.png" alt="close" /></a>
-                                        </div>
-                                    </div>
-                                    <div class="row tagline mb-4">
-                                        <div class="back-btn mb-3">
-                                            <a href="#"><img src="./assets/images/arrow-left.png" alt="back" />&nbsp;Back</a>
-                                        </div>
-                                        <h2 class="fw-bold">Mortgage Loan Eligibility</h2>
-                                        <p>Estimate the best mortgage loan amount and rates</p>
-                                    </div>
-                                </div><!--[end:formhead]-->
-                                <div class="formbody"><!--[start:formbody]-->
-                                    <div class="row">
-                                        <p class="mb-4 d-block">All banks will be offering <b>35 tenure years</b></p>
-                                        <div class="fieldwrap">
-                                            <div class="mb-3">
-                                                <div class="card card--check">
-                                                    <div class="card-body d-flex align-items-center flex-row gap-3">
-                                                        <input class="form-check-input" type="radio" name="bankoptions" id="bank1">
-                                                        <label class="form-check-label flex-grow-1" for="bank1">
-                                                            <div class="row">
-                                                                <div class="col-md-3"><img src="./assets/images/Maybank-logo.png" alt="thumbnail" class="img-fluid" /></div>
-                                                                <div class="col-md-2">
-                                                                    <small class="entrylabel">Interest</small>
-                                                                    <div class="entryresult">4.20%</div>
-                                                                </div>
-                                                                <div class="col-md-3">
-                                                                    <small class="entrylabel">Loan Eligible</small>
-                                                                    <div class="entryresult">RM 6,618.82</div>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                    <small class="entrylabel">NInstalment</small>
-                                                                    <div class="entryresult"><b>RM 3,311.00</b></div>
-                                                                </div>
-                                                            </div>    
-                                                        </label>
-                                                    </div>    
-                                                </div>
-                                            </div>
-                                            <div class="mb-3">
-                                                <div class="card card--check">
-                                                    <div class="card-body d-flex align-items-center flex-row gap-3">
-                                                        <input class="form-check-input" type="radio" name="bankoptions" id="bank2">
-                                                        <label class="form-check-label flex-grow-1" for="bank2">
-                                                            <div class="row">
-                                                                <div class="col-md-3"><img src="./assets/images/MBSB.png" alt="thumbnail" class="img-fluid" /></div>
-                                                                <div class="col-md-2">
-                                                                    <small class="entrylabel">Interest</small>
-                                                                    <div class="entryresult">4.20%</div>
-                                                                </div>
-                                                                <div class="col-md-3">
-                                                                    <small class="entrylabel">Loan Eligible</small>
-                                                                    <div class="entryresult">RM 6,618.82</div>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                    <small class="entrylabel">NInstalment</small>
-                                                                    <div class="entryresult"><b>RM 3,311.00</b></div>
-                                                                </div>
-                                                            </div>    
-                                                        </label>
-                                                    </div>    
-                                                </div>
-                                            </div>
-                                            <div class="mb-3">
-                                                <div class="card card--check">
-                                                    <div class="card-body d-flex align-items-center flex-row gap-3">
-                                                        <input class="form-check-input" type="radio" name="bankoptions" id="bank3">
-                                                        <label class="form-check-label flex-grow-1" for="bank3">
-                                                            <div class="row">
-                                                                <div class="col-md-3"><img src="./assets/images/RHB.png" alt="thumbnail" class="img-fluid" /></div>
-                                                                <div class="col-md-2">
-                                                                    <small class="entrylabel">Interest</small>
-                                                                    <div class="entryresult">4.20%</div>
-                                                                </div>
-                                                                <div class="col-md-3">
-                                                                    <small class="entrylabel">Loan Eligible</small>
-                                                                    <div class="entryresult">RM 6,618.82</div>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                    <small class="entrylabel">NInstalment</small>
-                                                                    <div class="entryresult"><b>RM 3,311.00</b></div>
-                                                                </div>
-                                                            </div>    
-                                                        </label>
-                                                    </div>    
-                                                </div>
-                                            </div>
-                                            <div class="mb-3">
-                                                <div class="card card--check">
-                                                    <div class="card-body d-flex align-items-center flex-row gap-3">
-                                                        <input class="form-check-input" type="radio" name="bankoptions" id="bank4">
-                                                        <label class="form-check-label flex-grow-1" for="bank4">
-                                                            <div class="row">
-                                                                <div class="col-md-3"><img src="./assets/images/AMB.png" alt="thumbnail" class="img-fluid" /></div>
-                                                                <div class="col-md-2">
-                                                                    <small class="entrylabel">Interest</small>
-                                                                    <div class="entryresult">4.20%</div>
-                                                                </div>
-                                                                <div class="col-md-3">
-                                                                    <small class="entrylabel">Loan Eligible</small>
-                                                                    <div class="entryresult">RM 6,618.82</div>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                    <small class="entrylabel">NInstalment</small>
-                                                                    <div class="entryresult"><b>RM 3,311.00</b></div>
-                                                                </div>
-                                                            </div>    
-                                                        </label>
-                                                    </div>    
-                                                </div>
-                                            </div>
-                                            <div class="mb-3">
-                                                <div class="card card--check">
-                                                    <div class="card-body d-flex align-items-center flex-row gap-3">
-                                                        <input class="form-check-input" type="radio" name="bankoptions" id="bank5">
-                                                        <label class="form-check-label flex-grow-1" for="bank5">
-                                                            <div class="row">
-                                                                <div class="col-md-3"><img src="./assets/images/AffinBank.png" alt="thumbnail" class="img-fluid" /></div>
-                                                                <div class="col-md-2">
-                                                                    <small class="entrylabel">Interest</small>
-                                                                    <div class="entryresult">4.20%</div>
-                                                                </div>
-                                                                <div class="col-md-3">
-                                                                    <small class="entrylabel">Loan Eligible</small>
-                                                                    <div class="entryresult">RM 6,618.82</div>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                    <small class="entrylabel">NInstalment</small>
-                                                                    <div class="entryresult"><b>RM 3,311.00</b></div>
-                                                                </div>
-                                                            </div>    
-                                                        </label>
-                                                    </div>    
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row text-start">
-                                            <div class="col-12">
-                                               
-                                                <button type="button" class="btn btn-lg btn-primary next-step">Apply Now</button>
-                                            </div>
-                                        </div> 
-                                    </div>
-                                </div><!--[end:formbody]-->
-                            </div>
-                        </div>
-                    </div>
-                </div><!--[end:fintosform]-->
-                <div class="fintosform step step-3"><!--[start:fintosform]-->
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-md-6 justify-content-between">
-                                <div class="formhead"><!--[start:formhead]-->
-                                    <div class="row d-flex justify-content-between mb-5">
-                                        <div class="col">
-                                            <img src="./assets/images/fintos-logo-dark.png" alt="fintos" />
-                                        </div>
-                                        <div class="col text-end">
-                                            <a hre="#" class="btnclose" data-bs-dismiss="modal" aria-label="Close"><img src="./assets/images/close-btn-form.png" alt="close" /></a>
-                                        </div>
-                                    </div>
-                                    <div class="row tagline mb-4">
-                                        <div class="back-btn mb-3">
-                                            <a href="#"><img src="./assets/images/arrow-left.png" alt="back" />&nbsp;Back</a>
-                                        </div>
-                                        <h2 class="fw-bold">Contact Information</h2>
-                                        <p>Please fill in the details below so that we can connect you to the bank.</p>
-                                    </div>
-                                    <div class="results mb-3">
-                                        <div class="fieldwrap">
-                                            <div class="card">
-                                                <div class="card-body d-flex align-items-center flex-row gap-3">
-                                                   <div class="container">
-                                                        <div class="row">
-                                                            <div class="col-md-3"><img src="./assets/images/Maybank-logo.png" alt="thumbnail" class="img-fluid" /></div>
-                                                            <div class="col-md-2">
-                                                                <small class="entrylabel">Interest</small>
-                                                                <div class="entryresult">4.20%</div>
-                                                            </div>
-                                                            <div class="col-md-3">
-                                                                <small class="entrylabel">Loan Eligible</small>
-                                                                <div class="entryresult">RM 6,618.82</div>
-                                                            </div>
-                                                            <div class="col-md-4">
-                                                                <small class="entrylabel">NInstalment</small>
-                                                                <div class="entryresult"><b>RM 3,311.00</b></div>
-                                                            </div>
-                                                        </div>
-                                                   </div>  
-                                                </div>    
-                                            </div>
-                                        </div> 
-                                    </div>
-                                </div><!--[end:formhead]-->
-                                <div class="formbody"><!--[start:formbody]-->
-                                    <div class="row">
-                                        <div class="col-12 col-md-8">
-                                            <div class="fieldwrap">
-                                                <label for="name" class="form-label">Name</label>
-                                                <input type="text" class="form-control" id="" placeholder="Type your name" />
-                                            </div>
-                                            <div class="fieldwrap">
-                                                <label for="phone" class="form-label">Phone</label>
-                                                <input type="number" class="form-control" id="" placeholder="e.g. 0123456787" />
-                                            </div>
-                                            <div class="fieldwrap">
-                                                <label for="Email" class="form-label">Email</label>
-                                                <input type="email" class="form-control" id="" placeholder="e.g.  name@email.com" />
-                                            </div>
-                                            <div class="fieldwrap">
-                                                <label for="financial type" class="form-label">Salary Type</label>
-                                                <div class="mb-3 d-flex flex-row align-items-center">
-                                                    <input type="radio" class="form-check-input" id="salariedearner" name="flexRadioDefault">
-                                                    <label class="form-check-label" for="salariedearner">
-                                                        Salary Earner
-                                                    </label>
-                                                </div>
-                                                <div class="mb-3 d-flex flex-row align-items-center">
-                                                    <input type="radio" class="form-check-input" id="mortgagerefinance" name="flexRadioDefault">
-                                                    <label class="form-check-label" for="mortgagerefinance">
-                                                        Mortgage Refinance
-                                                    </label>
-                                                </div>
-                                                <div class="mb-3 d-flex flex-row align-items-center">
-                                                    <input type="radio" class="form-check-input" id="businessowner" name="flexRadioDefault">
-                                                    <label class="form-check-label" for="businessowner">
-                                                       Business Owner
-                                                    </label>
-                                                </div>
-                                                <div class="mb-3 d-flex flex-row align-items-center">
-                                                    <input type="radio" class="form-check-input" id="commissionearner" name="flexRadioDefault">
-                                                    <label class="form-check-label" for="commissionearner">
-                                                        Commission Earner
-                                                    </label>
-                                                </div>
-                                                <div class="mb-3 d-flex flex-row align-items-center">
-                                                    <input type="radio" class="form-check-input" id="governmentservant" name="flexRadioDefault">
-                                                    <label class="form-check-label" for="governmentservant">
-                                                        Government Servant
-                                                    </label>
-                                                </div>
-                                            </div>
-                                            <div class="fieldwrap">
-                                                <label>Gross Income</label>
-                                                <div class="input-group">
-                                                    <span class="input-group-text" id="basic-addon1">RM</span>
-                                                    <input type="text" class="form-control" placeholder="0">
-                                                </div>
-                                            </div>
-                                            <div class="fieldwrap fieldwrap--radiocustom">
-                                                <label>Prefered Contact Method</label>
-                                                <div class="d-flex flex-row gap-0">
-                                                    <div class="d-flex flex-row align-items-center">
-                                                        <input type="radio" class="form-check-input" id="call" name="flexRadioDefault">
-                                                        <label class="form-check-label" for="call">
-                                                            Call
-                                                        </label>
-                                                    </div>
-                                                    <div class="d-flex flex-row align-items-center ms-overlap">
-                                                        <input type="radio" class="form-check-input" id="whatsapp" name="flexRadioDefault">
-                                                        <label class="form-check-label" for="whatsapp">
-                                                           Whatsapp
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <hr/>
-                                                <div class="fieldwrap d-flex flex-row mt-4 mb-5">
-                                                    <input class="form-check-input" type="checkbox" value="" id="agree">
-                                                    <label class="form-check-label" for="agree">
-                                                        By submitting this, I hereby declare that I agree for FINTOS to contact me on my enquiry. I have read <a href="#" class="link">Terms & Conditions</a> ,<a href="#" class="link"> Privacy Policy notice.</a>
-                                                    </label>
-                                                </div>
-                                                <a href="#" class="btn btn-lg btn-primary">Submit</a>
-                                            </div>
-                                        </div> 
-                                    </div>
-                                </div><!--[end:formbody]-->
-                            </div>
-                        </div>
-                    </div>
-                </div><!--[start:fintosform]-->
-                </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-            </div>
-        </div>
-    </div>        
-    <!--[end: modal loan calculator]-->
-    <div class="modal fade" id="prescrening" data-keyboard="false" data-backdrop="static">
-        <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content">
-                <div class="fintosform">
-                    <div class="container">
-                        <div class="row  justify-content-center">
-                            <div class="col-12 col-md-6">
-                                <div class="formhead">
-                                    <div class="row d-flex justify-content-between mb-5">
-                                        <div class="col">
-                                            <img src="./assets/images/fintos-logo-dark.png" alt="fintos" />
-                                        </div>
-                                        <div class="col text-end">
-                                            
-                                            <a hre="#" class="btnclose" data-bs-dismiss="modal" aria-label="Close"><img src="./assets/images/close-btn-form.png" alt="close" /></a>
-                                        </div>
-                                        </div>
-                                    <div class="row tagline">
-                                        <h2 class="fw-bold">Contact Information</h2>
-                                        <p>Please fill in the details below so that we can get in contact with you.</p>
-                                    </div>
-                                </div>
-                                <div class="formbody">
-                                    <div class="row">
-                                        <div class="col-12 col-md-8">
-                                            <div class="fieldwrap">
-                                                <label for="name" class="form-label">Name</label>
-                                                <input type="text" class="form-control" id="" placeholder="Type your name" />
-                                            </div>
-                                            <div class="fieldwrap">
-                                                <label for="phone" class="form-label">Phone</label>
-                                                <input type="number" class="form-control" id="" placeholder="e.g. 0123456787" />
-                                            </div>
-                                            <div class="fieldwrap">
-                                                <label for="Email" class="form-label">Email</label>
-                                                <input type="email" class="form-control" id="" placeholder="e.g.  name@email.com" />
-                                            </div>
-                                            <div class="fieldwrap">
-                                                <label for="financial type" class="form-label">Financial Type</label>
-                                                <div class="mb-3 d-flex flex-row align-items-center">
-                                                    <input class="form-check-input" type="checkbox" value="" id="debtconsolidate">
-                                                    <label class="form-check-label" for="debtconsolidate">
-                                                        Debt Consolidate
-                                                    </label>
-                                                </div>
-                                                <div class="mb-3 d-flex flex-row align-items-center">
-                                                    <input class="form-check-input" type="checkbox" value="" id="mortgagerefinance">
-                                                    <label class="form-check-label" for="mortgagerefinance">
-                                                        Mortgage Refinance
-                                                    </label>
-                                                </div>
-                                                <div class="mb-3 d-flex flex-row align-items-center">
-                                                    <input class="form-check-input" type="checkbox" value="" id="firsthomebuyer">
-                                                    <label class="form-check-label" for="firsthomebuyer">
-                                                        First Home Buyer
-                                                    </label>
-                                                </div>
-                                                <div class="d-flex flex-row align-items-center">
-                                                    <input class="form-check-input" type="checkbox" value="" id="settlebadrecord">
-                                                    <label class="form-check-label" for="settlebadrecord">
-                                                        Settle Bad Record
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <hr/>
-                                            <div class="fieldwrap d-flex flex-row my-5">
-                                                <input class="form-check-input" type="checkbox" value="" id="agree">
-                                                <label class="form-check-label" for="agree">
-                                                    By submitting this, you agree to be contacted by Fintos via Whatsapp or SMS
-                                                </label>
-                                            </div>
-                                            <a href="#" class="btn btn-lg btn-primary">Submit</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <!--[start:modal player]-->
+        <div class="modal fade" id="videoplayer" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/2l8CI32ADL4?si=EE8SGVQ8qjgUOFIW" allowfullscreen></iframe>
                     </div>
                 </div>
+              </div>
             </div>
           </div>
-      </div>
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-      <script src="./assets/js/custom.js"></script>
-</body>
+        <!--[end: modal player]-->
+
+     <script type="text/javascript" src="assets/js/main.js"></script>
+    
+  </body>
 </html>
-
-
-
