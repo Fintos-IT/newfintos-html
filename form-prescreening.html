@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fintos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="./assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <form id="multi-step-form"><!--[start: prescreening form]-->
+        <div class="fintosform step step-1"><!--[start fintosform step step-1]-->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-12 justify-content-between">
+                        <div class="formhead mb-4">
+                            <div class="row d-flex justify-content-between mb-5">
+                                <div class="col">
+                                    <img src="./assets/images/fintos-logo-dark.png" alt="fintos" />
+                                </div>
+                                <div class="col text-end">
+                                    <a href="#" onclick="history.back()" class="btnclose"><img src="./assets/images/close-btn-form.png" alt="close" /></a>
+                                </div>
+                            </div>
+                            <div class="row tagline">
+                                <h2 class="fw-bold">Contact Information</h2>
+                                <p>Please fill in the details below so that we can get in contact with you.</p>
+                            </div>
+                        </div>
+                        <div class="formbody">
+                            <div class="row">
+                                <div class="col-12 col-md-8">
+                                    <div class="fieldwrap">
+                                        <label for="Name" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="Name" placeholder="Type your name" />
+                                    </div>
+                                    <div class="fieldwrap">
+                                        <label for="Phone" class="form-label">Phone</label>
+                                        <input type="number" class="form-control" id="Phone" placeholder="e.g. 0123456787" />
+                                    </div>
+                                    <div class="fieldwrap">
+                                        <label for="Email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="Email" placeholder="e.g. name@email.com" />
+                                    </div>
+                                    <div class="fieldwrap">
+                                        <label for="FinancialType" class="form-label mb-2">Financial Type</label>
+                                        <div class="mb-3">
+                                            <input class="form-check-input" type="checkbox" value="Debt Consolidate" id="DebtConsolidate">
+                                            <label class="form-check-label" for="DebtConsolidate">Debt Consolidate</label>
+                                        </div>
+                                        <div class="mb-3">
+                                            <input class="form-check-input" type="checkbox" value="Mortgage Refinance" id="MortgageRefinance">
+                                            <label class="form-check-label" for="MortgageRefinance">Mortgage Refinance</label>
+                                        </div>
+                                        <div class="mb-3">
+                                            <input class="form-check-input" type="checkbox" value="First Home Buyer" id="FirstHomeBuyer">
+                                            <label class="form-check-label" for="FirstHomeBuyer">First Home Buyer</label>
+                                        </div>
+                                        <div class="mb-3">
+                                            <input class="form-check-input" type="checkbox" value="Settle Bad Record" id="SettleBadRecord">
+                                            <label class="form-check-label" for="SettleBadRecord">Settle Bad Record</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <hr/>
+                                    <div class="mb-3 d-flex gap-2 mb-4 pb-2">
+                                        <input class="form-check-input" type="checkbox" value="Agree" id="Agree">
+                                        <label class="form-check-label" for="Agree">
+                                            By submitting this, you agree to be contacted by Fintos via Whatsapp or SMS
+                                        </label>
+                                    </div>
+                                    <button type="button" class="btn btn-lg btn-primary next-step">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fintosform step step-2"><!--[start: fintoform step step-2]-->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 col-lg-6 justify-content-between">
+                        <div class="card-head">
+                            <img src="./assets/images/fintos-logo-dark.png" alt="thumbnail" />
+                            <a hre="#" class="btnclose"></a>
+                        </div>
+                        <p class="desc-otp mt-5 mb-4">Please enter the <b>OTP code</b> sent to you via <b>WhatsApp/SMS</b></p>
+                        <div class="fieldwrap otpfield d-flex flex-row gap-3">
+                            <input type="text" class="form-control" id="" />
+                            <input type="text" class="form-control" id="" />
+                            <input type="text" class="form-control" id="" />
+                            <input type="text" class="form-control" id="" />
+                            <input type="text" class="form-control" id="" />
+                            <input type="text" class="form-control" id="" />
+                        </div>
+                        <p class="mb-3">Didn’t receive OTP? Request again in 01:48</p>
+                        <a href="#" class="btn btn-lg btn-primary next-step">Submit</a>
+                        <div class="desc-whatsapp">
+                            <p class="mb-3">Need help?</p>
+                            <div>
+                                <img src="./assets/images/whatsapp.png" alt="phone"/>
+                                <span>Chat with us</span>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div><!--[end: fintosform step step-2]-->
+        <div class="fintosform step step-3"><!--[start: fintosform step step-3]-->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-12 justify-content-between">
+                        <div class="formhead mb-4">
+                            <div class="row d-flex justify-content-between mb-5">
+                                <div class="col">
+                                    <img src="./assets/images/fintos-logo-dark.png" alt="fintos" />
+                                </div>
+                                <div class="col text-end">
+                                    <a href="#" class="btnclose"><img src="./assets/images/close-btn-form.png" alt="close" /></a>
+                                </div>
+                            </div>
+                            <div class="row px-3 px-lg-0">
+                                <div class="alert alert-success d-flex gap-2 align-items-center">
+                                    <img src="./assets/images/circle-check.svg" alt="thumbnail" />
+                                    <p class="mb-0 ps-1">Verified Successfully</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="formbody">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="row d-flex align-items-center px-3 px-lg-0">
+                                        <div class="col-lg-5 ps-0 pe-3">
+                                            <img src="./assets/images/score.png" alt="thumbnail" class="img-fluid" />
+                                        </div>
+                                        <div class="col-lg-7 pe-0 ps-3">
+                                            <h2 class="fw-bold pb-2 mb-1">Check Your Financing Eligibility</h2>
+                                            <p>Discover your financing eligibility and take the next step towards financial empowerment.</p>
+                                            <button type="button" class="btn btn-lg btn-primary next-step">Find out now</button>
+                                        </div>
+                                    </div>
+                                    <div class="desc-whatsapp">
+                                        <p class="mb-3">Need help?</p>
+                                        <div>
+                                            <img src="./assets/images/whatsapp.png" alt="phone"/>
+                                            <span>Chat with us</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--[end:fintosform step step-3]-->
+        <div class="fintosform step step-4"><!--[start:fintosform step step-4]-->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-6 justify-content-between">
+                        <div class="card-head">
+                            <img src="./assets/images/fintos-logo-dark.png" alt="thumbnail" />
+                            <a hre="#" class="btnclose"></a>
+                        </div>
+                        <div class="row">
+                            <div class="progress mt-5 mb-3">
+                                <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="step-container d-flex justify-content-between">&nbsp;</div>
+                        </div>
+                        <div class="incometype">
+                            <div class="formhead">
+                                <div class="row tagline mb-4">
+                                    <h2 class="fw-bold">Please choose your income type</h2>
+                                </div>
+                            </div>
+                            <div class="row">    
+                                <div class="fieldwrap">
+                                    <div class="mb-3 d-flex flex-row align-items-center">
+                                        <input type="radio" class="form-check-input" id="salariedearner" name="action">
+                                        <label class="form-check-label" for="salariedearner">
+                                            Salary Earner
+                                        </label>
+                                    </div>
+                                    <div class="mb-3 d-flex flex-row align-items-center">
+                                        <input type="radio" class="form-check-input" id="mortgagerefinance" name="action">
+                                        <label class="form-check-label" for="mortgagerefinance">
+                                            Mortgage Refinance
+                                        </label>
+                                    </div>
+                                    <div class="mb-3 d-flex flex-row align-items-center">
+                                        <input type="radio" class="form-check-input" id="businessowner" name="action">
+                                        <label class="form-check-label" for="businessowner">
+                                           Business Owner
+                                        </label>
+                                    </div>
+                                    <div class="mb-3 d-flex flex-row align-items-center">
+                                        <input type="radio" class="form-check-input" id="commissionearner" name="action">
+                                        <label class="form-check-label" for="commissionearner">
+                                            Commission Earner
+                                        </label>
+                                    </div>
+                                    <div class="mb-3 d-flex flex-row align-items-center">
+                                        <input type="radio" class="form-check-input" id="governmentservant" name="action">
+                                        <label class="form-check-label" for="governmentservant">
+                                            Government Servant
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="salarytype" class="d-block">
+                            <div class="formhead">
+                                <div class="row tagline mb-4">
+                                    <h2 class="fw-bold">Please choose your salary type</h2>
+                                </div>
+                            </div>
+                            <div class="row">    
+                                <div class="fieldwrap">
+                                    <div class="mb-3 d-flex flex-row align-items-center">
+                                        <input type="radio" class="form-check-input" id="basicsalary" name="action">
+                                        <label class="form-check-label" for="basicsalary">
+                                           Basic Salary
+                                        </label>
+                                    </div>
+                                    <div class="mb-3 d-flex flex-row align-items-center">
+                                        <input type="radio" class="form-check-input" id="basicsalaryincome" name="action">
+                                        <label class="form-check-label" for="basicsalaryincome">
+                                            Basic Salary + Variable Income
+                                        </label>
+                                    </div>
+                                    <div class="mb-3 d-flex flex-row align-items-center">
+                                        <input type="radio" class="form-check-input" id="basicsalarycommision" name="action">
+                                        <label class="form-check-label" for="basicsalarycommision">
+                                            Basic Salary + Variable Income + Commission
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grossincome">
+                            <div class="formhead">
+                                <div class="row tagline mb-4">
+                                    <h2 class="fw-bold">Your Gross Income</h2>
+                                </div>
+                            </div>
+                            <div class="row flex-column">
+                                <div class="col-12 col-lg-7 mb-4">
+                                    <div class="fieldwrap">
+                                        <label class="form-label">Monthly Salary</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text" id="basic-addon1">RM</span>
+                                            <input type="text" class="form-control" placeholder="0">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-7 mb-4">
+                                    <div class="fieldwrap">
+                                        <label class="form-label">Fixed Allowance</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text" id="basic-addon1">RM</span>
+                                            <input type="text" class="form-control" placeholder="0">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-12 mb-4">
+                                    <div class="fieldwrap">
+                                        <label class="form-label">Estimate 6 month variable income(per month)<br/>
+                                            <span class="text-gray">OT, meal, Allowance, etc</span>
+                                        </label>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-7">
+                                                <div class="input-group">
+                                                    <span class="input-group-text" id="basic-addon1">RM</span>
+                                                    <input type="text" class="form-control" placeholder="0">
+                                                </div>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-12 mb-4">
+                                    <div class="fieldwrap">
+                                        <label class="form-label">Average 6 month commission(per month) </label>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-7">
+                                                <div class="input-group">
+                                                    <span class="input-group-text" id="basic-addon1">RM</span>
+                                                    <input type="text" class="form-control" placeholder="0">
+                                                </div>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 text-end">
+                            <hr/>
+                            <button type="button" class="btn btn-lg btn-primary next-step">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--[end:fintosform step step-4]-->
+        <div class="fintosform step step-5"><!--[start: fintosform step step-5]-->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-12 justify-content-between">
+                        <div class="formhead mb-4">
+                            <div class="row tagline mb-4">
+                                <div class="back-btn mb-3">
+                                    <a href="#" class="prev-step"><img src="./assets/images/arrow-left.png" alt="back" />&nbsp;Back</a>
+                                </div>
+                                <h2 class="fw-bold">Your Employer information</h2>
+                            </div>
+                            <div class="row">
+                                <div class="progress mt-5 mb-3">
+                                    <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="step-container d-flex justify-content-between">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="formbody">
+                            <div class="row">
+                                <div class="col-12 col-lg-7">
+                                    <div class="fieldwrap ">
+                                        <label for="Name" class="form-label">Company Name</label>
+                                        <input type="text" class="form-control" id="" placeholder="e.g. Sample sdn bhd" />
+                                    </div>
+                                    <div class="fieldwrap ">
+                                        <div class="fieldwrap ">
+                                            <label for="Name" class="form-label">Start Date</label>
+                                            <input type="date" class="form-control" id="" placeholder="Select date" />
+                                        </div>
+                                    </div>
+                                    <div class="fieldwrap ">
+                                        <div class="fieldwrap ">
+                                            <label for="Name" class="form-label">Occupation</label>
+                                            <input type="text" class="form-control" id="" placeholder="e.g. Accountant" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 text-end">
+                            <hr/>
+                            <button type="button" class="btn btn-lg btn-primary next-step">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--[end:fintosform step step-5]-->
+        <div class="fintosform step step-6"><!--[start: fintosform step step-6]-->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-12 justify-content-between">
+                        <div class="formhead mb-4">
+                            <div class="row tagline mb-4">
+                                <div class="back-btn mb-3">
+                                    <a href="#" class="prev-step"><img src="./assets/images/arrow-left.png" alt="back" />&nbsp;Back</a>
+                                </div>
+                                <h2 class="fw-bold">Others information</h2>
+                            </div>
+                            <div class="row">
+                                <div class="progress mt-5 mb-3">
+                                    <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="step-container d-flex justify-content-between">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="formbody">
+                            <div class="row">
+                                <div class="col-12 col-lg-7">
+                                    <div class="fieldwrap bg-diffrent">
+                                        <div class="file-upload-contain">
+                                            <input id="multiplefileupload" type="file" accept=".jpg,.gif,.png" multiple />
+                                        </div>
+                                    </div>
+                                    <div class="fieldwrap fieldwrap--radiocustom">
+                                        <label>Martial Status</label>
+                                        <div class="d-flex flex-row gap-0">
+                                            <div class="d-flex flex-row align-items-center">
+                                                <input type="radio" class="form-check-input" id="single" name="flexRadioDefault">
+                                                <label class="form-check-label" for="single">
+                                                    Single
+                                                </label>
+                                            </div>
+                                            <div class="d-flex flex-row align-items-center ms-overlap">
+                                                <input type="radio" class="form-check-input" id="married" name="flexRadioDefault">
+                                                <label class="form-check-label" for="married">
+                                                   Married
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fieldwrap ">
+                                        <div class="fieldwrap ">
+                                            <label for="Name" class="form-label">No. of children</label>
+                                            <input type="text" class="form-control" id="" placeholder="e.g. Accountant" />
+                                        </div>
+                                    </div>
+                                    <div class="fieldwrap">
+                                        <label for="Name" class="form-label">Highest Education Level</label>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>-----Select-----</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="fieldwrap">
+                                        <label for="Name" class="form-label">Address (your current place of living)</label>
+                                        <textarea class="form-control" placeholder="Your address"></textarea>
+                                    </div>
+                                    <div class="fieldwrap">
+                                        <label for="Name" class="form-label">City</label>
+                                        <input type="text" class="form-control" placeholder="Your city" />
+                                    </div>
+                                    <div class="fieldwrap">
+                                        <label for="Name" class="form-label">State</label>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>-----Select-----</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 text-end">
+                            <hr/>
+                            <button type="button" class="btn btn-lg btn-primary next-step">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--[end:fintosform step step-7]-->
+        <div class="fintosform step step-7">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-12 justify-content-between">
+                        <div class="formhead mb-4"><!--[start:formhead]-->
+                            <div class="card-head text-center">
+                                <img src="./assets/images/fintos-logo-dark.png" alt="thumbnail" />
+                            </div>
+                        </div><!--[end:formhead]-->
+                        <div class="formbody"><!--[start:formbody]-->
+                            <div class="row">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-lg-5 mb-lg-0 mb-4">
+                                        <img src="./assets/images/thumb-form-success.png" alt="thumbnail" class="img-fluid"/>
+                                    </div>
+                                    <div class="col-lg-7 mb-4 mb-lg-0">
+                                        <div class="d-flex align-items-center gap-2 mb-3">
+                                            <img src="./assets/images/circle-check-green.svg" alt="thumbnail" class="img-fluid"/>
+                                            <h2 class="mb-0 fw-bold congrats">Congratulations!</h2>
+                                        </div>
+                                        <p>You are <b>eligible for debt consolidate</b> <br>Our sales advisor will contact you within <b>48 hours</b></p>
+                                        <div class="gap-2">
+                                            <a href="#" class="btn--bg-none fw-semibold">Back to home</a>
+                                            <img src="./assets/images/arrow-right-yellow.svg" alt="arrow" class="img-fluid"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="desc-whatsapp mt-0">
+                                    <p class="mb-3">Need help?</p>
+                                    <div>
+                                        <img src="./assets/images/whatsapp.png" alt="phone"/>
+                                        <span>Chat with us</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--[end:formbody]-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>      
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

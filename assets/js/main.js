@@ -18,6 +18,63 @@ $(document).ready(function(){
         }
         ]
     });
+
+  $('.timeline-slider').slick({
+      infinite: true,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      arrow: false,
+      prevArrow: $('.btn-prev'),
+      nextArrow: $('.btn-next'),
+      responsive: [
+        
+        {
+          breakpoint: 1200,
+          settings: {
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            arrow: false,
+            prevArrow: $('.btn-prev'),
+            nextArrow: $('.btn-next')
+          }
+        }, 
+        {
+          breakpoint: 992,
+          settings: {
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrow: false,
+            prevArrow: $('.btn-prev'),
+            nextArrow: $('.btn-next')
+          }
+        }, 
+        {
+          breakpoint: 768,
+          settings: {
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            arrow: false,
+            prevArrow: $('.btn-prev'),
+            nextArrow: $('.btn-next')
+          }
+        }, 
+        {
+          breakpoint: 500,
+          settings: {
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrow: false,
+            prevArrow: $('.btn-prev'),
+            nextArrow: $('.btn-next')
+          }
+        }
+      ]
+  });
+
   $('.carousel-dots').slick({
       infinite: true,
       slidesToShow: 3,
@@ -43,7 +100,7 @@ $(document).ready(function(){
     var updateProgressBar;
 
   function displayStep(stepNumber) {
-    if (stepNumber >= 1 && stepNumber <= 3) {
+    if (stepNumber >= 1 && stepNumber <= 10) {
         $(".step-" + currentStep).hide();
         $(".step-" + stepNumber).show();
         currentStep = stepNumber;
@@ -72,7 +129,7 @@ $(document).ready(function(){
   $('#multi-step-form').find('.step').slice(1).hide();
   
   $(".next-step").click(function() {
-    if (currentStep < 4) {
+    if (currentStep < 10) {
           $(".step-" + currentStep).addClass("");
           currentStep++;
           setTimeout(function() {
@@ -96,7 +153,7 @@ $(document).ready(function(){
   });
 
   updateProgressBar = function() {
-      var progressPercentage = ((currentStep - 1) / 2) * 100;
+      var progressPercentage = ((currentStep - 3) / 9) * 100;
       $(".progress-bar").css("width", progressPercentage + "%");
   }
   

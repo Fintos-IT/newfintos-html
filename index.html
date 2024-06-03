@@ -20,7 +20,7 @@
                         <span class="navbar-toggler-icon"></span>
                       </button>
                       <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav gap-1 gap-lg-4 mt-3 mt-lg-0">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                   Solutions
@@ -30,9 +30,9 @@
                                         <div class="col">
                                             <div class="card card--nav border-0">
                                                 <div class="card-head mb-3">
-                                                    <img src="./assets/images/fintos-advice-logo-nav.png" alt="fintos advice" class="img-fluid"  />
+                                                    <img src="./assets/images/fintos-advice-logo-nav.svg" alt="fintos advice" class="img-fluid"  />
                                                     <p class="my-2">Make smart choices with your finances</p>
-                                                    <a href="#" class="fw-semibold">Learn More <img src="./assets/images/arrow-right.png" alt="fintos advice" class="img-fluid"  /></a>
+                                                    <a href="https://birujingga.com/fintos/fintos-advice.html" class="fw-semibold">Learn More <img src="./assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></a>
                                                 </div>
                                                 <div class="card-body bgred">
                                                     <img src="./assets/images/thumb-fintosadvice-hero.png" alt="fintos advice" class="img-fluid"  />
@@ -42,9 +42,9 @@
                                         <div class="col">
                                             <div class="card card--nav border-0">
                                                 <div class="card-head mb-3">
-                                                    <img src="./assets/images/fintos-finance-logo-nav.png" alt="fintos finance" class="img-fluid"  />
+                                                    <img src="./assets/images/fintos-finance-logo-nav.svg" alt="fintos finance" class="img-fluid"  />
                                                     <p class="my-2">Regain own financial independence</p>
-                                                    <a href="#" class="fw-semibold">Learn More <img src="./assets/images/arrow-right.png" alt="fintos advice" class="img-fluid"  /></a>
+                                                    <a href="https://birujingga.com/fintos/finance.html" class="fw-semibold">Learn More <img src="./assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></a>
                                                 </div>
                                                 <div class="card-body bggreen">
                                                     <img src="./assets/images/thumb-fintosfinance-hero.png" alt="fintos advice" class="img-fluid"  />
@@ -54,9 +54,9 @@
                                         <div class="col">
                                             <div class="card card--nav border-0">
                                                 <div class="card-head mb-3">
-                                                    <img src="./assets/images/fintos-tech-logo-nav.png" alt="fintos tech" class="img-fluid"  />
+                                                    <img src="./assets/images/fintos-tech-logo-nav.svg" alt="fintos tech" class="img-fluid"  />
                                                     <p class="my-2">Make smart choices with your finances</p>
-                                                    <a href="#" class="fw-semibold">Learn More <img src="./assets/images/arrow-right.png" alt="fintos advice" class="img-fluid"  /></a>
+                                                    <a href="https://birujingga.com/fintos/fintos-tech.html" class="fw-semibold">Learn More <img src="./assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></a>
                                                 </div>
                                                 <div class="card-body bgyellow">
                                                     <img src="./assets/images/thumb-fintos-tech2.png" alt="fintos advice" class="img-fluid"  />
@@ -77,10 +77,10 @@
                             </ul>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link px-3" href="#">About</a>
+                            <a class="nav-link px-0 px-lg-2" href="https://birujingga.com/fintos/about.html">About</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link px-3" href="#">Contact</a>
+                            <a class="nav-link px-0 px-lg-2" href="https://birujingga.com/fintos/contact.html">Contact</a>
                           </li>
                         </ul>
                       </div>
@@ -97,7 +97,7 @@
                         <span class="title fw-semibold w-100">Your instant loan consultant</span>
                         <h1 class="heading fw-bold">Effortless Financing Starts Here</h1>
                         <h2 class="subheading">We cut through the complexity to get you fast, clear loan options</h2>
-                        <a href="#" class="btn btn-secondary btn-lg" onclick="ubah()" data-bs-toggle="modal" data-bs-target="#myModal">Get Loan Calculator</a>
+                        <a href="#" class="btn btn-secondary btn-lg">Get Loan Calculator</a>
                     </div>
                 </div>
                 <div class="col-md-5">
@@ -617,47 +617,23 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
-    <script type="text/javascript">
-        //function modal form
-       function ubah(a){
-         let url = 'form-mortgage-loan-eligibility.html';
+    <script src="./assets/js/main.js"></script>
 
-           $.post(url, {
-               id :a
-             }, function(data){
-               $('.modal-body').html(data);
-             });
-       }
-   </script>
-    <!--[start:modal player]-->
-    <div class="modal fade" id="videoplayer" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="ratio ratio-16x9">
-                    <iframe src="https://www.youtube.com/embed/2l8CI32ADL4?si=EE8SGVQ8qjgUOFIW" allowfullscreen></iframe>
+        <!--[start:modal player]-->
+        <div class="modal fade" id="videoplayer" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/2l8CI32ADL4?si=EE8SGVQ8qjgUOFIW" allowfullscreen></iframe>
+                    </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    <!--[end: modal player]-->
-     <!--[start: modal form]-->
-     <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content">
-                <div class="modal-body">
-                ...
-                </div>
-            </div>    
-        </div>
-    </div>
-    <!--[end: modal form]-->
-    
-    
+        <!--[end: modal player]-->
   </body>
 </html>

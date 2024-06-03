@@ -230,6 +230,12 @@
     line-height: normal !important;
   }
 }
+.btn-lg--hero {
+  padding: 18px 21px;
+}
+.btn-lg--large {
+  padding: 18px 40px;
+}
 
 .btn-md {
   min-width: 250px;
@@ -309,10 +315,12 @@
 }
 .mainhero .tagline {
   row-gap: 20px;
+  padding-bottom: 129px;
 }
-@media (max-width: 767px) {
+@media (max-width: 1020px) {
   .mainhero .tagline {
     row-gap: 10px;
+    padding-bottom: 50px;
   }
 }
 .mainhero .tagline .title {
@@ -527,6 +535,23 @@ body {
   color: #000414;
   font-size: 14px;
 }
+.fintosform .formhead .alert-success {
+  background: #EFFFF6 !important;
+}
+.fintosform .formhead .alert-success p {
+  font-size: 18px;
+  color: #3AA47E;
+}
+.fintosform .formbody h2 {
+  font-size: 26px;
+  line-height: 39px;
+}
+.fintosform .formbody h2.congrats {
+  color: #0BC196 !important;
+}
+.fintosform .formbody h2.unnote {
+  color: #757575;
+}
 .fintosform .formbody .link {
   color: #FFA823;
   text-decoration: underline;
@@ -544,7 +569,15 @@ body {
 .fintosform .formbody .alert-success .contactsupport .link {
   color: #6FAE4F;
 }
+.fintosform .progress {
+  height: 8px;
+  background-color: #F6F9FD;
+}
+.fintosform .progress .progress-bar {
+  background-color: #FFA823;
+}
 .fintosform .btn {
+  min-width: 320px;
   font-size: 18px;
   font-weight: 700;
   color: #000414;
@@ -552,6 +585,26 @@ body {
 }
 .fintosform .btn:hover {
   background-color: #FFA823;
+}
+.fintosform .btn--bg-none {
+  text-decoration: unset;
+  color: #F3AF1A;
+}
+.fintosform .desc-otp {
+  font-size: 26px;
+  line-height: 39px;
+}
+.fintosform .desc-whatsapp {
+  padding-top: 32px;
+  border-top: 1px solid #D9DADC;
+  margin-top: 32px;
+}
+.fintosform .desc-whatsapp span {
+  color: #6FAE4F;
+  font-weight: 700;
+}
+.fintosform #salarytype {
+  display: none;
 }
 .fintosform .fieldwrap {
   margin-bottom: 30px;
@@ -561,15 +614,25 @@ body {
   font-size: 18px;
   margin-bottom: 5px;
 }
+.fintosform .fieldwrap .form-label--heading {
+  font-size: 26px;
+  line-height: 39px;
+}
+.fintosform .fieldwrap .form-label span {
+  color: #666872;
+}
 .fintosform .fieldwrap .form-check-label {
   line-height: 24px;
   padding-left: 10px;
 }
-.fintosform .fieldwrap .form-control {
+.fintosform .fieldwrap .form-control, .fintosform .fieldwrap .form-select {
   background: #F6F9FD;
   border: 1px solid #DEE5EF;
   border-radius: 3px;
   height: 47px;
+}
+.fintosform .fieldwrap textarea.form-control {
+  height: 74px;
 }
 .fintosform .fieldwrap .form-control::-webkit-input-placeholder {
   color: #A2AAB6;
@@ -792,10 +855,6 @@ body {
   border-bottom: 0;
 }
 
-.fintosform .fieldwrap {
-  margin-bottom: 30px;
-}
-
 .videowrap .btn-play {
   position: absolute;
   z-index: 10;
@@ -930,6 +989,11 @@ body {
 }
 .card--key .card-body .card-title {
   font-size: 40px;
+}
+@media (max-width: 767px) {
+  .card--key .card-body .card-title {
+    font-size: 32px;
+  }
 }
 .card--key .card-body .card-title::first-letter {
   font-size: 64px;
@@ -1443,7 +1507,7 @@ body {
   background-color: transparent;
 }
 .faq .accordion-button:not(.collapsed)::after {
-  background: url(/assets/images/caret-up.png) no-repeat;
+  background: url(/fintos/assets/images/caret-up.png) no-repeat;
   background-position: center center;
   -webkit-transform: none;
           transform: none;
@@ -1486,14 +1550,18 @@ body {
   }
 }
 .cta .sectionheading .btn-lg {
-  min-width: 344px;
-  line-height: 54px;
+  min-width: auto;
+  line-height: normal;
   border-radius: 8px;
 }
 @media (max-width: 767px) {
   .cta .sectionheading .btn-lg .heading {
     line-height: normal;
   }
+}
+.cta--fullbg .sectionheading p {
+  font-size: 18px;
+  line-height: 27px;
 }
 .cta--boxed {
   height: 500px;
@@ -1554,6 +1622,9 @@ body {
 
 .vision-value {
   gap: 3%;
+}
+.vision-value .card-title {
+  font-size: 22px;
 }
 @media (max-width: 1020px) {
   .vision-value {
@@ -1772,6 +1843,11 @@ body {
   margin-bottom: 30px;
   width: 100%;
 }
+@media (max-width: 767px) {
+  .mainhero.hero-page-item-bottom .tagline .subheading {
+    line-height: 21px;
+  }
+}
 
 .plan {
   margin-bottom: 70px;
@@ -1784,7 +1860,7 @@ body {
 }
 .plan .plantable .labelplan .rounded {
   border-radius: 20px !important;
-  padding: 3px 18px;
+  padding: 7px 18px;
   text-align: center;
   line-height: 20px;
 }
@@ -1798,7 +1874,7 @@ body {
   line-height: 39px;
 }
 .plan .plantable .entryplan {
-  padding: 25px 15px;
+  padding: 15px;
   text-align: center;
 }
 .plan .plantable .titleplan img {
@@ -1885,17 +1961,131 @@ body {
   }
 }
 
-/*--- Contact Form OTP ----*/
-.fintosform .desc-otp {
-  font-size: 26px;
-  line-height: 39px;
+/*--- Advice Page ----*/
+@media (max-width: 767px) {
+  .hero-advice .thumb-first img {
+    width: 100%;
+  }
 }
-.fintosform .desc-whatsapp {
-  padding-top: 32px;
-  border-top: 1px solid #D9DADC;
-  margin-top: 32px;
+
+.advice .card--thumbcolor .card-thumb {
+  padding: 0;
 }
-.fintosform .desc-whatsapp span {
-  color: #6FAE4F;
-  font-weight: 700;
+
+.advice-solution .card {
+  gap: 15px;
+}
+
+.ourteam .card--team .card-body {
+  width: 70%;
+}
+@media (max-width: 1100px) {
+  .ourteam .card--team .card-body {
+    width: 100%;
+  }
+}
+@media (max-width: 1100px) {
+  .ourteam .card--team .card-thumb {
+    width: 100%;
+  }
+}
+.ourteam .card--team .card-copy-right {
+  padding: 10px 0px 10px 50px;
+}
+@media (max-width: 992px) {
+  .ourteam .card--team .card-copy-right {
+    padding: 10px 0px;
+  }
+}
+.ourteam .card--team .card-copy-left {
+  padding: 10px 50px 10px 0px;
+}
+@media (max-width: 992px) {
+  .ourteam .card--team .card-copy-left {
+    padding: 10px 0px;
+  }
+}
+.ourteam .wrapper--team-colour {
+  border-radius: 15px;
+  padding: 30px;
+}
+
+/*--- Tech Page ----*/
+@media (max-width: 992px) {
+  .ourproduct .tagline {
+    padding-left: 0px !important;
+  }
+}
+.ourproduct--list {
+  list-style: none;
+}
+.ourproduct--list li {
+  background: url(./../images/check-circle.png) no-repeat 0 3px;
+  padding-left: 30px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 992px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+
+.thumbwrap-featured .bg-tech-featured {
+  background-image: url(./../images/tech-bg-featured.png);
+  background-position: center center;
+  width: 80%;
+  height: 80%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  opacity: 0.5;
+}
+@media (max-width: 992px) {
+  .thumbwrap-featured div[class^=col-lg-] {
+    padding-bottom: 30px;
+    text-align: center !important;
+  }
+  .thumbwrap-featured div[class^=col-lg-] img {
+    padding: 0 !important;
+  }
+  .thumbwrap-featured div[class^=col-lg-].pt-5 {
+    padding-top: 0px !important;
+  }
+  .thumbwrap-featured div[class^=col-lg-].mt-5 {
+    margin-top: 0px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper-tech-appbtn {
+    display: block !important;
+  }
+  .wrapper-tech-appbtn a {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+.wrapper-button-featured .btn {
+  font-size: 20px;
+  margin: 5px;
+}
+@media (max-width: 767px) {
+  .wrapper-button-featured .btn {
+    width: 100%;
+  }
+}
+.wrapper-button-featured .btn-primary {
+  border: 1px solid #FFA823;
+}
+
+.wrapper-arrow-timeline {
+  text-align: right;
+}
+.wrapper-arrow-timeline .timeline-btn {
+  cursor: pointer;
+  display: inline-block;
 }
