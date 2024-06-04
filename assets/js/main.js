@@ -1,4 +1,5 @@
-$(document).ready(function(){
+// $(document).ready(function(){
+jQuery(function ($) {
   $('.gallery-fin').slick({
       infinite: true,
       slidesToShow: 3,
@@ -156,5 +157,84 @@ $(document).ready(function(){
       var progressPercentage = ((currentStep - 3) / 9) * 100;
       $(".progress-bar").css("width", progressPercentage + "%");
   }
+
+
+  // home form
+
+  $(document).on("click", "#btn-get-loan-calculator", function (e) {
+    $.get("form-mortgage-loan-eligibility.ajax.html", function (data) {
+        $("html, body").addClass("overflow-hidden")
+        $("body").append(data);
+      
+      let formStep = $(".fintosform.step")
+      // console.log(formStep.length)
+      formStep.hide();
+      formStep.eq(0).show()
+    });
+  });
+
+  $(document).on("click", "#property-income-eligibility", function (e) {
+    $.get("form-property-income-eligibility.ajax.html", function (data) {
+        $("html, body").addClass("overflow-hidden")
+        $("body").append(data);
+      
+      let formStep = $(".fintosform.step")
+      // console.log(formStep.length)
+      formStep.hide();
+      formStep.eq(0).show()
+    });
+  });
+
+  $(document).on("click", "#mortgage-loan-eligibility", function (e) {
+    $.get("form-mortgage-loan-eligibility.ajax.html", function (data) {
+        $("html, body").addClass("overflow-hidden")
+        $("body").append(data);
+      
+      let formStep = $(".fintosform.step")
+      // console.log(formStep.length)
+      formStep.hide();
+      formStep.eq(0).show()
+    });
+  });
+
+  $(document).on("click", "#mortgage-refinance-eligibility", function (e) {
+    $.get("form-mortgage-refinance-eligibility.ajax.html", function (data) {
+        $("html, body").addClass("overflow-hidden")
+        $("body").append(data);
+      
+      let formStep = $(".fintosform.step")
+      // console.log(formStep.length)
+      formStep.hide();
+      formStep.eq(0).show()
+    });
+  });
+
+  $(document).on("click", ".next-step", function (e) {
+    let currentStep = $(this).closest(".step")
+    let nextStep = currentStep.next('.step');
+
+    if(nextStep.length) {
+      $('.step').hide();
+      nextStep.show();
+    }
+    
+  });
+  $(document).on("click", ".prev-step", function (e) {
+    let currentStep = $(this).closest(".step")
+    let prevStep = currentStep.prev('.step');
+
+    if(prevStep.length) {
+      $('.step').hide();
+      prevStep.show();
+    }
+    
+  });
+
+  $(document).on("click", ".btnclose", function (e) {
+    e.preventDefault()
+    $(this).closest("#multi-step-form").remove()
+    $("html, body").removeClass("overflow-hidden")
+  });
+  // end home form
   
-});
+}); // end jQuery
