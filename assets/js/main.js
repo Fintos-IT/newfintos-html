@@ -1,5 +1,5 @@
-// $(document).ready(function(){
 jQuery(function ($) {
+  AOS.init();
   $('.gallery-fin').slick({
       infinite: true,
       slidesToShow: 3,
@@ -125,44 +125,32 @@ jQuery(function ($) {
   });
 
 
-
-
-  $('#multi-step-form').find('.step').slice(1).hide();
-  
-  $(".next-step").click(function() {
-    if (currentStep < 10) {
-          $(".step-" + currentStep).addClass("");
-          currentStep++;
-          setTimeout(function() {
-          $(".step").removeClass("").hide();
-          $(".step-" + currentStep).show().addClass("a");
-          updateProgressBar();
-          }, 500);
-      }
-  });
-
-  $(".prev-step").click(function() {
-   if (currentStep > 1) {
-          $(".step-" + currentStep).addClass("");
-          currentStep--;
-          setTimeout(function() {
-          $(".step").removeClass("").hide();
-          $(".step-" + currentStep).show().addClass("");
-          updateProgressBar();
-          }, 500);
-    }
-  });
-
-  updateProgressBar = function() {
-      var progressPercentage = ((currentStep - 3) / 9) * 100;
-      $(".progress-bar").css("width", progressPercentage + "%");
+  let logoSlider = $(".brand-slide .logo-container");
+  if (logoSlider.length) {
+    logoSlider.slick({
+      infinite: true,
+      variableWidth: true,
+      arrows: false,
+      dots: false,
+      draggable: false,
+      autoplay: true,
+      autoplaySpeed: 2000,
+    })
   }
 
 
   // home form
+  function updateProgressBar(progressPercentage) {
+    if ($(".progress-bar").length) {
+      $(".progress-bar").css("width", progressPercentage + "%");
+    } else {
+      return false;
+    }
+  }
 
   $(document).on("click", "#btn-get-loan-calculator", function (e) {
-    $.get("form-mortgage-loan-eligibility.ajax.html", function (data) {
+    e.preventDefault();
+    $.get("./form-mortgage-loan-eligibility.ajax.html", function (data) {
         $("html, body").addClass("overflow-hidden")
         $("body").append(data);
       
@@ -173,7 +161,8 @@ jQuery(function ($) {
     });
   });
 
-  $(document).on("click", "#property-income-eligibility", function (e) {
+  $(document).on("click", "#property-income-eligibility, .open-modal[data-modal='property-income']", function (e) {
+    e.preventDefault();
     $.get("form-property-income-eligibility.ajax.html", function (data) {
         $("html, body").addClass("overflow-hidden")
         $("body").append(data);
@@ -185,7 +174,8 @@ jQuery(function ($) {
     });
   });
 
-  $(document).on("click", "#mortgage-loan-eligibility", function (e) {
+  $(document).on("click", "#mortgage-loan-eligibility, .open-modal[data-modal='mortgage-loan']", function (e) {
+    e.preventDefault();
     $.get("form-mortgage-loan-eligibility.ajax.html", function (data) {
         $("html, body").addClass("overflow-hidden")
         $("body").append(data);
@@ -197,7 +187,21 @@ jQuery(function ($) {
     });
   });
 
-  $(document).on("click", "#mortgage-refinance-eligibility", function (e) {
+  $(document).on("click", "#get-loan-eligibility-instantly, .open-modal[data-modal='prescreening']", function (e) {
+    e.preventDefault();
+    $.get("form-prescreening.ajax.html", function (data) {
+        $("html, body").addClass("overflow-hidden")
+        $("body").append(data);
+      
+      let formStep = $(".fintosform.step")
+      // console.log(formStep.length)
+      formStep.hide();
+      formStep.eq(0).show()
+    });
+  });
+
+  $(document).on("click", "#mortgage-refinance-eligibility, .open-modal[data-modal='mortgage-finance']", function (e) {
+    e.preventDefault();
     $.get("form-mortgage-refinance-eligibility.ajax.html", function (data) {
         $("html, body").addClass("overflow-hidden")
         $("body").append(data);
@@ -209,6 +213,25 @@ jQuery(function ($) {
     });
   });
 
+
+
+  $(document).on("click", ".fintosform.step input[name='income-type']", function (e) {
+    updateProgressBar(20)
+    $(".salarytype").show()
+  })
+  $(document).on("click", ".fintosform.step input[name='salary-type']", function (e) {
+    updateProgressBar(40)
+    $(".grossincome").show()
+    $(".next-step").show();
+  })
+  $(document).on("click", ".fintosform.step.step-4 .next-step", function (e) {
+    updateProgressBar(60)
+  })
+  $(document).on("click", ".fintosform.step.step-5 .next-step", function (e) {
+    updateProgressBar(80)
+  })
+
+
   $(document).on("click", ".next-step", function (e) {
     let currentStep = $(this).closest(".step")
     let nextStep = currentStep.next('.step');
@@ -217,8 +240,8 @@ jQuery(function ($) {
       $('.step').hide();
       nextStep.show();
     }
-    
   });
+
   $(document).on("click", ".prev-step", function (e) {
     let currentStep = $(this).closest(".step")
     let prevStep = currentStep.prev('.step');
