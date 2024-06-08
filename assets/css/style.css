@@ -176,6 +176,11 @@
   color: #000414;
 }
 
+.btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
+  background-color: #F4980B;
+  color: #000414;
+}
+
 .btn-secondary {
   background-color: #ffffff;
   border-radius: 8px;
@@ -843,17 +848,17 @@ body {
   }
 }
 .site-footer a, .site-footer p {
-  color: #ffffff !important;
+  color: #ffffff;
   text-decoration: none;
-}
-.site-footer a:hover, .site-footer p:hover {
-  color: #FFA823;
 }
 @media (max-width: 767px) {
   .site-footer a, .site-footer p {
     font-size: 14px;
     line-height: 30px;
   }
+}
+.site-footer a:hover {
+  color: #FFA823;
 }
 @media (max-width: 767px) {
   .site-footer p {

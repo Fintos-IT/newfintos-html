@@ -130,6 +130,10 @@ $gap3: 3px;
         color: $gray60;
     }
 }
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    background-color: #F4980B;
+    color: $gray60;
+}
 .btn-secondary{
     @include button_styles($white, $gray60);
     font-size: $size18;
@@ -730,14 +734,16 @@ body{
         }
     }
     a, p{
-        color: $white !important;
+        color: $white;
         text-decoration: none;
-        &:hover{
-            color: $yellow;
-        }
         @media (max-width: 767px) {
             font-size: $size14;
             line-height: $lineheight30;
+        }
+    }
+    a{
+        &:hover{
+            color: $yellow;
         }
     }
     @media (max-width: 767px) {
