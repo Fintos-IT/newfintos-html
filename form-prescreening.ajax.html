@@ -54,7 +54,7 @@
                             </div>
                             <div class="col-12">
                                 <hr/>
-                                <div class="mb-3 d-flex gap-2 mb-4 pb-2">
+                                <div class="fieldwrap d-flex gap-2 mb-4 pb-2">
                                     <input class="form-check-input" type="checkbox" value="Agree" id="Agree">
                                     <label class="form-check-label" for="Agree">
                                         By submitting this, you agree to be contacted by Fintos via Whatsapp or SMS
@@ -371,10 +371,9 @@
                             <div class="col-12 col-lg-7">
                                 <div class="fieldwrap bg-diffrent">
                                     <div class="file-upload-contain">
-                                        <!-- <input id="multiplefileupload" type="file" accept=".jpg,.gif,.png" multiple /> -->
                                         <label for="nric" class="drop-container" id="dropcontainer">
-                                            <span class="drop-title">Upload NRIC</span>
-                                            <span>or Drop files here</span>
+                                            <img src="./assets/images/upload.png" alt="upload" />
+                                            <div><span class="drop-title">Upload NRIC</span>or Drop files here</div>
                                             <input type="file" id="nric" accept=".jpg,.gif,.png" multiple />
                                         </label>
                                     </div>
@@ -488,35 +487,39 @@
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  align-items: center;
+  flex-direction: column;
   gap: 10px;
-  height: 200px;
+  height: 100px;
   padding: 20px;
-  border-radius: 10px;
-  border: 2px solid #555;
-  color: #444;
+  border-radius: 3px;
+  border: 1px solid #DEE5EF;
+  color: #73839C;
   cursor: pointer;
-  transition: background .2s ease-in-out, border .2s ease-in-out;
+  transition: .2s ease-in-out, border .2s ease-in-out;
   background: #F6F9FD;
 }
 
 .drop-container:hover {
-  border-color: #111;
+  border-color: #DEE5EF;
   background: #f0f7ff;
 }
 
 .drop-container:hover .drop-title {
-  color: #01acfb;
+  color: #5D79E3;
 }
 
 .drop-title {
-  color: #01acfb;
+  color: #5D79E3;
   font-size: 20px;
-  font-weight: bold;
   text-align: center;
   transition: color .2s ease-in-out;
 }
 #nric{
     visibility: hidden;
     width: 0;
+}
+.fintosform .fieldwrap--radiocustom .form-check-label{
+    width: 190px;
 }
 </style>

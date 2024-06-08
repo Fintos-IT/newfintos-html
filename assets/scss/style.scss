@@ -55,7 +55,6 @@ $gray: #09090b;
 $dark: #192B46;
 /*-----Margin-----*/
 $gap365: 365px;
-$gap129: 129px;
 $gap100: 100px;
 $gap80: 80px;
 $gap70: 70px;
@@ -163,7 +162,6 @@ $gap3: 3px;
     }
 }
 .btn-lg{
-    // min-width: 320px;
     line-height: normal;
     padding: $gap18 $gap80;
     @media (max-width: 767px) {
@@ -171,7 +169,7 @@ $gap3: 3px;
         line-height: normal !important;
     }
     &--hero {
-        padding: $gap18 $gap21;
+        padding: $gap18 $gap30;
     }
     &--large {
         padding: $gap18 $gap40;
@@ -238,7 +236,8 @@ $gap3: 3px;
 }
 /*-----Hero header-----*/
 .mainhero{
-    padding-top: $gap25;
+    position: relative;
+    overflow: hidden;
     .row {
         @media (max-width: 767px) {
             padding-left: $gap4;
@@ -250,7 +249,7 @@ $gap3: 3px;
     }
     .tagline{
         row-gap: 20px;
-        padding-bottom: $gap129;
+        padding-top: 20px;
         @media (max-width: 1020px) {
             row-gap: 10px;
             padding-bottom: $gap50;
@@ -294,10 +293,20 @@ $gap3: 3px;
             }
         }
         .btn-lg{
-            border-radius: 15px;
+            border-radius: 8px;
             @media (max-width: 767px) {
                 width: 100%;
                 margin-bottom: $gap22;
+            }
+            
+        }
+        .btn{
+            &:hover{
+                background-color:$dark;
+                color: $white;
+            }
+            @media(max-width: 480px){
+                font-size: $size16;
             }
         }
     }
@@ -311,17 +320,52 @@ $gap3: 3px;
             display: flex;
             width: 100%;
             bottom: 130px;
+            position: relative;
             margin: auto 0;
-            animation-delay: 0.5s;
-            animation-duration: 1s;
+        }
+    }
+    &--heroheight{
+        padding: 0;
+        @media(min-width: 1024px){
+            height: 600px;
+        }
+        .tagline{
+            padding-top: 60px;
+        }
+        .hero-thumb{
+            height: 100%;
+            .thumb-first{
+                z-index: 10;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                z-index: 10;
+                display: flex;
+                width: 100%;
+                position: relative;
+                margin: auto 0;
+                bottom: 0;
+                @media(min-width:767px){
+                    img{
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        left:0; 
+                    }
+                }
+            }
+            .thumb-second{
+                position: absolute;  
+                top: 20px;
+                right: 0;
+                left:0;
+            }
         }
     }
 }
 .pageheader{
     &--full{
         .tagline{
-            /* height: 480px;
-            */
             .title {
                 background: white;
                 width: fit-content !important;
@@ -348,12 +392,7 @@ $gap3: 3px;
             }
         }
     }
-    &--column{
-        /*height: 600px;
-        */
-        /*color: $white;
-        */
-    }
+
 }
 /*---Global----*/
 @media (min-width: 1400px) {
@@ -539,6 +578,21 @@ body{
         .form-check-label{
             line-height: 24px;
             padding-left: 10px;
+            position: relative;
+        }
+        .badgelabel{
+            position: absolute;
+            top: 10px;
+            right: -15px;
+            background: url("../images/badges.png") no-repeat;
+            background-size: cover;
+            display: block;
+            color: #1AC057;
+            font-size: $size14;
+            font-weight: 500;
+            padding-right: 10px;
+            text-align: right;
+            width: 65px;
         }
         .form-control, .form-select{
             background: #F6F9FD;
@@ -642,6 +696,7 @@ body{
 #multi-step-form{
     overflow-x: hidden;
 }
+
 /*---End Form----*/
 
 
@@ -860,7 +915,7 @@ body{
         }
     }
 }
-/*---Home Header A----*/
+
 .card{
     &--nav{
         .card-head{
@@ -886,6 +941,11 @@ body{
                 margin-bottom: -10px;
                 position: relative;
             }
+        }
+    }
+    &--im2{
+        .card-title{
+            font-size: $size26;
         }
     }
     &--process{
@@ -928,9 +988,6 @@ body{
             color: $gray50;
             padding:5px 20px;
         }
-        // .card-thumb img{
-        //     border-radius:15px;
-        // }
         .card-body{
             row-gap: 8px;
             .card-text{
@@ -1010,7 +1067,6 @@ body{
             text-align: center;
             line-height: 80px;
             border-radius: 15px;
-            padding: 15px 0px;
             img{
                 height:auto;
                 width:50px;
@@ -1548,10 +1604,17 @@ body{
 }
 .ourteam {
     .card-title {
-        font-size: $size22;
-        line-height: $lineheight30;
-        font-weight: $bold;
+        h5{
+            font-size: $size26;
+            line-height: $lineheight30;
+            font-weight: $bold;
+        }
+        span{
+            font-size: $size18;
+            color: $gray40
+        }
     }
+   
 }
 /** Career **/
 .pageheader{
@@ -1694,56 +1757,7 @@ body{
 }
 
 /*---finance----*/
-.mainhero{
-    &.hero-page-item-bottom{
-        .hero-thumb{
-            .thumb-first{
-                z-index: 10;
-                text-align: center;
-                justify-content: center;
-                align-items: center;
-                z-index: 10;
-                display: flex;
-                width: 100%;
-                bottom: 0;
-                margin: auto 0;
-                animation-delay: 0.5s;
-                animation-duration: 1s;
-                img{
-                    bottom :0;
-                    position:absolute;
-                }
-            }
-        }
-        .tagline{
-            row-gap: 10px;
-            .btn-lg{
-                margin-bottom : 10%;
-            }
-            .title {
-                padding-top: $gap50;
-                img{
-                    margin-right:6px;
-                }
-            }
-            .heading{
-                @media (max-width: 767px) {
-                    font-size: $size32;
-                    line-height: $lineheight38;
-                }
-            }
-            .subheading{
-                line-height : $lineheight39;
-                margin-bottom: $gap30;
-                width:100%;
 
-                 @media (max-width: 767px) {
-                    line-height: $lineheight21;
-                }
-            }
-        }
-    }
-}
 .plan{
     margin-bottom : $gap70;
     h2{
@@ -1867,25 +1881,16 @@ body{
         }
     }
 }
-/*
-.advice{
-    .card--thumbcolor .card-thumb{
-        padding:0;
-    }
-}
 
-.advice-solution{
-    .card{
-        gap : 15px;
-    }
-}*/
 
 .ourteam{
     .card{
         &--team{
             .card{
                 &-body{
-                    // width : 70%;
+                    .card-text{
+                        row-gap: 20px;
+                    }
                     @media (max-width: 1100px) {
                         width : 100%;
                     }
@@ -1894,6 +1899,10 @@ body{
                     @media (max-width: 1100px) {
                         width : 100%;
                     }
+                }
+                &-thumb-stretch{
+                    height: 378px;
+                    object-fit: cover;
                 }
                 
             }
@@ -1917,6 +1926,9 @@ body{
     .wrapper--team-colour{
         border-radius : 15px;
         padding:$gap30;
+        @media(max-width: 767px){
+            padding: $gap20;
+        }
     }
 }
 
@@ -1990,13 +2002,24 @@ body{
 }
 
 .wrapper-button-featured{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: center;
     .btn{
         font-size:20px;
-        margin:5px;
         @media (max-width: 768px) {
           width: 100%;
           margin: 0;
           width: 100%;
+        }
+    }
+    .btn-outline-primary{
+        padding-top: 16px;
+        padding-bottom: 14px;
+        &:hover{
+            background-color: $white;
+            color: $yellow;
         }
     }
     .btn-primary{
@@ -2004,7 +2027,6 @@ body{
         text-decoration: none;
     }
     @media(max-width: 768px){
-        display: flex;
         flex-direction: column;
         row-gap: 20px;
     }
@@ -2069,7 +2091,8 @@ body{
     margin: 0 auto;
     z-index: 1;
     background: radial-gradient(50% 50% at 50% 50%, rgba(174, 255, 236, 0.8) 0%, #5D79E3 100%);
-    filter: blur(250px);
+    filter: blur(150px);
+    opacity: 0.3;
 }
 .dots-blue .slick-dots li.slick-active button{
     background-color: #5572DE;
