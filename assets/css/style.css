@@ -464,35 +464,6 @@
   left: 0;
 }
 
-.pageheader--full .tagline .title {
-  background: white;
-  width: -webkit-fit-content !important;
-  width: -moz-fit-content !important;
-  width: fit-content !important;
-  border-radius: 50px;
-  padding: 10px 30px;
-  border: 2px solid;
-  border-image-source: linear-gradient(91.51deg, #FFF6E3 -8.37%, #F9EEC7 107.23%);
-  margin-bottom: 20px;
-}
-.pageheader--full .tagline .heading {
-  font-size: 64px;
-  line-height: 76px;
-  margin-bottom: 16px;
-}
-@media (max-width: 767px) {
-  .pageheader--full .tagline .heading {
-    font-size: 32px;
-    line-height: 38px;
-  }
-}
-.pageheader--full .tagline .subheading {
-  font-size: 18px;
-  line-height: 27px;
-  margin-bottom: 158px;
-  font-weight: 400;
-}
-
 /*---Global----*/
 @media (min-width: 1400px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
@@ -927,7 +898,7 @@ body {
 .plan .entryplan {
   font-size: 16px;
   height: 70px;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #D9DADC;
 }
 @media (max-width: 767px) {
   .plan .entryplan {
@@ -982,6 +953,11 @@ body {
 .videowrap--large {
   margin-top: -300px;
 }
+@media (max-width: 640px) {
+  .videowrap--large {
+    margin-top: -150px;
+  }
+}
 
 .list-block {
   row-gap: 15px;
@@ -990,11 +966,17 @@ body {
           column-gap: 15px;
 }
 .list-block li {
-  width: 300px;
   height: 70px;
   background-color: #F5F9FF;
   border-radius: 4px;
-  border-color: #C1CEFF;
+  border: 1px solid #C1CEFF;
+  padding: 0px 35px;
+}
+@media (max-width: 768px) {
+  .list-block li {
+    padding: 0 15px;
+    height: 40px;
+  }
 }
 
 .ourproduct .tagline h5 {
@@ -1160,7 +1142,7 @@ body {
   margin-right: 20px;
 }
 .card--timeline-slide .card-body .card-text p {
-  color: #333643;
+  color: #666872;
 }
 .card--thumbcolor {
   -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.0509803922);
@@ -1365,6 +1347,15 @@ body {
 @media (max-width: 767px) {
   .whyus--imortgage .card {
     min-height: 300px;
+  }
+}
+.whyus--imortgage .sectionheading p {
+  font-size: 22px;
+  color: #666872;
+}
+@media (max-width: 767px) {
+  .whyus--imortgage .sectionheading p {
+    font-size: 14px;
   }
 }
 
@@ -1799,7 +1790,40 @@ body {
   color: #666872;
 }
 
-/** Career **/
+.pageheader--full .tagline .title {
+  background: -webkit-gradient(linear, left top, right top, from(#FFF6E3), to(#F9EEC7));
+  background: linear-gradient(90deg, #FFF6E3 0%, #F9EEC7 100%);
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.pageheader--full .tagline .title span {
+  background-color: #ffffff;
+  display: block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin: 2px;
+}
+.pageheader--full .tagline .heading {
+  font-size: 64px;
+  line-height: 76px;
+  margin-bottom: 16px;
+}
+@media (max-width: 767px) {
+  .pageheader--full .tagline .heading {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+.pageheader--full .tagline .subheading {
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 158px;
+  font-weight: 400;
+}
 .pageheader--extrafull {
   padding-bottom: 215px;
 }
@@ -1841,6 +1865,11 @@ body {
 .pageheader--videofull {
   height: 739px;
 }
+@media (max-width: 768px) {
+  .pageheader--videofull {
+    height: 500px;
+  }
+}
 .pageheader--videofull .tagline .heading {
   font-size: 64px;
 }
@@ -1849,13 +1878,13 @@ body {
     font-size: 32px;
   }
 }
-.pageheader--videofull .tagline .heading .subheading {
+.pageheader--videofull .tagline .subheading {
   font-size: 26px;
   line-height: 32px;
   font-weight: 400;
 }
 @media (max-width: 767px) {
-  .pageheader--videofull .tagline .heading .subheading {
+  .pageheader--videofull .tagline .subheading {
     font-size: 14px;
     line-height: 21px;
     margin-bottom: 10px;
@@ -2094,7 +2123,7 @@ body {
      object-fit: cover;
 }
 .ourteam .card--team .card-copy-right {
-  padding: 10px 0px 10px 50px;
+  padding: 10px 0px 10px 20px;
 }
 @media (max-width: 992px) {
   .ourteam .card--team .card-copy-right {
@@ -2102,7 +2131,7 @@ body {
   }
 }
 .ourteam .card--team .card-copy-left {
-  padding: 10px 50px 10px 0px;
+  padding: 10px 20px 10px 0px;
 }
 @media (max-width: 992px) {
   .ourteam .card--team .card-copy-left {
@@ -2111,7 +2140,7 @@ body {
 }
 .ourteam .wrapper--team-colour {
   border-radius: 15px;
-  padding: 30px;
+  padding: 30px 30px 10px 30px;
 }
 @media (max-width: 767px) {
   .ourteam .wrapper--team-colour {
@@ -2140,21 +2169,19 @@ body {
   }
 }
 
+.featured .sectionheading p {
+  font-size: 22px;
+}
+@media (max-width: 767px) {
+  .featured .sectionheading p {
+    font-size: 14px;
+  }
+}
+
 .thumbwrap-featured {
   background: url("../images/thumb-placeholder-fintostech.png") no-repeat;
   background-size: contain;
   background-position: center center;
-  /*.bg-tech-featured{
-      background-image: url(./../images/tech-bg-featured.png);
-      background-position: center center;
-      width: 80%;
-      height: 80%;
-      background-size: 100%;
-      background-repeat: no-repeat;
-      left: 50%;
-      transform: translateX(-50%);
-      opacity: 0.5;
-  }    */
 }
 @media (max-width: 992px) {
   .thumbwrap-featured div[class^=col-lg-] {

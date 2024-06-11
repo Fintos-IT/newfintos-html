@@ -367,37 +367,7 @@ $gap3: 3px;
         }
     }
 }
-.pageheader{
-    &--full{
-        .tagline{
-            .title {
-                background: white;
-                width: fit-content !important;
-                border-radius: 50px;
-                padding: $gap10 $gap30;
-                border: 2px solid;
-                border-image-source: linear-gradient(91.51deg, #FFF6E3 -8.37%, #F9EEC7 107.23%);
-                margin-bottom: $gap20;
-            }
-            .heading {
-                font-size: $size64;
-                line-height: $lineheight76;
-                margin-bottom: $gap16;
-                @media (max-width: 767px) {
-                    font-size: $size32;
-                    line-height: 38px;
-                }
-            }
-            .subheading {
-                font-size: $size18;
-                line-height: $lineheight27;
-                margin-bottom: 158px;
-                font-weight: $normal;
-            }
-        }
-    }
 
-}
 /*---Global----*/
 @media (min-width: 1400px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
@@ -815,7 +785,7 @@ body{
     .entryplan{
         font-size: $size16;
         height: 70px;
-        border-bottom: 1px solid $white;
+        border-bottom: 1px solid $gray30;
         @media(max-width: 767px){
             height: auto;
         }
@@ -868,6 +838,9 @@ body{
     }
     &--large{
         margin-top: -300px;
+        @media(max-width: 640px){
+            margin-top: -150px;
+        }
     }
 }
 
@@ -875,11 +848,15 @@ body{
     row-gap: 15px;
     column-gap: 15px;
     li{
-        width: 300px;
         height: 70px;
         background-color: $lightblue;
         border-radius: 4px;
-        border-color: #C1CEFF;
+        border:1px solid #C1CEFF;
+        padding: 0px 35px;
+        @media(max-width: 768px){
+            padding: 0 15px;
+            height: 40px;
+        }
     }
 }
 .ourproduct{
@@ -1057,7 +1034,7 @@ body{
                 margin-top: 30px;
                 margin-right: 20px;
                 p{
-                    color: $gray50;
+                    color: $gray40;
                 }
             }
         }
@@ -1237,6 +1214,15 @@ body{
             background-color: $lightblue;
             @media (max-width: 767px) {
                 min-height: 300px;
+            }
+        }
+        .sectionheading{
+            p{
+                font-size: $size22;
+                color: $gray40;
+                @media(max-width: 767px){
+                    font-size: $size14;
+                }
             }
         }
     }
@@ -1622,8 +1608,41 @@ body{
     }
    
 }
-/** Career **/
+
 .pageheader{
+    &--full{
+        .tagline{
+            .title {
+               background: linear-gradient(90deg, #FFF6E3 0%, #F9EEC7 100%);
+                width: fit-content !important;
+                border-radius: 50px;
+                margin-bottom: $gap20;
+                font-size: $size22;
+                span{
+                    background-color: $white;
+                    display: block;
+                    padding: $gap10 $gap30;
+                    border-radius: 50px;
+                    margin: 2px;
+                }
+            }
+            .heading {
+                font-size: $size64;
+                line-height: $lineheight76;
+                margin-bottom: $gap16;
+                @media (max-width: 767px) {
+                    font-size: $size32;
+                    line-height: 38px;
+                }
+            }
+            .subheading {
+                font-size: $size18;
+                line-height: $lineheight27;
+                margin-bottom: 158px;
+                font-weight: $normal;
+            }
+        }
+    }
     &--extrafull{
         padding-bottom: 215px;
         .heading {
@@ -1662,12 +1681,17 @@ body{
     }
     &--videofull{
         height: 739px;
+        @media(max-width: 768px){
+            height: 500px;
+        }
+       
         .tagline{
             .heading{
                 font-size: $size64;
                 @media (max-width: 767px) {
                     font-size: $size32;
-            }
+                }
+            } 
             .subheading{
                 font-size: $size26;
                 line-height: $size32;
@@ -1677,8 +1701,7 @@ body{
                     line-height: $lineheight21;
                     margin-bottom: $gap10;
                 }
-                }
-            }
+            }   
         }
     }
 }
@@ -1913,14 +1936,14 @@ body{
                 
             }
             .card-copy-right{
-                padding : 10px 0px 10px 50px;
+                padding : 10px 0px 10px 20px;
                 @media (max-width: 992px) {
                   padding : 10px 0px;
                 }
             }
 
             .card-copy-left{
-                padding : 10px 50px 10px 0px;
+                padding : 10px 20px 10px 0px;
                 @media (max-width: 992px) {
                   padding : 10px 0px;
                 }
@@ -1931,7 +1954,7 @@ body{
     }
     .wrapper--team-colour{
         border-radius : 15px;
-        padding:$gap30;
+        padding:$gap30 $gap30 10px $gap30;
         @media(max-width: 767px){
             padding: $gap20;
         }
@@ -1962,23 +1985,21 @@ body{
         display:none;
     }
 }
-
+.featured{
+    .sectionheading{
+        p{
+            font-size: $size22;
+            @media(max-width: 767px){
+                font-size: $size14;
+            }
+        }
+    }
+}
 
 .thumbwrap-featured{
     background: url("../images/thumb-placeholder-fintostech.png") no-repeat;
     background-size: contain;
     background-position: center center;
-    /*.bg-tech-featured{
-        background-image: url(./../images/tech-bg-featured.png);
-        background-position: center center;
-        width: 80%;
-        height: 80%;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        left: 50%;
-        transform: translateX(-50%);
-        opacity: 0.5;
-    }    */
     div[class^="col-lg-"]{
         @media (max-width: 992px) {
             padding-bottom : 30px;
