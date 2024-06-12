@@ -235,6 +235,27 @@ $gap3: 3px;
             @media (max-width: 1020px) {
                 width: 100%;
             }
+            
+            a{
+                text-decoration: none;
+                p{
+                    font-weight: normal;
+                }
+                .more{
+                    img{
+                        position: relative;
+                        
+                    }
+                }
+                &:hover{
+                    .more{
+                        img{
+                            transition: all .5s;
+                            transform : translateX(10px);
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -1033,6 +1054,9 @@ body{
                 font-size: $size18;
                 margin-top: 30px;
                 margin-right: 20px;
+                @media(max-width: 480px){
+                    margin-right: 0;
+                }
                 p{
                     color: $gray40;
                 }
@@ -2064,6 +2088,11 @@ body{
     .timeline-btn{
         cursor: pointer;
         display: inline-block;
+        @media(max-width: 480px){
+            img{
+                width: 42px;
+            }
+        }
     }
 }
 
@@ -2126,4 +2155,7 @@ body{
 }
 .font-16{
     font-size: $size16 !important;
+}
+.modal-dialog{
+    max-width: 860px;
 }
