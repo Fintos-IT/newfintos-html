@@ -554,6 +554,9 @@ body{
             color : #6FAE4F;
             font-weight: $bold;
         }
+        a{
+            text-decoration: none;
+        }
     }
     #salarytype{ display: none;}
     .fieldwrap{
@@ -1437,6 +1440,13 @@ body{
                 padding-right: $gap10;
             }
         }
+    }
+}
+.gallery-fin{
+    img{
+        height: 310px;
+        object-fit: cover;
+        object-position: center top;
     }
 }
 .faq{
