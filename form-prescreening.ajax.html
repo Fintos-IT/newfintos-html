@@ -530,67 +530,53 @@
 }
 </style>
 <script>
-    // Define a global variable to store the token
-    let grecaptchaToken;
-
-    // Wait for the DOM to be fully loaded
-    document.addEventListener("DOMContentLoaded", function() {
-        // Select the multi-step form
-        const form = document.getElementById("multi-step-form");
-
-        // Add a submit event listener to the form
-        form.addEventListener("submit", function(event) {
-            event.preventDefault(); // Prevent default form submission
-
-            // Execute reCAPTCHA when the form is submitted
-            grecaptcha.execute('6Ldkmf0nAAAAABS8m68upaSqP64yqdLiOYvB30P8', { action: 'submit' }).then(function(token) {
-                grecaptchaToken = token; // Store the token globally
-
-                // Call your onSubmit function with the token
-                onSubmit(token);
+    let token;
+    var form = document.getElementById("multi-step-form");
+        form.addEventListener("submit", function (event) {
+            event.preventDefault();
+            grecaptcha.ready(function() {
+              grecaptcha.execute('6Ldkmf0nAAAAABS8m68upaSqP64yqdLiOYvB30P8', {action: 'submit'}).then(function(token) {
+                  // Add your logic to submit to your backend server here.
+                  onSubmit(token);
+              });
             });
+  
         });
-
-        // Function to handle form submission with the token
+        function onCompleted(token) {
+          console.log(token);
+          token = token;
+        }
         function onSubmit(token) {
-            const formData = new FormData(form); // Get form data
-
-            // Prepare the message body
+          const formData = new FormData(document.getElementById("multi-step-form"));
             let message = "";
             for (const [key, value] of formData.entries()) {
                 message += `${key}: ${value}\n`;
             }
-
-            // Prepare data to send to your backend
             const bodyData = {
-                subject: "New Enquiry from Fintos Website",
-                body: message
+              subject: "New Enquiry from Fintos Website",
+              body: message
             };
-
-            // Make a POST request to your backend endpoint
             fetch("https://gateway.fintos.com.my/public/fintos-website-enquiry", {
                 method: "POST",
                 body: JSON.stringify(bodyData),
                 headers: {
                     "Content-Type": "application/json",
                     "Application-Code": "fintos-website",
-                    "G-Captcha": token // Send the reCAPTCHA token as a header
+                    "G-Captcha": token
                 }
             })
             .then(response => {
                 if (response.ok) {
-                    // Show success message and reset form
-                    alert("Your enquiry has been submitted successfully! We'll be in touch soon!");
-                    form.reset(); // Clear form fields
+                    alert("Your enquiry has been submitted successfully ! We'll be in touch soon !");
+                    document.getElementById("multi-step-form").reset(); // Clear form fields
                 } else {
-                    // Show error message
                     alert("Error submitting form. Please try again.");
                 }
             })
             .catch(error => {
                 console.error("Error:", error);
                 alert("An error occurred while submitting the form.");
-            });
+            });          
         }
-    });
-</script>
+  
+  </script>
