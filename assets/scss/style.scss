@@ -305,9 +305,11 @@ $gap3: 3px;
         .subheading{
             font-size: $size26;
             font-weight: $normal;
+            line-height: 39px;
             width: 674px;
             @media (max-width: 1020px) {
                 font-size: $size22;
+                line-height: $size26;
                 width: 100%;
                 @media (max-width: 767px) {
                     font-size: $size14;
@@ -770,16 +772,61 @@ body{
             border-top: 1px solid rgb(255 255 255 / 21%);
             font-size: $size14;
             font-weight: $light;
-            ul{
-                li{
-                    a{
-                        color: $gray;
-                        font-weight: $light;
-                        text-decoration: underline;
-                        &:hover{
-                            color: $yellow;
-                        }
-                    }
+        }
+        a{
+            color: $white;
+            font-weight: $light;
+            text-decoration: underline;
+            &:hover{
+                color: $yellow;
+            }
+        }
+    }
+    &--imortgage{
+        .tagline{
+            h2{ font-size: $size40;}
+            p{font-size: $size18;}
+            .btn{
+                width: 293px;
+                line-height: 47px;
+                border-radius: 10px;
+                background: linear-gradient(180deg, #5D79E3 -27.5%, #3E5CD0 128.33%);
+                font-size: 18px;
+                font-weight: $semibold;
+                &:hover{
+                    color: $white;
+                }
+            }
+        }
+        .copyright{
+            p{
+                font-size: $size18;
+            }
+            a{
+                text-decoration: none;
+                font-size: $size18;
+            }
+            
+        }
+        .navbrand{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            column-gap: 20px;
+
+        }
+        @media(max-width: 1028px){
+            .col-left, .col-right{
+                display: block;
+                width: 100%;
+                text-align: center;
+                margin: 0 auto;
+            }
+            .navbrand{
+                flex-direction: column;
+                ul{
+                    display: block !important;
+                    margin: 20px 0;
                 }
             }
         }
@@ -929,12 +976,24 @@ body{
             p{
                 color:#666872;
                 font-size: $size14;
+                @media(max-width: 640px){
+                    br{ display: none;}
+                }
             }
             a{
                 color: $gray50;
                 text-decoration: none;
                 font-size: $size14;
                 line-height: $lineheight21;
+            }
+            .brandthumb{
+                height: 22px;
+                @media(max-width: 640px){
+                    height: 42px;
+                }
+            }
+            .more{
+                font-size: $size14;
             }
         }
         .card-body{
@@ -1449,6 +1508,16 @@ body{
         object-position: center top;
     }
 }
+.thumbgallery-carreer{
+    .thumbimg{
+        height: 310px;
+        object-fit: cover;
+        object-position: center top;
+    }
+    img{
+        border-radius: 16px;
+    }
+}
 .faq{
     margin-top:80px;
     .heading{
@@ -1798,8 +1867,13 @@ body{
     color: $gray60;
     text-decoration: unset;
 }
-.sidebar .title {
-    color: $gray40;
+.sidebar {
+    .title {
+        color: $gray40;
+    }
+    .entry{
+        color: $gray60;
+    }
 }
 /** Contact us **/
 .side-contact {
@@ -1808,9 +1882,18 @@ body{
         width: 30px;
         height: 40px;
     }
-    .card-body .card-title {
-        font-size: $size22;
-        line-height: $lineheight33;
+    .card-body {
+        .card-title {
+            font-size: $size22;
+            line-height: $lineheight33;
+        }
+        a{
+            color: #212529;
+            text-decoration: none;
+            &:hover{
+                color: $yellow;
+            }
+        }
     }
 }
 .divider {

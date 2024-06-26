@@ -378,11 +378,13 @@
 .mainhero .tagline .subheading {
   font-size: 26px;
   font-weight: 400;
+  line-height: 39px;
   width: 674px;
 }
 @media (max-width: 1020px) {
   .mainhero .tagline .subheading {
     font-size: 22px;
+    line-height: 26px;
     width: 100%;
   }
 }
@@ -883,13 +885,71 @@ body {
   font-size: 14px;
   font-weight: 300;
 }
-.site-footer .copyright .row ul li a {
-  color: #09090b;
+.site-footer .copyright a {
+  color: #ffffff;
   font-weight: 300;
   text-decoration: underline;
 }
-.site-footer .copyright .row ul li a:hover {
+.site-footer .copyright a:hover {
   color: #FFA823;
+}
+.site-footer--imortgage .tagline h2 {
+  font-size: 40px;
+}
+.site-footer--imortgage .tagline p {
+  font-size: 18px;
+}
+.site-footer--imortgage .tagline .btn {
+  width: 293px;
+  line-height: 47px;
+  border-radius: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-27.5%, #5D79E3), color-stop(128.33%, #3E5CD0));
+  background: linear-gradient(180deg, #5D79E3 -27.5%, #3E5CD0 128.33%);
+  font-size: 18px;
+  font-weight: 600;
+}
+.site-footer--imortgage .tagline .btn:hover {
+  color: #ffffff;
+}
+.site-footer--imortgage .copyright p {
+  font-size: 18px;
+}
+.site-footer--imortgage .copyright a {
+  text-decoration: none;
+  font-size: 18px;
+}
+.site-footer--imortgage .navbrand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+}
+@media (max-width: 1028px) {
+  .site-footer--imortgage .col-left, .site-footer--imortgage .col-right {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .site-footer--imortgage .navbrand {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .site-footer--imortgage .navbrand ul {
+    display: block !important;
+    margin: 20px 0;
+  }
 }
 
 .plan .labelplan {
@@ -1037,11 +1097,27 @@ body {
   color: #666872;
   font-size: 14px;
 }
+@media (max-width: 640px) {
+  .card--nav .card-head p br {
+    display: none;
+  }
+}
 .card--nav .card-head a {
   color: #333643;
   text-decoration: none;
   font-size: 14px;
   line-height: 21px;
+}
+.card--nav .card-head .brandthumb {
+  height: 22px;
+}
+@media (max-width: 640px) {
+  .card--nav .card-head .brandthumb {
+    height: 42px;
+  }
+}
+.card--nav .card-head .more {
+  font-size: 14px;
 }
 .card--nav .card-body {
   height: 170px;
@@ -1606,6 +1682,17 @@ body {
      object-position: center top;
 }
 
+.thumbgallery-carreer .thumbimg {
+  height: 310px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center top;
+     object-position: center top;
+}
+.thumbgallery-carreer img {
+  border-radius: 16px;
+}
+
 .faq {
   margin-top: 80px;
 }
@@ -1992,6 +2079,9 @@ body {
 .sidebar .title {
   color: #666872;
 }
+.sidebar .entry {
+  color: #000414;
+}
 
 /** Contact us **/
 .side-contact {
@@ -2005,6 +2095,13 @@ body {
 .side-contact .card-body .card-title {
   font-size: 22px;
   line-height: 33px;
+}
+.side-contact .card-body a {
+  color: #212529;
+  text-decoration: none;
+}
+.side-contact .card-body a:hover {
+  color: #FFA823;
 }
 
 .divider {
