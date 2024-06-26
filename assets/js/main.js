@@ -200,6 +200,19 @@ jQuery(function ($) {
     });
   });
 
+  $(document).on("click", "#get-loan-eligibility-instantly, .open-modal[data-modal='prescreening-tech']", function (e) {
+    e.preventDefault();
+    $.get("form-contact-tech.ajax.html", function (data) {
+        $("html, body").addClass("overflow-hidden")
+        $("body").append(data);
+      
+      let formStep = $(".fintosform.step")
+      // console.log(formStep.length)
+      formStep.hide();
+      formStep.eq(0).show()
+    });
+  });
+
   $(document).on("click", "#mortgage-refinance-eligibility, .open-modal[data-modal='mortgage-finance']", function (e) {
     e.preventDefault();
     $.get("form-mortgage-refinance-eligibility.ajax.html", function (data) {
