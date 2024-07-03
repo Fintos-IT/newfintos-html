@@ -18,21 +18,14 @@ jobs:
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+          echo -e "Host remote-server\n  HostName ${{ secrets.SSH_HOST }}\n  Port ${{ secrets.SSH_PORT }}\n  User ${{ secrets.SSH_USERNAME }}\n  IdentityFile ~/.ssh/id_rsa\n  StrictHostKeyChecking no" > ~/.ssh/config
 
-      - name: Install expect
-        run: sudo apt-get update && sudo apt-get install -y expect
+      - name: Test SSH connection
+        run: ssh remote-server "echo Connected successfully"
 
       - name: Perform SSH operations
         run: |
-          expect << EOF
-          spawn ssh -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }}
-          expect "password:"
-          send "${{ secrets.SSH_PASSWORD }}\r"
-          expect "$ "
-          send "cd ${{ secrets.REPO_PATH }}\r"
-          expect "$ "
-          send "git pull\r"
-          expect "$ "
-          send "exit\r"
-          expect eof
+          ssh remote-server << 'EOF'
+            cd ${{ secrets.REPO_PATH }}
+            git pull
+          EOF
