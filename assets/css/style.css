@@ -2062,6 +2062,10 @@ body {
   font-weight: 500;
 }
 
+#solutions-nav-item:hover .dropdown-menu {
+  display: block;
+}
+
 .tab-content .card-title {
   font-size: 25px;
   line-height: 39px;
