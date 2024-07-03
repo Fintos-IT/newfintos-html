@@ -2023,7 +2023,7 @@ body {
      object-fit: cover;
 }
 .img-section .gallery-career .img-container:nth-child(1) img {
-  width: 320px;
+  width: 600px;
 }
 @media (max-width: 767px) {
   .img-section .gallery-career .img-container:nth-child(1) img {
@@ -2031,17 +2031,17 @@ body {
   }
 }
 .img-section .gallery-career .img-container:nth-child(2) img {
-  width: 440px;
+  width: 720px;
 }
 .img-section .gallery-career .img-container:nth-child(3) img {
-  width: 560px;
-}
-.img-section .gallery-career .img-container:nth-child(4) img {
   width: 904px;
 }
-.img-section .gallery-career .img-container:nth-child(5) img {
+.img-section .gallery-career .img-container:nth-child(4) img {
   width: 440px;
 }
+/* .img-section .gallery-career .img-container:nth-child(5) img {
+  width: 440px;
+} */
 
 .square-join .card-title {
   font-size: 22px;
