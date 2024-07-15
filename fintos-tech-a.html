@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fintos Tech</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/images/fintos-favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
@@ -23,8 +24,8 @@
                       </button>
                       <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav gap-1 gap-lg-4 mt-3 mt-lg-0">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <li class="nav-item dropdown" id="solutions-nav-item">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
                                   Solutions
                                 </a>
                                 <ul class="dropdown-menu rounded-4 dropdown-menu--megamenu border-0">
@@ -262,7 +263,7 @@
                 </div>
             </div>
             <div class="row align-items-center mb-5 pb-5">
-                <div class="col-lg-5 mb-4"><img src="./assets/images/thumb-fintos-features-tech-6.png" alt="app" class="img-fluid"  /></div>
+                <div class="col-lg-5 mb-4"><img src="./assets/images/thumb-fintos-features-tech-lms.gif" alt="app" class="img-fluid" style="border: 2px solid #FFCB3B; border-radius: 15px;" /></div>
                 <div class="col-lg-7">
                     <div class="tagline text-start align-items-start d-flex flex-column ps-5">
                         <img src="./assets/images/FINTOSCapital-logo-1.png" alt="fintos capital" height="40px"/>
@@ -614,18 +615,6 @@
                             <div class="col-md-2 p-0">
                                 <div class="card card--timeline-slide border-0 bg-transparent">
                                     <div class="card-body p-0">
-                                        <h5 class="card-title">2015</h5>
-                                        <div class="card-text">
-                                            <h6 class="fw-bold">Launch of imortgage2u Phase 2</h6>
-                                            <p>Upgraded imortgage2u with improved user experience and eligibility system.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-2 p-0">
-                                <div class="card card--timeline-slide border-0 bg-transparent">
-                                    <div class="card-body p-0">
                                         <h5 class="card-title">2019</h5>
                                         <div class="card-text">
                                             <h6 class="fw-bold">Launch of imortgage2u Phase 3 and App</h6>
@@ -653,8 +642,8 @@
         </div>
     </div><!--[start: timeline]-->
 
-<!--[start: faq]-->
-    <!-- <div class="faq">
+    <!--[start: faq]-->
+    <div class="faq">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="sectionheading text-center">
@@ -667,7 +656,7 @@
                                 <button class="accordion-button bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     <div class="row w-100 justify-content-between">
                                         <div class="col-10">
-                                            What kind of products does the Fintos Tech offer?
+                                            Is the subscription fee on a monthly or annual basis?
                                         </div>
                                         <div class="col-2 text-end">
                                             <img class="icon-caret" src="./assets/images/caret-down.png" />
@@ -677,7 +666,7 @@
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    We offer a range of innovative financial technology solutions, including credit scoring tools, loan eligibility assessments, mortgage loan applications, financial calculator, and many more.
+                                    We offer subscriptions on both monthly and annual bases. For details on fees, please contact us.
                                 </div>
                             </div>
                         </div>
@@ -686,7 +675,7 @@
                               <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 <div class="row w-100 justify-content-between">
                                     <div class="col-10">
-                                        Which product is suitable for my business?
+                                        How long is the subscription period?
                                     </div>
                                     <div class="col-2 text-end">
                                         <img class="icon-caret" src="./assets/images/caret-down.png" />
@@ -695,9 +684,9 @@
                               </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                              </div>
+                                <div class="accordion-body">
+                                    The subscription period is twelve (12) months from the date of subscription.
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -705,7 +694,7 @@
                               <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
                                 <div class="row w-100 justify-content-between">
                                     <div class="col-10">
-                                        How does FINTOS Tech support my business?
+                                        What happens when the subscription term expires?
                                     </div>
                                     <div class="col-2 text-end">
                                         <img class="icon-caret" src="./assets/images/caret-down.png" />
@@ -714,9 +703,9 @@
                               </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                              </div>
+                                <div class="accordion-body">
+                                    The account will be automatically locked. To regain access, subscribers need to renew their iMortgage2u Plan’s account.
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -724,7 +713,7 @@
                               <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
                                 <div class="row w-100 justify-content-between">
                                     <div class="col-10">
-                                        How can FINTOS Tech specialized my business needs?
+                                        What happens if subscribers fail to renew their subscriptions?
                                     </div>
                                     <div class="col-2 text-end">
                                         <img class="icon-caret" src="./assets/images/caret-down.png" />
@@ -733,9 +722,9 @@
                               </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                              </div>
+                                <div class="accordion-body">
+                                    The account will be suspended for six (6) months. If the renewal transaction is not completed within this period, the account will be terminated, including all associated data and records, without further notice.
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -743,7 +732,7 @@
                               <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
                                 <div class="row w-100 justify-content-between">
                                     <div class="col-10">
-                                        Where can I download the FINTOS Calculator App?
+                                        Can subscribers upgrade their plan after subscribing?
                                     </div>
                                     <div class="col-2 text-end">
                                         <img class="icon-caret" src="./assets/images/caret-down.png" />
@@ -752,9 +741,9 @@
                               </button>
                             </h2>
                             <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                              </div>
+                                <div class="accordion-body">
+                                    Yes, subscribers can upgrade from the Standard to the Business Plan by contacting us at wecare4u@imortgage2u.com and paying RM700.00 or redeeming 700 FinPoints through the platform.
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -762,7 +751,7 @@
                               <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseTwo">
                                 <div class="row w-100 justify-content-between">
                                     <div class="col-10">
-                                        What should I do if I was scammed?
+                                        Is the iMortgage2u system safe and secure for use?
                                     </div>
                                     <div class="col-2 text-end">
                                         <img class="icon-caret" src="./assets/images/caret-down.png" />
@@ -771,16 +760,16 @@
                               </button>
                             </h2>
                             <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                              </div>
+                                <div class="accordion-body">
+                                    Yes, it is. The iMortgage2u system protects data from SQL injection and is securely hosted on a private and secured Virtual Private Server (VPS).
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div> 
-    </div>-->
+    </div>
     <!--[end: faq]-->
 
     <div class="cta cta--boxed"><!--[start: cta]-->
@@ -794,8 +783,8 @@
                 <div class="col-md-7">
                     <div class="sectionheading h-100 d-flex flex-column align-items-start pe-lg-5">
                         <h2 class="heading">Ready To Make A <br/>Difference With Us?</h2>
-                        <p>Take the first step towards smarter financial management starting from today.</p>
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#form-tech-contact" class="open-modal btn btn-primary btn-lg fw-semibold">Schedule a Free Consultation</a>
+                        <p>Manage, optimize, and track loans with one integrated system tailored to your business needs.</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#form-tech-contact" class="open-modal btn btn-primary btn-lg fw-semibold">Request Demo</a>
                         <div class="phone-cta">
                             <img src="./assets/images/phone.png" alt="phone"/>
                             Contact us at: 03-8080 9777
@@ -837,13 +826,13 @@
                 </div>
                 <div class="col-md-3 footer-4">
                     <h3 class="fw-semibold">Contact</h3>
-                    <p>Mon - Fri:10am - 6pm</p>
-                    <a href="tel:+60380890777">+603 8089 0777</a>
+                    <p>Mon - Fri: 9.30am - 6.30pm</p>
+                    <a href="tel:+60380809777">+603 8080 9777</a>
                     <p>Lot No. 11F-2, 11th Floor, Tower 4 @ PFCC, Jalan Puteri 1/2, Bandar Puteri Puchong, 47100 Puchong, Selangor</p>
                     <div class="socialmedia d-flex gap-5 mt-4">
                         <a href="https://www.facebook.com/fintosventuregroup"><img src="./assets/images/fb-icon.png" alt="facebook" /></a>
-                        <a href="https://my.linkedin.com/company/fintos-venture-group"><img src="./assets/images/li-icon.png" alt="linkedin" /></a>
-                        <!--<!--<a href="#"><img src="./assets/images/tik-icon.png" alt="tiktok" /></a>-->-->
+                        <a href="https://www.linkedin.com/company/fintos-venture-group-official"><img src="./assets/images/li-icon.png" alt="linkedin" /></a>
+                        <!--<a href="#"><img src="./assets/images/tik-icon.png" alt="tiktok" /></a>-->
                     </div>
                 </div>
             </div>
@@ -882,7 +871,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="ratio ratio-16x9">
-                        <iframe src="https://www.youtube.com/embed/2l8CI32ADL4?si=EE8SGVQ8qjgUOFIW" allowfullscreen></iframe>
+                        <iframe src="./assets/videos/Fintos App Introduction.mp4" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
