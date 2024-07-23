@@ -161,31 +161,6 @@ jQuery(function ($) {
     });
   });
 
-  $(document).on("click", "#property-income-eligibility, .open-modal[data-modal='property-income']", function (e) {
-    e.preventDefault();
-    $.get("form-property-income-eligibility.ajax.html", function (data) {
-        $("html, body").addClass("overflow-hidden")
-        $("body").append(data);
-      
-      let formStep = $(".fintosform.step")
-      // console.log(formStep.length)
-      formStep.hide();
-      formStep.eq(0).show()
-    });
-  });
-
-  $(document).on("click", "#mortgage-loan-eligibility, .open-modal[data-modal='mortgage-loan']", function (e) {
-    e.preventDefault();
-    $.get("form-mortgage-loan-eligibility.ajax.html", function (data) {
-        $("html, body").addClass("overflow-hidden")
-        $("body").append(data);
-      
-      let formStep = $(".fintosform.step")
-      // console.log(formStep.length)
-      formStep.hide();
-      formStep.eq(0).show()
-    });
-  });
 
   $(document).on("click", "#get-loan-eligibility-instantly, .open-modal[data-modal='prescreening']", function (e) {
     e.preventDefault();
