@@ -79,9 +79,8 @@
                               Product
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="calculator-home-loan-iframe.html">Housing Loan</a></li>
-                                <li><a class="dropdown-item" href="calculator-mortgage-loan-iframe.html">Mortgage Loan</a></li>
-                                <li><a class="dropdown-item" href="calculator-mortgage-refinance-iframe.html">Mortgage Refinance</a></li>
+                              <li><a data-bs-toggle="modal" data-bs-target="#form-property-income" class="open-modal dropdown-item" href="#">Housing Loan</a></li>
+                              <li><a data-bs-toggle="modal" data-bs-target="#form-mortgage-refinance" class="open-modal dropdown-item" href="#">Mortgage Refinance</a></li>
                             </ul>
                           </li>
                           <li class="nav-item">
@@ -364,7 +363,7 @@
                     <div class="sectionheading h-100 d-flex flex-column align-items-start">
                         <h2 class="heading">Be part of Fintosian</h2>
                         <p>Join our team and transform the world of finance</p>
-                        <a href="#" data-modal='prescreening' class="open-modal btn btn-primary btn-lg fw-semibold">Let’s innovate together!</a>
+                        <a href="https://forms.gle/zxRbjs2p1iXTQivn8" target="_blank" class="open-modal btn btn-primary btn-lg fw-semibold">Let’s innovate together!</a>
                     </div>
                 </div>
             </div>
@@ -377,9 +376,8 @@
                 <div class="col-md-3 footer-1">
                     <h3 class="fw-semibold">Products</h3>
                     <ul class="list-unstyled d-flex flex-column">
-                        <li><a href="calculator-home-loan-iframe.html">Housing Loan</a></li>
-                        <li><a href="calculator-mortgage-loan-iframe.html">Mortgage Loan</a></li>
-                        <li><a href="calculator-mortgage-refinance-iframe.html">Mortgage Refinance</a></li>
+                         <li><a data-bs-toggle="modal" data-bs-target="#form-property-income" class="open-modal" href="#">Housing Loan</a></li>
+                         <li><a data-bs-toggle="modal" data-bs-target="#form-mortgage-refinance" class="open-modal" href="#">Mortgage Refinance</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3 footer-2">
@@ -451,6 +449,33 @@
                 </div>
            </div>
         </div>
-       <!--[end: modal player]-->
+       <!--[start:modal player]-->
+    <div class="modal fade" id="form-property-income" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://sub.fintos.com.my/calculator/property_income"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--[end: modal player]-->
+
+    <!--[start:modal player]-->
+    <div class="modal fade" id="form-mortgage-refinance" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://sub.fintos.com.my/calculator/mortgage_refinance"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
   </body>
 </html>

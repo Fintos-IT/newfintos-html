@@ -79,9 +79,9 @@
                               Product
                             </a>
                             <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Housing Loan (Coming Soon)</a></li>
+                              <li><a data-bs-toggle="modal" data-bs-target="#form-property-income" class="open-modal dropdown-item" href="#">Housing Loan</a></li>
                               <li><a class="dropdown-item" href="#">Personal Loan (Coming Soon)</a></li>
-                              <li><a class="dropdown-item" href="#">Mortgage Refinance (Coming Soon)</a></li>
+                              <li><a data-bs-toggle="modal" data-bs-target="#form-mortgage-refinance" class="open-modal dropdown-item" href="#">Mortgage Refinance</a></li>
                             </ul>
                           </li>
                           <li class="nav-item">
@@ -199,7 +199,6 @@
                     <h3 class="fw-semibold">Products</h3>
                     <ul class="list-unstyled d-flex flex-column">
                          <li><a onclick="alert('Coming Soon')" href="#">Housing Loan (Coming Soon)</a></li>
-                         <li><a onclick="alert('Coming Soon')" href="#">Personal Loan (Coming Soon)</a></li>
                         <li><a onclick="alert('Coming Soon')" href="#">Mortgage Loan (Coming Soon)</a></li>
                     </ul>
                 </div>
@@ -273,6 +272,33 @@
             </div>
        </div>
     </div>
-   <!--[end: modal player]-->
+   <!--[start:modal player]-->
+    <div class="modal fade" id="form-property-income" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://sub.fintos.com.my/calculator/property_income"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--[end: modal player]-->
+
+    <!--[start:modal player]-->
+    <div class="modal fade" id="form-mortgage-refinance" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://sub.fintos.com.my/calculator/mortgage_refinance"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
   </body>
 </html>
