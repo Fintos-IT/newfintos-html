@@ -2229,6 +2229,16 @@ body {
   }
 }
 
+/* Privacy Policy */
+.privacy-policy-container ul li{
+  margin-left: 2rem;
+}
+
+.privacy-policy-container ul li a{
+  text-decoration: none;
+  color: inherit;
+}
+
 /*--- Advice Page ----*/
 @media (max-width: 767px) {
   .hero-advice .thumb-first img {
