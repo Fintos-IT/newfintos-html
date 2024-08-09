@@ -3,7 +3,7 @@ name: SSH Deploy
 on:
   push:
     branches:
-      - main
+      - jerome/feat-fintos-website-cms
 
 jobs:
   ssh-deploy:
