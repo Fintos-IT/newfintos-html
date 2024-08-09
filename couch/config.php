@@ -39,13 +39,13 @@
     // MySQL settings. You need to get this info from your web host.
     // 4.
     // Name of the database
-    define( 'K_DB_NAME', 'fintos_couch_cms' );
+    define( 'K_DB_NAME', 'fintos_website' );
     // 5.
     // Database username
-    define( 'K_DB_USER', 'root' );
+    define( 'K_DB_USER', 'application' );
     // 6.
     // Database password
-    define( 'K_DB_PASSWORD', '' );
+    define( 'K_DB_PASSWORD', 'Qw3rty#K3yboard12345' );
     // 7.
     // MySQL hostname (it will usually be 'localhost')
     define( 'K_DB_HOST', 'localhost' );

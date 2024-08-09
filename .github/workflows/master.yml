@@ -1,0 +1,25 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ jerome/feat-fintos-website-cms ]
+
+jobs:
+  Deploy:
+    name: Deploy to EC2 - Live
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2 
+      - name: Build & Deploy
+        env:
+            PRIVATE_KEY: ${{ secrets.BACKOFFICE_SSH_PRIVATE_KEY }}
+            HOSTNAME: ${{vars.BACKOFFICE_IP}}
+            USER_NAME: root
+
+        run: |
+          echo "$PRIVATE_KEY" > private_key && chmod 600 private_key
+          ssh -o StrictHostKeyChecking=no -i private_key ${USER_NAME}@${HOSTNAME} '
+              # Now we have got the access of EC2 and we will start the deploy .
+              sh deploy-live.sh
+              '
