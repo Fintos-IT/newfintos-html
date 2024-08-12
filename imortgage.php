@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>iMortgage</title>
-    <link rel="icon" type="image/svg+xml" href="./assets/images/imortgage2u-favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://fintos.com.my/newfintos_cms/assets/images/imortgage2u-favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
@@ -19,7 +19,7 @@
                 <div class="row">
                     <nav class="navbar navbar-dark navbar-expand-lg">
                         <div class="container-fluid justify-content-between">
-                            <a class="navbar-brand" href="/"><img src="./assets/images/logo-im2.png" alt="app" class="img-fluid"  /></a>
+                            <a class="navbar-brand" href="/"><img src="https://fintos.com.my/newfintos_cms/assets/images/logo-im2.png" alt="app" class="img-fluid"  /></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
@@ -60,8 +60,8 @@
                 <div class="col-md-12 mt-5">
                     <div class="videowrap videowrap--large position-relative">
                         <div class="bg-shadow-blue"></div>
-                        <a href="#" class="btn-play z-3" data-bs-toggle="modal" data-bs-target="#videoplayer"><img src="./assets/images/icon-play-gray.png" alt="video" /></a>
-                        <img src="./assets/images/videoplayer-im2.png" class="img-fluid position-relative z-2" alt="video" />
+                        <a href="#" class="btn-play z-3" data-bs-toggle="modal" data-bs-target="#videoplayer"><img src="https://fintos.com.my/newfintos_cms/assets/images/icon-play-gray.png" alt="video" /></a>
+                        <img src="https://fintos.com.my/newfintos_cms/assets/images/videoplayer-im2.png" class="img-fluid position-relative z-2" alt="video" />
                     </div>
                 </div>
             </div>
@@ -74,17 +74,17 @@
                     <div class="pt-2 brand-slide">
                         <div class="col-md-12 overflow-hidden">
                             <ul class="d-flex flex-row list-unstyled gap-5 logo-container">
-                                <li><img src="./assets/images/brandpartner/fwdinsurance-brand.png" alt="bureau" class="img-fluid"/></li>
-                                <li><img src="./assets/images/brandpartner/creditbureau-brand.png" alt="bureau" class="img-fluid"/></li>
-                                <li><img src="./assets/images/brandpartner/kohata-brand.png" alt="bureau" class="img-fluid"/></li>
-                                <li><img src="./assets/images/brandpartner/hck-brand.png" alt="bureau" class="img-fluid"/></li>
-                                <li><img src="./assets/images/brandpartner/portalmyazzahra-brand.png" alt="bureau" class="img-fluid"  /></li>
-                                <li><img src="./assets/images/brandpartner/landgeneralberhad-brand.png" alt="bureau" class="img-fluid"  /></li>
-                                <li><img src="./assets/images/brandpartner/oneworld-brand.png" alt="bureau" class="img-fluid"  /></li>
-                                <li><img src="./assets/images/brandpartner/nctgroup-brand.png" alt="bureau" class="img-fluid"  /></li>
-                                <li><img src="./assets/images/brandpartner/malaysaprotech-brand.png" alt="bureau" class="img-fluid"  /></li>
-                                <li><img src="./assets/images/brandpartner/ctos-brand.png" alt="bureau" class="img-fluid"/></li>
-                                <li><img src="./assets/images/brandpartner/pkns-brand.png" alt="bureau" class="img-fluid"  /></li>
+                                <li><img src="https://fintos.com.my/newfintos_cms/assets/images/brandpartner/fwdinsurance-brand.png" alt="bureau" class="img-fluid"/></li>
+                                <li><img src="https://fintos.com.my/newfintos_cms/assets/images/brandpartner/creditbureau-brand.png" alt="bureau" class="img-fluid"/></li>
+                                <li><img src="https://fintos.com.my/newfintos_cms/assets/images/brandpartner/kohata-brand.png" alt="bureau" class="img-fluid"/></li>
+                                <li><img src="https://fintos.com.my/newfintos_cms/assets/images/brandpartner/hck-brand.png" alt="bureau" class="img-fluid"/></li>
+                                <li><img src="https://fintos.com.my/newfintos_cms/assets/images/brandpartner/portalmyazzahra-brand.png" alt="bureau" class="img-fluid"  /></li>
+                                <li><img src="https://fintos.com.my/newfintos_cms/assets/images/brandpartner/landgeneralberhad-brand.png" alt="bureau" class="img-fluid"  /></li>
+                                <li><img src="https://fintos.com.my/newfintos_cms/assets/images/brandpartner/oneworld-brand.png" alt="bureau" class="img-fluid"  /></li>
+                                <li><img src="https://fintos.com.my/newfintos_cms/assets/images/brandpartner/nctgroup-brand.png" alt="bureau" class="img-fluid"  /></li>
+                                <li><img src="https://fintos.com.my/newfintos_cms/assets/images/brandpartner/malaysaprotech-brand.png" alt="bureau" class="img-fluid"  /></li>
+                                <li><img src="https://fintos.com.my/newfintos_cms/assets/images/brandpartner/ctos-brand.png" alt="bureau" class="img-fluid"/></li>
+                                <li><img src="https://fintos.com.my/newfintos_cms/assets/images/brandpartner/pkns-brand.png" alt="bureau" class="img-fluid"  /></li>
                             </ul>
                         </div>
                     </div>
@@ -115,27 +115,27 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="thumb-first" data-aos="zoom-in">
-                            <img src="./assets/images/thumb-imortgage-1.png" alt="app" class="img-fluid"  />
+                            <img src="https://fintos.com.my/newfintos_cms/assets/images/thumb-imortgage-1.png" alt="app" class="img-fluid"  />
                         </div>
                     </div>
                     <div class="col-lg-5 text-end pt-5">
                         <div class="thumb-second" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="./assets/images/thumb-imortgage-2.png" alt="app" class="img-fluid pe-4"  />
+                            <img src="https://fintos.com.my/newfintos_cms/assets/images/thumb-imortgage-2.png" alt="app" class="img-fluid pe-4"  />
                         </div>
                     </div>
                     <div class="col-lg-3 text-end">
                         <div class="thumb-third" data-aos="zoom-in" data-aos-delay="400">
-                            <img src="./assets/images/thumb-imortgage-3.png" alt="app" class="img-fluid"  />
+                            <img src="https://fintos.com.my/newfintos_cms/assets/images/thumb-imortgage-3.png" alt="app" class="img-fluid"  />
                         </div>
                     </div>
                     <div class="col-lg-4 mt-5">
                         <div class="thumb-four" data-aos="zoom-in" data-aos-delay="600">
-                            <img src="./assets/images/thumb-imortgage-4.png" alt="app" class="img-fluid"  />
+                            <img src="https://fintos.com.my/newfintos_cms/assets/images/thumb-imortgage-4.png" alt="app" class="img-fluid"  />
                         </div>
                     </div>
                     <div class="col-lg-5 mt-0 mt-lg-5 pt-5 offset-lg-3 text-end">
                         <div class="thumb-five" data-aos="zoom-in" data-aos-delay="800">
-                            <img src="./assets/images/thumb-imortgage-5.png" alt="app" class="img-fluid"  />
+                            <img src="https://fintos.com.my/newfintos_cms/assets/images/thumb-imortgage-5.png" alt="app" class="img-fluid"  />
                         </div>
                     </div>
                 </div>    
@@ -145,11 +145,11 @@
                     <div class="col-12 col-lg-9 pt-1 m-auto">
                         <h2 class="heading mt-5 mb-4 pt-4">Perfect solution for</h2>
                         <ul class="d-flex gap-4 flex-wrap justify-content-center list-block mb-0 p-0">
-                            <li class="d-flex flex-row gap-1 align-items-center justify-content-center"><img src="./assets/images/check-circle-blue.png" alt="check" class="pe-2" />Real estate developers</li>
-                            <li class="d-flex flex-row gap-1 align-items-center justify-content-center"><img src="./assets/images/check-circle-blue.png" alt="check" class="pe-2" />Real estate agencies</li>
-                            <li class="d-flex flex-row gap-1 align-items-center justify-content-center"><img src="./assets/images/check-circle-blue.png" alt="check" class="pe-2" />Insurance Agencies</li>
-                            <li class="d-flex flex-row gap-1 align-items-center justify-content-center"><img src="./assets/images/check-circle-blue.png" alt="check" class="pe-2" />Mortgage Advisors</li>
-                            <li class="d-flex flex-row gap-1 align-items-center justify-content-center"><img src="./assets/images/check-circle-blue.png" alt="check" class="pe-2" />Financial Institutions</li>
+                            <li class="d-flex flex-row gap-1 align-items-center justify-content-center"><img src="https://fintos.com.my/newfintos_cms/assets/images/check-circle-blue.png" alt="check" class="pe-2" />Real estate developers</li>
+                            <li class="d-flex flex-row gap-1 align-items-center justify-content-center"><img src="https://fintos.com.my/newfintos_cms/assets/images/check-circle-blue.png" alt="check" class="pe-2" />Real estate agencies</li>
+                            <li class="d-flex flex-row gap-1 align-items-center justify-content-center"><img src="https://fintos.com.my/newfintos_cms/assets/images/check-circle-blue.png" alt="check" class="pe-2" />Insurance Agencies</li>
+                            <li class="d-flex flex-row gap-1 align-items-center justify-content-center"><img src="https://fintos.com.my/newfintos_cms/assets/images/check-circle-blue.png" alt="check" class="pe-2" />Mortgage Advisors</li>
+                            <li class="d-flex flex-row gap-1 align-items-center justify-content-center"><img src="https://fintos.com.my/newfintos_cms/assets/images/check-circle-blue.png" alt="check" class="pe-2" />Financial Institutions</li>
                         </ul>
                     </div>
                 </div>
@@ -173,7 +173,7 @@
                                                 Is the subscription fee on a monthly or annual basis?
                                             </div>
                                             <div class="col-2 text-end">
-                                                <img class="icon-caret" src="./assets/images/caret-down.png" />
+                                                <img class="icon-caret" src="https://fintos.com.my/newfintos_cms/assets/images/caret-down.png" />
                                             </div>
                                         </div>
                                     </button>
@@ -192,7 +192,7 @@
                                             How long is the subscription period?
                                         </div>
                                         <div class="col-2 text-end">
-                                            <img class="icon-caret" src="./assets/images/caret-down.png" />
+                                            <img class="icon-caret" src="https://fintos.com.my/newfintos_cms/assets/images/caret-down.png" />
                                         </div>
                                     </div>
                                 </button>
@@ -211,7 +211,7 @@
                                             What happens if subscribers fail to renew their subscriptions?
                                         </div>
                                         <div class="col-2 text-end">
-                                            <img class="icon-caret" src="./assets/images/caret-down.png" />
+                                            <img class="icon-caret" src="https://fintos.com.my/newfintos_cms/assets/images/caret-down.png" />
                                         </div>
                                     </div>
                                 </button>
@@ -230,7 +230,7 @@
                                             Can subscribers upgrade their plan after subscribing?
                                         </div>
                                         <div class="col-2 text-end">
-                                            <img class="icon-caret" src="./assets/images/caret-down.png" />
+                                            <img class="icon-caret" src="https://fintos.com.my/newfintos_cms/assets/images/caret-down.png" />
                                         </div>
                                     </div>
                                 </button>
@@ -249,7 +249,7 @@
                                             Is the iMortgage2u system safe and secure for use?
                                         </div>
                                         <div class="col-2 text-end">
-                                            <img class="icon-caret" src="./assets/images/caret-down.png" />
+                                            <img class="icon-caret" src="https://fintos.com.my/newfintos_cms/assets/images/caret-down.png" />
                                         </div>
                                     </div>
                                 </button>
@@ -292,7 +292,7 @@
                     <div class="row pt-5 align-items-center text-center">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-7 p-lg-0 col-left">
                             <div class="navbrand">
-                                <a href="/"><img src="./assets/images/logo-im2.png" alt="app" class="img-fluid"  /></a>
+                                <a href="/"><img src="https://fintos.com.my/newfintos_cms/assets/images/logo-im2.png" alt="app" class="img-fluid"  /></a>
                                 <ul class="list-unstyled d-flex flex-column flex-lg-row justify-content-center mb-0 gap-lg-5">
                                     <li><a href="#">Terms & Conditions</a></li>
                                     <li><a href="privacy-policy.php">Privacy Policy</a></li>
