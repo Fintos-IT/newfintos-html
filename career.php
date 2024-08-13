@@ -239,7 +239,7 @@
                                                     <li>Full time</li>
                                                 </ul>
                                             </div> 
-                                            <a href="career-detail-group-financial-controller.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                            <a href="career-detail-gfc.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -254,7 +254,7 @@
                                                     <li>Internship</li>
                                                 </ul>
                                             </div> 
-                                            <a href="career-detail-intern-business-it.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                            <a href="ibi" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -269,7 +269,7 @@
                                                     <li>Full time</li>
                                                 </ul>
                                             </div> 
-                                            <a href="career-detail-group-operations-manager.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                            <a href="career-detail-gom.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -284,7 +284,7 @@
                                                     <li>Full time</li>
                                                 </ul>
                                             </div> 
-                                            <a href="career-detail-group-legal-and-compliance-manager.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                            <a href="career-detail-glacm.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -299,7 +299,7 @@
                                                     <li>Full time</li>
                                                 </ul>
                                             </div> 
-                                            <a href="career-detail-business-development-executive.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                            <a href="career-detail-bde.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -314,7 +314,7 @@
                                                     <li>Full time</li>
                                                 </ul>
                                             </div> 
-                                            <a href="career-detail-sales-admin-executive.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                            <a href="career-detail-sae.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -329,7 +329,7 @@
                                                     <li>Full time</li>
                                                 </ul>
                                             </div> 
-                                            <a href="career-detail-mortgage-specialist.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                            <a href="career-detail-ms.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -348,7 +348,7 @@
                                                         <li>Full time</li>
                                                     </ul>
                                                 </div> 
-                                                <a href="career-detail-group-financial-controller.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                                <a href="career-detail-gfc.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -363,7 +363,7 @@
                                                         <li>Full time</li>
                                                     </ul>
                                                 </div> 
-                                                <a href="career-detail-mortgage-specialist.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                                <a href="career-detail-ms.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -382,7 +382,7 @@
                                                         <li>Full time</li>
                                                     </ul>
                                                 </div> 
-                                                <a href="career-detail-group-operations-manager.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                                <a href="career-detail-gom.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -397,7 +397,7 @@
                                                         <li>Full time</li>
                                                     </ul>
                                                 </div> 
-                                                <a href="career-detail-business-development-executive.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                                <a href="career-detail-bde.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -412,7 +412,7 @@
                                                         <li>Full time</li>
                                                     </ul>
                                                 </div> 
-                                                <a href="career-detail-sales-admin-executive.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                                <a href="career-detail-sae.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -431,7 +431,7 @@
                                                         <li>Internship</li>
                                                     </ul>
                                                 </div> 
-                                                <a href="career-detail-intern-business-it.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                                <a href="career-detail-ibit.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -450,7 +450,7 @@
                                                         <li>Full time</li>
                                                     </ul>
                                                 </div> 
-                                                <a href="career-detail-business-development-executive.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                                <a href="career-detail-bde.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -465,7 +465,7 @@
                                                         <li>Full time</li>
                                                     </ul>
                                                 </div> 
-                                                <a href="career-detail-sales-admin-executive.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                                <a href="career-detail-sae.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
                                             </div>
                                         </div>
                                     </div>
