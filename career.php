@@ -254,7 +254,7 @@
                                                     <li>Internship</li>
                                                 </ul>
                                             </div> 
-                                            <a href="ibi" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                            <a href="career-detail-ibit.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
                                         </div>
                                     </div>
                                 </div>
