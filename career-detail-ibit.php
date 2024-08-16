@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Career</title>
-    <link rel="icon" type="image/svg+xml" href="https://fintos.com.my/newfintos_cms/assets/images/fintos-favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://fintos.com.my/assets/images/fintos-favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
@@ -19,7 +19,7 @@
                 <div class="row">
                     <nav class="navbar navbar-expand-lg">
                         <div class="container-fluid justify-content-between">
-                        <a class="navbar-brand" href="index.php"><img src="https://fintos.com.my/newfintos_cms/assets/images/fintos-logo-dark.png" alt="app" class="img-fluid"  /></a>
+                        <a class="navbar-brand" href="index.php"><img src="https://fintos.com.my/assets/images/fintos-logo-dark.png" alt="app" class="img-fluid"  /></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -35,12 +35,12 @@
                                                 <a href="fintos-advice.php" class="fw-semibold">
                                                 <div class="card card--nav border-0">
                                                     <div class="card-head mb-3">
-                                                        <img src="https://fintos.com.my/newfintos_cms/assets/images/fintos-advice-logo-nav.svg" alt="fintos advice" class="img-fluid"  />
+                                                        <img src="https://fintos.com.my/assets/images/fintos-advice-logo-nav.svg" alt="fintos advice" class="img-fluid"  />
                                                         <p class="my-2">Make smart choices with your finances</p>
-                                                        <div class="more fw-semibold">Learn More <img src="https://fintos.com.my/newfintos_cms/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
+                                                        <div class="more fw-semibold">Learn More <img src="https://fintos.com.my/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
                                                     </div>
                                                     <div class="card-body bgred">
-                                                        <img src="https://fintos.com.my/newfintos_cms/assets/images/thumb-fintosadvice-hero.png" alt="fintos advice" class="img-fluid"  />
+                                                        <img src="https://fintos.com.my/assets/images/thumb-fintosadvice-hero.png" alt="fintos advice" class="img-fluid"  />
                                                     </div>
                                                 </div>
                                             </a>
@@ -49,12 +49,12 @@
                                                 <a href="fintos-capital.php" class="fw-semibold">
                                                     <div class="card card--nav border-0">
                                                         <div class="card-head mb-3">
-                                                            <img src="https://fintos.com.my/newfintos_cms/assets/images/fintos-finance-logo-nav.svg" alt="Fintos Capital" class="img-fluid"  />
+                                                            <img src="https://fintos.com.my/assets/images/fintos-finance-logo-nav.svg" alt="Fintos Capital" class="img-fluid"  />
                                                             <p class="my-2">Regain own financial independence</p>
-                                                            <div class="more fw-semibold">Learn more<img src="https://fintos.com.my/newfintos_cms/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
+                                                            <div class="more fw-semibold">Learn more<img src="https://fintos.com.my/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
                                                         </div>
                                                         <div class="card-body bggreen">
-                                                            <img src="https://fintos.com.my/newfintos_cms/assets/images/thumb-fintosfinance-hero.png" alt="fintos advice" class="img-fluid"  />
+                                                            <img src="https://fintos.com.my/assets/images/thumb-fintosfinance-hero.png" alt="fintos advice" class="img-fluid"  />
                                                         </div>
                                                     </div>
                                                 </a>
@@ -63,12 +63,12 @@
                                                 <a href="fintos-tech-a.php" class="fw-semibold">
                                                     <div class="card card--nav border-0">
                                                         <div class="card-head mb-3">
-                                                            <img src="https://fintos.com.my/newfintos_cms/assets/images/fintos-tech-logo-nav.svg" alt="fintos tech" class="img-fluid"  />
+                                                            <img src="https://fintos.com.my/assets/images/fintos-tech-logo-nav.svg" alt="fintos tech" class="img-fluid"  />
                                                             <p class="my-2">Make smart choices with your finances</p>
-                                                            <div class="more fw-semibold">Learn More <img src="https://fintos.com.my/newfintos_cms/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
+                                                            <div class="more fw-semibold">Learn More <img src="https://fintos.com.my/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
                                                         </div>
                                                         <div class="card-body bgyellow">
-                                                            <img src="https://fintos.com.my/newfintos_cms/assets/images/thumb-fintos-tech2.png" alt="fintos advice" class="img-fluid"  />
+                                                            <img src="https://fintos.com.my/assets/images/thumb-fintos-tech2.png" alt="fintos advice" class="img-fluid"  />
                                                         </div>
                                                     </div>
                                                 </a>    
@@ -104,7 +104,7 @@
                 <div class="col-lg-8 pe-4">
                     <div class="entry-content me-sm-0 me-lg-5 pe-sm-0">
                         <div class="back-career">
-                            <img src="https://fintos.com.my/newfintos_cms/assets/images/arrow-left.png" alt="app" class="img-fluid me-1" />
+                            <img src="https://fintos.com.my/assets/images/arrow-left.png" alt="app" class="img-fluid me-1" />
                             <a href="career.php">Back</a>
                         </div>
                         <h2 class="heading-single fw-semibold mt-4 pt-2 mb-4 pb-3">Intern - Business IT</h2>
@@ -216,9 +216,9 @@
                         <a href="tel:+60380809777">+603 8080 9777</a>
                         <p>Lot No. 11F-2, 11th Floor, Tower 4 @ PFCC, Jalan Puteri 1/2, Bandar Puteri Puchong, 47100 Puchong, Selangor</p>
                         <div class="socialmedia d-flex gap-5 mt-4">
-                            <a href="https://www.facebook.com/fintosventuregroup"><img src="https://fintos.com.my/newfintos_cms/assets/images/fb-icon.png" alt="facebook" /></a>
-                            <a href="https://www.linkedin.com/company/fintos-venture-group-official"><img src="https://fintos.com.my/newfintos_cms/assets/images/li-icon.png" alt="linkedin" /></a>
-                            <!--<a href="#"><img src="https://fintos.com.my/newfintos_cms/assets/images/tik-icon.png" alt="tiktok" /></a>-->
+                            <a href="https://www.facebook.com/fintosventuregroup"><img src="https://fintos.com.my/assets/images/fb-icon.png" alt="facebook" /></a>
+                            <a href="https://www.linkedin.com/company/fintos-venture-group-official"><img src="https://fintos.com.my/assets/images/li-icon.png" alt="linkedin" /></a>
+                            <!--<a href="#"><img src="https://fintos.com.my/assets/images/tik-icon.png" alt="tiktok" /></a>-->
                         </div>
                     </div>
                 </div>
@@ -226,7 +226,7 @@
             <div class="copyright pt-5 pb-5">
                 <div class="container">
                     <div class="row pt-3 text-center align-items-start">
-                        <a href="#" class="py-4"><img src="https://fintos.com.my/newfintos_cms/assets/images/fintos-logo-dark.png" alt="fintos"  /></a>
+                        <a href="#" class="py-4"><img src="https://fintos.com.my/assets/images/fintos-logo-dark.png" alt="fintos"  /></a>
                         <p>Fintos Venture Group (202001010295 (1366615-P)) © 2024 - All rights reserved</p>
                         <ul class="list-unstyled d-flex flex-row justify-content-center gap-5">
                             <li><a href="#">Terms & Conditions</a></li>
@@ -234,9 +234,9 @@
                             <li><a href="#">Cookies</a></li>
                         </ul>
                         <div class="justify-content-center mobile-sosmed d-flex gap-5 mt-4">
-                            <a href="https://www.facebook.com/fintosventuregroup"><img src="https://fintos.com.my/newfintos_cms/assets/images/fb-icon.png" alt="facebook" /></a>
-                            <a href="https://my.linkedin.com/company/fintos-venture-group"><img src="https://fintos.com.my/newfintos_cms/assets/images/li-icon.png" alt="linkedin" /></a>
-                            <!--<a href="#"><img src="https://fintos.com.my/newfintos_cms/assets/images/tik-icon.png" alt="tiktok" /></a>-->
+                            <a href="https://www.facebook.com/fintosventuregroup"><img src="https://fintos.com.my/assets/images/fb-icon.png" alt="facebook" /></a>
+                            <a href="https://my.linkedin.com/company/fintos-venture-group"><img src="https://fintos.com.my/assets/images/li-icon.png" alt="linkedin" /></a>
+                            <!--<a href="#"><img src="https://fintos.com.my/assets/images/tik-icon.png" alt="tiktok" /></a>-->
                         </div>
                     </div>
                 </div>

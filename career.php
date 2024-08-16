@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Career</title>
-    <link rel="icon" type="image/svg+xml" href="https://fintos.com.my/newfintos_cms/assets/images/fintos-favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://fintos.com.my/assets/images/fintos-favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
@@ -19,7 +19,7 @@
                 <div class="row">
                     <nav class="navbar navbar-expand-lg">
                         <div class="container-fluid justify-content-between">
-                        <a class="navbar-brand" href="index.php"><img src="https://fintos.com.my/newfintos_cms/assets/images/fintoslogo-highres.png" alt="app" class="img-fluid"  /></a>
+                        <a class="navbar-brand" href="index.php"><img src="https://fintos.com.my/assets/images/fintoslogo-highres.png" alt="app" class="img-fluid"  /></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -35,12 +35,12 @@
                                                 <a href="fintos-advice.php" class="fw-semibold">
                                                 <div class="card card--nav border-0">
                                                     <div class="card-head mb-3">
-                                                        <img src="https://fintos.com.my/newfintos_cms/assets/images/FINTOSAdvice-logo-1.png" class="brandthumb" alt="fintos advice" class="img-fluid"  />
+                                                        <img src="https://fintos.com.my/assets/images/FINTOSAdvice-logo-1.png" class="brandthumb" alt="fintos advice" class="img-fluid"  />
                                                         <p class="my-2">Make smart choices with <br/>your finances</p>
-                                                        <div class="more fw-semibold">Learn More <img src="https://fintos.com.my/newfintos_cms/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
+                                                        <div class="more fw-semibold">Learn More <img src="https://fintos.com.my/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
                                                     </div>
                                                     <div class="card-body bgred">
-                                                        <img src="https://fintos.com.my/newfintos_cms/assets/images/thumb-fintosadvice-hero.png" alt="fintos advice" class="img-fluid"  />
+                                                        <img src="https://fintos.com.my/assets/images/thumb-fintosadvice-hero.png" alt="fintos advice" class="img-fluid"  />
                                                     </div>
                                                 </div>
                                             </a>
@@ -49,12 +49,12 @@
                                                 <a href="fintos-capital.php" class="fw-semibold">
                                                     <div class="card card--nav border-0">
                                                         <div class="card-head mb-3">
-                                                            <img src="https://fintos.com.my/newfintos_cms/assets/images/FINTOSCapital-logo-1.png" class="brandthumb" alt="Fintos Capital" class="img-fluid"  />
+                                                            <img src="https://fintos.com.my/assets/images/FINTOSCapital-logo-1.png" class="brandthumb" alt="Fintos Capital" class="img-fluid"  />
                                                             <p class="my-2">Regain own financial <br/>independence</p>
-                                                            <div class="more fw-semibold">Learn more<img src="https://fintos.com.my/newfintos_cms/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
+                                                            <div class="more fw-semibold">Learn more<img src="https://fintos.com.my/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
                                                         </div>
                                                         <div class="card-body bggreen">
-                                                            <img src="https://fintos.com.my/newfintos_cms/assets/images/thumb-fintosfinance-hero.png" alt="fintos advice" class="img-fluid"  />
+                                                            <img src="https://fintos.com.my/assets/images/thumb-fintosfinance-hero.png" alt="fintos advice" class="img-fluid"  />
                                                         </div>
                                                     </div>
                                                 </a>
@@ -63,12 +63,12 @@
                                                 <a href="fintos-tech-a.php" class="fw-semibold">
                                                     <div class="card card--nav border-0">
                                                         <div class="card-head mb-3">
-                                                            <img src="https://fintos.com.my/newfintos_cms/assets/images/FINTOSTech-logo-1.png" class="brandthumb" alt="fintos tech" class="img-fluid"  />
+                                                            <img src="https://fintos.com.my/assets/images/FINTOSTech-logo-1.png" class="brandthumb" alt="fintos tech" class="img-fluid"  />
                                                             <p class="my-2">Transform financial<br/>management</p>
-                                                            <div class="more fw-semibold">Learn More <img src="https://fintos.com.my/newfintos_cms/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
+                                                            <div class="more fw-semibold">Learn More <img src="https://fintos.com.my/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
                                                         </div>
                                                         <div class="card-body bgyellow">
-                                                            <img src="https://fintos.com.my/newfintos_cms/assets/images/thumb-fintos-tech2.png" alt="fintos advice" class="img-fluid"  />
+                                                            <img src="https://fintos.com.my/assets/images/thumb-fintos-tech2.png" alt="fintos advice" class="img-fluid"  />
                                                         </div>
                                                     </div>
                                                 </a>    
@@ -116,11 +116,11 @@
         <div class="img-section">
             <div class="container">
                 <div class="row mt-5 gallery-career">
-                    <div class="img-container mb-4 pb-2" data-aos="fade-up"><img src="https://fintos.com.my/newfintos_cms/assets/images/gallery-1.jpg" alt="thumbnail" class="img-fluid rounded-4"/></div>
-                    <div class="img-container mb-4 pb-2" data-aos="fade-up" data-aos-delay="200"><img src="https://fintos.com.my/newfintos_cms/assets/images/gallery-2.jpg" alt="thumbnail" class="img-fluid rounded-4"/></div>
-                    <div class="img-container mb-4 pb-2" data-aos="fade-up" data-aos-delay="400"><img src="https://fintos.com.my/newfintos_cms/assets/images/gallery-4.jpg" alt="thumbnail" class="img-fluid rounded-4"/></div>
-                    <div class="img-container mb-4 pb-2" data-aos="fade-up" data-aos-delay="600"><img src="https://fintos.com.my/newfintos_cms/assets/images/gallery-5.jpg" alt="thumbnail" class="img-fluid rounded-4"/></div>
-                    <!-- <div class="img-container mb-4 pb-2" data-aos="fade-up" data-aos-delay="800"><img src="https://fintos.com.my/newfintos_cms/assets/images/gallery-3.jpg" alt="thumbnail" class="img-fluid rounded-4"/></div> -->
+                    <div class="img-container mb-4 pb-2" data-aos="fade-up"><img src="https://fintos.com.my/assets/images/gallery-1.jpg" alt="thumbnail" class="img-fluid rounded-4"/></div>
+                    <div class="img-container mb-4 pb-2" data-aos="fade-up" data-aos-delay="200"><img src="https://fintos.com.my/assets/images/gallery-2.jpg" alt="thumbnail" class="img-fluid rounded-4"/></div>
+                    <div class="img-container mb-4 pb-2" data-aos="fade-up" data-aos-delay="400"><img src="https://fintos.com.my/assets/images/gallery-4.jpg" alt="thumbnail" class="img-fluid rounded-4"/></div>
+                    <div class="img-container mb-4 pb-2" data-aos="fade-up" data-aos-delay="600"><img src="https://fintos.com.my/assets/images/gallery-5.jpg" alt="thumbnail" class="img-fluid rounded-4"/></div>
+                    <!-- <div class="img-container mb-4 pb-2" data-aos="fade-up" data-aos-delay="800"><img src="https://fintos.com.my/assets/images/gallery-3.jpg" alt="thumbnail" class="img-fluid rounded-4"/></div> -->
                 </div>
             </div>
         </div>
@@ -141,7 +141,7 @@
                         <div class="col-md-6">
                             <div class="card border-0 bglightyellow rounded-4 mb-4">
                                 <div class="card-body d-flex flex-column justify-content-center p-4">
-                                    <div lass="icon-container" data-aos="fade-up"><img src="https://fintos.com.my/newfintos_cms/assets/images/calendar-day.png" alt="join us icon"/></div>
+                                    <div lass="icon-container" data-aos="fade-up"><img src="https://fintos.com.my/assets/images/calendar-day.png" alt="join us icon"/></div>
                                     <h5 class="card-title fw-semibold mt-3 mb-1">Plenty of Leave Days</h5>
                                     <p class="card-text">Provide more generous leave days. We have more than 4 other types of leave!</p>
                                 </div>
@@ -150,7 +150,7 @@
                         <div class="col-md-6">
                             <div class="card border-0 bglightyellow rounded-4 mb-4">
                                 <div class="card-body d-flex flex-column justify-content-center p-4">
-                                    <div lass="icon-container" data-aos="fade-up" data-aos-delay="200"><img src="https://fintos.com.my/newfintos_cms/assets/images/book-open-cover.png" alt="join us icon"/></div>
+                                    <div lass="icon-container" data-aos="fade-up" data-aos-delay="200"><img src="https://fintos.com.my/assets/images/book-open-cover.png" alt="join us icon"/></div>
                                     <h5 class="card-title fw-semibold mt-3 mb-1">Career Development</h5>
                                     <p class="card-text">Ongoing training and education opportunities to enhance career growth</p>
                                 </div>
@@ -161,7 +161,7 @@
                         <div class="col-md-6">
                             <div class="card border-0 bglightyellow rounded-4 mb-4">
                                 <div class="card-body d-flex flex-column justify-content-center p-4">
-                                    <div lass="icon-container" data-aos="fade-up" data-aos-delay="400"><img src="https://fintos.com.my/newfintos_cms/assets/images/suitcase-medical.png" alt="join us icon"/></div>
+                                    <div lass="icon-container" data-aos="fade-up" data-aos-delay="400"><img src="https://fintos.com.my/assets/images/suitcase-medical.png" alt="join us icon"/></div>
                                     <h5 class="card-title fw-semibold mt-3 mb-1">Health and Wellness</h5>
                                     <p class="card-text">Out-patient care and in-patient care are covered for all employee.</p>
                                 </div>
@@ -170,7 +170,7 @@
                         <div class="col-md-6">
                             <div class="card border-0 bglightyellow rounded-4 mb-4">
                                 <div class="card-body d-flex flex-column justify-content-center p-4">
-                                    <div lass="icon-container" data-aos="fade-up" data-aos-delay="600"><img src="https://fintos.com.my/newfintos_cms/assets/images/tags.png" alt="join us icon"/></div>
+                                    <div lass="icon-container" data-aos="fade-up" data-aos-delay="600"><img src="https://fintos.com.my/assets/images/tags.png" alt="join us icon"/></div>
                                     <h5 class="card-title fw-semibold mt-3 mb-1">Employee Discount</h5>
                                     <p class="card-text">Establishment of corporate benefits to offer exclusive discounts to each employee.</p>
                                 </div>
@@ -182,14 +182,14 @@
         </div>
         <div class="container thumbgallery-carreer">
             <div class="row my-5">
-                <div class="col-md-4"><img src="https://fintos.com.my/newfintos_cms/assets/images/career-img-1.jpg" alt="thumbnail" class="thumbimg img-fluid" /></div>
+                <div class="col-md-4"><img src="https://fintos.com.my/assets/images/career-img-1.jpg" alt="thumbnail" class="thumbimg img-fluid" /></div>
                 <div class="col-md-4">
                     <div class="videowrap position-relative">
-                        <a href="#" class="btn-play" data-bs-toggle="modal" data-bs-target="#videoplayer"><img src="https://fintos.com.my/newfintos_cms/assets/images/icon-play.png" alt="video" /></a>
-                        <img src="https://fintos.com.my/newfintos_cms/assets/images/career-img-2.jpg" alt="thumbnail" class="thumbimg img-fluid" />
+                        <a href="#" class="btn-play" data-bs-toggle="modal" data-bs-target="#videoplayer"><img src="https://fintos.com.my/assets/images/icon-play.png" alt="video" /></a>
+                        <img src="https://fintos.com.my/assets/images/career-img-2.jpg" alt="thumbnail" class="thumbimg img-fluid" />
                     </div>
                 </div>
-                <div class="col-md-4 "><img src="https://fintos.com.my/newfintos_cms/assets/images/career-img-3.jpg" alt="thumbnail" class="thumbimg img-fluid" /></div>
+                <div class="col-md-4 "><img src="https://fintos.com.my/assets/images/career-img-3.jpg" alt="thumbnail" class="thumbimg img-fluid" /></div>
             </div>
         </div>
         <div id="openposition" class="openposition pb-5 mb-5"><!--[start: openposition]-->
@@ -235,11 +235,11 @@
                                                 <h5 class="card-title text-start">Group Financial Controller</h5>
                                                 <ul class="list-unstyled d-flex flex-row gap-2 text-start">
                                                     <li>Finance</li>
-                                                    <img src="https://fintos.com.my/newfintos_cms/assets/images/bullets.svg" alt="bullets"/>
+                                                    <img src="https://fintos.com.my/assets/images/bullets.svg" alt="bullets"/>
                                                     <li>Full time</li>
                                                 </ul>
                                             </div> 
-                                            <a href="career-detail-gfc.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                            <a href="career-detail-gfc.php" class="p-0 text-end"><img src="https://fintos.com.my/assets/images/arrow.png" alt="view more" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -250,11 +250,11 @@
                                                 <h5 class="card-title text-start">Intern - Business IT                                            </h5>
                                                 <ul class="list-unstyled d-flex flex-row gap-2 text-start">
                                                     <li>Technology</li>
-                                                    <img src="https://fintos.com.my/newfintos_cms/assets/images/bullets.svg" alt="bullets"/>
+                                                    <img src="https://fintos.com.my/assets/images/bullets.svg" alt="bullets"/>
                                                     <li>Internship</li>
                                                 </ul>
                                             </div> 
-                                            <a href="career-detail-ibit.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                            <a href="career-detail-ibit.php" class="p-0 text-end"><img src="https://fintos.com.my/assets/images/arrow.png" alt="view more" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -265,11 +265,11 @@
                                                 <h5 class="card-title text-start">Group Operation Manager </h5>
                                                 <ul class="list-unstyled d-flex flex-row gap-2 text-start">
                                                     <li>Operations</li>
-                                                    <img src="https://fintos.com.my/newfintos_cms/assets/images/bullets.svg" alt="bullets"/>
+                                                    <img src="https://fintos.com.my/assets/images/bullets.svg" alt="bullets"/>
                                                     <li>Full time</li>
                                                 </ul>
                                             </div> 
-                                            <a href="career-detail-gom.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                            <a href="career-detail-gom.php" class="p-0 text-end"><img src="https://fintos.com.my/assets/images/arrow.png" alt="view more" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -280,11 +280,11 @@
                                                 <h5 class="card-title text-start">Group Legal & Compliance Manager</h5>
                                                 <ul class="list-unstyled d-flex flex-row gap-2 text-start">
                                                     <li>Legal</li>
-                                                    <img src="https://fintos.com.my/newfintos_cms/assets/images/bullets.svg" alt="bullets"/>
+                                                    <img src="https://fintos.com.my/assets/images/bullets.svg" alt="bullets"/>
                                                     <li>Full time</li>
                                                 </ul>
                                             </div> 
-                                            <a href="career-detail-glacm.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                            <a href="career-detail-glacm.php" class="p-0 text-end"><img src="https://fintos.com.my/assets/images/arrow.png" alt="view more" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -295,11 +295,11 @@
                                                 <h5 class="card-title text-start">Business Development Executive</h5>
                                                 <ul class="list-unstyled d-flex flex-row gap-2 text-start">
                                                     <li>Sales & Operations</li>
-                                                    <img src="https://fintos.com.my/newfintos_cms/assets/images/bullets.svg" alt="bullets"/>
+                                                    <img src="https://fintos.com.my/assets/images/bullets.svg" alt="bullets"/>
                                                     <li>Full time</li>
                                                 </ul>
                                             </div> 
-                                            <a href="career-detail-bde.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                            <a href="career-detail-bde.php" class="p-0 text-end"><img src="https://fintos.com.my/assets/images/arrow.png" alt="view more" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -310,11 +310,11 @@
                                                 <h5 class="card-title text-start">Sales Admin Executive</h5>
                                                 <ul class="list-unstyled d-flex flex-row gap-2 text-start">
                                                     <li>Sales & Operations</li>
-                                                    <img src="https://fintos.com.my/newfintos_cms/assets/images/bullets.svg" alt="bullets"/>
+                                                    <img src="https://fintos.com.my/assets/images/bullets.svg" alt="bullets"/>
                                                     <li>Full time</li>
                                                 </ul>
                                             </div> 
-                                            <a href="career-detail-sae.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                            <a href="career-detail-sae.php" class="p-0 text-end"><img src="https://fintos.com.my/assets/images/arrow.png" alt="view more" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -325,11 +325,11 @@
                                                 <h5 class="card-title text-start">Mortgage Specialist</h5>
                                                 <ul class="list-unstyled d-flex flex-row gap-2 text-start">
                                                     <li>Finance</li>
-                                                    <img src="https://fintos.com.my/newfintos_cms/assets/images/bullets.svg" alt="bullets"/>
+                                                    <img src="https://fintos.com.my/assets/images/bullets.svg" alt="bullets"/>
                                                     <li>Full time</li>
                                                 </ul>
                                             </div> 
-                                            <a href="career-detail-ms.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                            <a href="career-detail-ms.php" class="p-0 text-end"><img src="https://fintos.com.my/assets/images/arrow.png" alt="view more" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -344,11 +344,11 @@
                                                     <h5 class="card-title text-start">Group Financial Controller</h5>
                                                     <ul class="list-unstyled d-flex flex-row gap-2 text-start">
                                                         <li>Finance</li>
-                                                        <img src="https://fintos.com.my/newfintos_cms/assets/images/bullets.svg" alt="bullets"/>
+                                                        <img src="https://fintos.com.my/assets/images/bullets.svg" alt="bullets"/>
                                                         <li>Full time</li>
                                                     </ul>
                                                 </div> 
-                                                <a href="career-detail-gfc.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                                <a href="career-detail-gfc.php" class="p-0 text-end"><img src="https://fintos.com.my/assets/images/arrow.png" alt="view more" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -359,11 +359,11 @@
                                                     <h5 class="card-title text-start">Mortgage Specialist</h5>
                                                     <ul class="list-unstyled d-flex flex-row gap-2 text-start">
                                                         <li>Finance</li>
-                                                        <img src="https://fintos.com.my/newfintos_cms/assets/images/bullets.svg" alt="bullets"/>
+                                                        <img src="https://fintos.com.my/assets/images/bullets.svg" alt="bullets"/>
                                                         <li>Full time</li>
                                                     </ul>
                                                 </div> 
-                                                <a href="career-detail-ms.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                                <a href="career-detail-ms.php" class="p-0 text-end"><img src="https://fintos.com.my/assets/images/arrow.png" alt="view more" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -378,11 +378,11 @@
                                                     <h5 class="card-title text-start">Group Operation Manager </h5>
                                                     <ul class="list-unstyled d-flex flex-row gap-2 text-start">
                                                         <li>Operations</li>
-                                                        <img src="https://fintos.com.my/newfintos_cms/assets/images/bullets.svg" alt="bullets"/>
+                                                        <img src="https://fintos.com.my/assets/images/bullets.svg" alt="bullets"/>
                                                         <li>Full time</li>
                                                     </ul>
                                                 </div> 
-                                                <a href="career-detail-gom.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                                <a href="career-detail-gom.php" class="p-0 text-end"><img src="https://fintos.com.my/assets/images/arrow.png" alt="view more" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -393,11 +393,11 @@
                                                     <h5 class="card-title text-start">Business Development Executive</h5>
                                                     <ul class="list-unstyled d-flex flex-row gap-2 text-start">
                                                         <li>Sales & Operations</li>
-                                                        <img src="https://fintos.com.my/newfintos_cms/assets/images/bullets.svg" alt="bullets"/>
+                                                        <img src="https://fintos.com.my/assets/images/bullets.svg" alt="bullets"/>
                                                         <li>Full time</li>
                                                     </ul>
                                                 </div> 
-                                                <a href="career-detail-bde.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                                <a href="career-detail-bde.php" class="p-0 text-end"><img src="https://fintos.com.my/assets/images/arrow.png" alt="view more" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -408,11 +408,11 @@
                                                     <h5 class="card-title text-start">Sales Admin Executive</h5>
                                                     <ul class="list-unstyled d-flex flex-row gap-2 text-start">
                                                         <li>Sales & Operations</li>
-                                                        <img src="https://fintos.com.my/newfintos_cms/assets/images/bullets.svg" alt="bullets"/>
+                                                        <img src="https://fintos.com.my/assets/images/bullets.svg" alt="bullets"/>
                                                         <li>Full time</li>
                                                     </ul>
                                                 </div> 
-                                                <a href="career-detail-sae.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                                <a href="career-detail-sae.php" class="p-0 text-end"><img src="https://fintos.com.my/assets/images/arrow.png" alt="view more" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -427,11 +427,11 @@
                                                     <h5 class="card-title text-start">Intern - Business IT</h5>
                                                     <ul class="list-unstyled d-flex flex-row gap-2 text-start">
                                                         <li>Technology</li>
-                                                        <img src="https://fintos.com.my/newfintos_cms/assets/images/bullets.svg" alt="bullets"/>
+                                                        <img src="https://fintos.com.my/assets/images/bullets.svg" alt="bullets"/>
                                                         <li>Internship</li>
                                                     </ul>
                                                 </div> 
-                                                <a href="career-detail-ibit.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                                <a href="career-detail-ibit.php" class="p-0 text-end"><img src="https://fintos.com.my/assets/images/arrow.png" alt="view more" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -446,11 +446,11 @@
                                                     <h5 class="card-title text-start">Business Development Executive</h5>
                                                     <ul class="list-unstyled d-flex flex-row gap-2 text-start">
                                                         <li>Sales & Operations</li>
-                                                        <img src="https://fintos.com.my/newfintos_cms/assets/images/bullets.svg" alt="bullets"/>
+                                                        <img src="https://fintos.com.my/assets/images/bullets.svg" alt="bullets"/>
                                                         <li>Full time</li>
                                                     </ul>
                                                 </div> 
-                                                <a href="career-detail-bde.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                                <a href="career-detail-bde.php" class="p-0 text-end"><img src="https://fintos.com.my/assets/images/arrow.png" alt="view more" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -461,11 +461,11 @@
                                                     <h5 class="card-title text-start">Sales Admin Executive</h5>
                                                     <ul class="list-unstyled d-flex flex-row gap-2 text-start">
                                                         <li>Sales & Operations</li>
-                                                        <img src="https://fintos.com.my/newfintos_cms/assets/images/bullets.svg" alt="bullets"/>
+                                                        <img src="https://fintos.com.my/assets/images/bullets.svg" alt="bullets"/>
                                                         <li>Full time</li>
                                                     </ul>
                                                 </div> 
-                                                <a href="career-detail-sae.php" class="p-0 text-end"><img src="https://fintos.com.my/newfintos_cms/assets/images/arrow.png" alt="view more" /></a>
+                                                <a href="career-detail-sae.php" class="p-0 text-end"><img src="https://fintos.com.my/assets/images/arrow.png" alt="view more" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -517,9 +517,9 @@
                         <a href="tel:+60380809777">+603 8080 9777</a>
                         <p>Lot No. 11F-2, 11th Floor, Tower 4 @ PFCC, Jalan Puteri 1/2, Bandar Puteri Puchong, 47100 Puchong, Selangor</p>
                         <div class="socialmedia d-flex gap-5 mt-4">
-                            <a href="https://www.facebook.com/fintosventuregroup"><img src="https://fintos.com.my/newfintos_cms/assets/images/fb-icon.png" alt="facebook" /></a>
-                            <a href="https://www.linkedin.com/company/fintos-venture-group-official"><img src="https://fintos.com.my/newfintos_cms/assets/images/li-icon.png" alt="linkedin" /></a>
-                            <!--<a href="#"><img src="https://fintos.com.my/newfintos_cms/assets/images/tik-icon.png" alt="tiktok" /></a>-->
+                            <a href="https://www.facebook.com/fintosventuregroup"><img src="https://fintos.com.my/assets/images/fb-icon.png" alt="facebook" /></a>
+                            <a href="https://www.linkedin.com/company/fintos-venture-group-official"><img src="https://fintos.com.my/assets/images/li-icon.png" alt="linkedin" /></a>
+                            <!--<a href="#"><img src="https://fintos.com.my/assets/images/tik-icon.png" alt="tiktok" /></a>-->
                         </div>
                     </div>
                 </div>
@@ -527,7 +527,7 @@
             <div class="copyright pt-5 pb-5">
                 <div class="container">
                     <div class="row pt-3 text-center align-items-start">
-                        <a href="#" class="py-4"><img src="https://fintos.com.my/newfintos_cms/assets/images/fintos-logo-dark.png" alt="fintos"  /></a>
+                        <a href="#" class="py-4"><img src="https://fintos.com.my/assets/images/fintos-logo-dark.png" alt="fintos"  /></a>
                         <p>Fintos Venture Group (202001010295 (1366615-P)) © 2024 - All rights reserved</p>
                         <ul class="list-unstyled d-flex flex-row justify-content-center gap-5">
                             <li><a href="#">Terms & Conditions</a></li>
@@ -535,9 +535,9 @@
                             <li><a href="#">Cookies</a></li>
                         </ul>
                         <div class="justify-content-center mobile-sosmed d-flex gap-5 mt-4">
-                            <a href="https://www.facebook.com/fintosventuregroup"><img src="https://fintos.com.my/newfintos_cms/assets/images/fb-icon.png" alt="facebook" /></a>
-                            <a href="https://my.linkedin.com/company/fintos-venture-group"><img src="https://fintos.com.my/newfintos_cms/assets/images/li-icon.png" alt="linkedin" /></a>
-                            <!--<a href="#"><img src="https://fintos.com.my/newfintos_cms/assets/images/tik-icon.png" alt="tiktok" /></a>-->
+                            <a href="https://www.facebook.com/fintosventuregroup"><img src="https://fintos.com.my/assets/images/fb-icon.png" alt="facebook" /></a>
+                            <a href="https://my.linkedin.com/company/fintos-venture-group"><img src="https://fintos.com.my/assets/images/li-icon.png" alt="linkedin" /></a>
+                            <!--<a href="#"><img src="https://fintos.com.my/assets/images/tik-icon.png" alt="tiktok" /></a>-->
                         </div>
                     </div>
                 </div>
@@ -557,7 +557,7 @@
                         </div>
                         <div class="modal-body">
                             <div class="ratio ratio-16x9">
-                                <iframe src="https://fintos.com.my/newfintos_cms/assets/videos/Video3Bella.mp4" allowfullscreen sandbox></iframe>
+                                <iframe src="https://fintos.com.my/assets/videos/Video3Bella.mp4" allowfullscreen sandbox></iframe>
                             </div>
                         </div>
                     </div>
