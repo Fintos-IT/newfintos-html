@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fintos</title>
-    <link rel="icon" type="image/svg+xml" href="https://fintos.com.my/newfintos_cms/assets/images/fintos-favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://fintos.com.my/assets/images/fintos-favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
-    <link href="https://fintos.com.my/newfintos_cms/assets/css/style.css" rel="stylesheet">
+    <link href="https://fintos.com.my/assets/css/style.css" rel="stylesheet">
 </head>
 <body>
     <cms:editable name='index' label='Index Page' type='richtext'>
@@ -19,7 +19,7 @@
                 <div class="row">
                     <nav class="navbar navbar-expand-lg">
                         <div class="container-fluid justify-content-between">
-                        <a class="navbar-brand" href="index.php"><img src="https://fintos.com.my/newfintos_cms/assets/images/fintoslogo-highres.png" alt="app" class="img-fluid"  /></a>
+                        <a class="navbar-brand" href="index.php"><img src="https://fintos.com.my/assets/images/fintoslogo-highres.png" alt="app" class="img-fluid"  /></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -35,12 +35,12 @@
                                                 <a href="fintos-advice.php" class="fw-semibold">
                                                 <div class="card card--nav border-0">
                                                     <div class="card-head mb-3">
-                                                        <img src="https://fintos.com.my/newfintos_cms/assets/images/FINTOSAdvice-logo-1.png" class="brandthumb" alt="fintos advice" class="img-fluid"  />
+                                                        <img src="https://fintos.com.my/assets/images/FINTOSAdvice-logo-1.png" class="brandthumb" alt="fintos advice" class="img-fluid"  />
                                                         <p class="my-2">Make smart choices with <br/>your finances</p>
-                                                        <div class="more fw-semibold">Learn More <img src="https://fintos.com.my/newfintos_cms/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
+                                                        <div class="more fw-semibold">Learn More <img src="https://fintos.com.my/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
                                                     </div>
                                                     <div class="card-body bgred">
-                                                        <img src="https://fintos.com.my/newfintos_cms/assets/images/thumb-fintosadvice-hero.png" alt="fintos advice" class="img-fluid"  />
+                                                        <img src="https://fintos.com.my/assets/images/thumb-fintosadvice-hero.png" alt="fintos advice" class="img-fluid"  />
                                                     </div>
                                                 </div>
                                             </a>
@@ -49,12 +49,12 @@
                                                 <a href="fintos-capital.php" class="fw-semibold">
                                                     <div class="card card--nav border-0">
                                                         <div class="card-head mb-3">
-                                                            <img src="https://fintos.com.my/newfintos_cms/assets/images/FINTOSCapital-logo-1.png" class="brandthumb" alt="Fintos Capital" class="img-fluid"  />
+                                                            <img src="https://fintos.com.my/assets/images/FINTOSCapital-logo-1.png" class="brandthumb" alt="Fintos Capital" class="img-fluid"  />
                                                             <p class="my-2">Regain own financial <br/>independence</p>
-                                                            <div class="more fw-semibold">Learn more<img src="https://fintos.com.my/newfintos_cms/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
+                                                            <div class="more fw-semibold">Learn more<img src="https://fintos.com.my/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
                                                         </div>
                                                         <div class="card-body bggreen">
-                                                            <img src="https://fintos.com.my/newfintos_cms/assets/images/thumb-fintosfinance-hero.png" alt="fintos advice" class="img-fluid"  />
+                                                            <img src="https://fintos.com.my/assets/images/thumb-fintosfinance-hero.png" alt="fintos advice" class="img-fluid"  />
                                                         </div>
                                                     </div>
                                                 </a>
@@ -63,12 +63,12 @@
                                                 <a href="fintos-tech-a.php" class="fw-semibold">
                                                     <div class="card card--nav border-0">
                                                         <div class="card-head mb-3">
-                                                            <img src="https://fintos.com.my/newfintos_cms/assets/images/FINTOSTech-logo-1.png" class="brandthumb" alt="fintos tech" class="img-fluid"  />
+                                                            <img src="https://fintos.com.my/assets/images/FINTOSTech-logo-1.png" class="brandthumb" alt="fintos tech" class="img-fluid"  />
                                                             <p class="my-2">Transform financial<br/>management</p>
-                                                            <div class="more fw-semibold">Learn More <img src="https://fintos.com.my/newfintos_cms/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
+                                                            <div class="more fw-semibold">Learn More <img src="https://fintos.com.my/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
                                                         </div>
                                                         <div class="card-body bgyellow">
-                                                            <img src="https://fintos.com.my/newfintos_cms/assets/images/thumb-fintos-tech2.png" alt="fintos advice" class="img-fluid"  />
+                                                            <img src="https://fintos.com.my/assets/images/thumb-fintos-tech2.png" alt="fintos advice" class="img-fluid"  />
                                                         </div>
                                                     </div>
                                                 </a>    
@@ -113,10 +113,10 @@
                     <div class="col-12 col-sm-12 col-md-6 col-lg-5">
                         <div class="hero-thumb position-relative text-center">
                             <div class="thumb-first position-absolute" data-aos="zoom-in" data-aos-duration="3000">
-                                <img src="https://fintos.com.my/newfintos_cms/assets/images/mortgageresult.png" alt="app" class="img-fluid"  />
+                                <img src="https://fintos.com.my/assets/images/mortgageresult.png" alt="app" class="img-fluid"  />
                             </div>
                             <div class="thumb-second">
-                                <img src="https://fintos.com.my/newfintos_cms/assets/images/phonescreen.png" alt="app" class="img-fluid img-hero"  />
+                                <img src="https://fintos.com.my/assets/images/phonescreen.png" alt="app" class="img-fluid img-hero"  />
                             </div>    
                         </div>
                         
@@ -131,17 +131,17 @@
                     <div class="pt-2 brand-slide">
                         <div class="col-md-12 overflow-hidden">
                             <ul class="d-flex flex-row list-unstyled gap-5 logo-container">
-                                <li><img src="https://fintos.com.my/newfintos_cms/assets/images/brandpartner/fwdinsurance-brand.png" alt="bureau" class="img-fluid"/></li>
-                                <li><img src="https://fintos.com.my/newfintos_cms/assets/images/brandpartner/creditbureau-brand.png" alt="bureau" class="img-fluid"/></li>
-                                <li><img src="https://fintos.com.my/newfintos_cms/assets/images/brandpartner/kohata-brand.png" alt="bureau" class="img-fluid"/></li>
-                                <li><img src="https://fintos.com.my/newfintos_cms/assets/images/brandpartner/hck-brand.png" alt="bureau" class="img-fluid"/></li>
-                                <li><img src="https://fintos.com.my/newfintos_cms/assets/images/brandpartner/portalmyazzahra-brand.png" alt="bureau" class="img-fluid"  /></li>
-                                <li><img src="https://fintos.com.my/newfintos_cms/assets/images/brandpartner/landgeneralberhad-brand.png" alt="bureau" class="img-fluid"  /></li>
-                                <li><img src="https://fintos.com.my/newfintos_cms/assets/images/brandpartner/oneworld-brand.png" alt="bureau" class="img-fluid"  /></li>
-                                <li><img src="https://fintos.com.my/newfintos_cms/assets/images/brandpartner/nctgroup-brand.png" alt="bureau" class="img-fluid"  /></li>
-                                <li><img src="https://fintos.com.my/newfintos_cms/assets/images/brandpartner/malaysaprotech-brand.png" alt="bureau" class="img-fluid"  /></li>
-                                <li><img src="https://fintos.com.my/newfintos_cms/assets/images/brandpartner/ctos-brand.png" alt="bureau" class="img-fluid"/></li>
-                                <li><img src="https://fintos.com.my/newfintos_cms/assets/images/brandpartner/pkns-brand.png" alt="bureau" class="img-fluid"  /></li>
+                                <li><img src="https://fintos.com.my/assets/images/brandpartner/fwdinsurance-brand.png" alt="bureau" class="img-fluid"/></li>
+                                <li><img src="https://fintos.com.my/assets/images/brandpartner/creditbureau-brand.png" alt="bureau" class="img-fluid"/></li>
+                                <li><img src="https://fintos.com.my/assets/images/brandpartner/kohata-brand.png" alt="bureau" class="img-fluid"/></li>
+                                <li><img src="https://fintos.com.my/assets/images/brandpartner/hck-brand.png" alt="bureau" class="img-fluid"/></li>
+                                <li><img src="https://fintos.com.my/assets/images/brandpartner/portalmyazzahra-brand.png" alt="bureau" class="img-fluid"  /></li>
+                                <li><img src="https://fintos.com.my/assets/images/brandpartner/landgeneralberhad-brand.png" alt="bureau" class="img-fluid"  /></li>
+                                <li><img src="https://fintos.com.my/assets/images/brandpartner/oneworld-brand.png" alt="bureau" class="img-fluid"  /></li>
+                                <li><img src="https://fintos.com.my/assets/images/brandpartner/nctgroup-brand.png" alt="bureau" class="img-fluid"  /></li>
+                                <li><img src="https://fintos.com.my/assets/images/brandpartner/malaysaprotech-brand.png" alt="bureau" class="img-fluid"  /></li>
+                                <li><img src="https://fintos.com.my/assets/images/brandpartner/ctos-brand.png" alt="bureau" class="img-fluid"/></li>
+                                <li><img src="https://fintos.com.my/assets/images/brandpartner/pkns-brand.png" alt="bureau" class="img-fluid"  /></li>
                             </ul>
                         </div>
                     </div>
@@ -157,7 +157,7 @@
                     
                     <div class="col-md-4 card-container open-modal" data-bs-toggle="modal" data-bs-target="#form-property-income" style="cursor: pointer;"> 
                         <div class="card border-0 text-center align-items-center justify-content-center">
-                            <img src="https://fintos.com.my/newfintos_cms/assets/images/property-icon.svg" alt="property income eligibility" data-aos="zoom-in" data-aos-delay="200" />
+                            <img src="https://fintos.com.my/assets/images/property-icon.svg" alt="property income eligibility" data-aos="zoom-in" data-aos-delay="200" />
                             <div class="card-body p-0 mt-lg-4">
                             <h5 class="card-title m-0">Property Income Eligibility</h5>
                             </div>
@@ -165,7 +165,7 @@
                     </div>
                     <div class="col-md-4 card-container open-modal" data-bs-toggle="modal" data-bs-target="#form-property" style="cursor: pointer;">
                         <div class="card border-0 text-center align-items-center justify-content-center">
-                            <img src="https://fintos.com.my/newfintos_cms/assets/images/loan-icon.svg" alt="Mortgage Loan Eligibility" data-aos="zoom-in" data-aos-delay="400" />
+                            <img src="https://fintos.com.my/assets/images/loan-icon.svg" alt="Mortgage Loan Eligibility" data-aos="zoom-in" data-aos-delay="400" />
                             <div class="card-body p-0 mt-lg-4">
                             <h5 class="card-title m-0">Mortgage Loan Eligibility</h5>
                             </div>
@@ -173,7 +173,7 @@
                     </div>
                     <div class="col-md-4 card-container open-modal" data-bs-toggle="modal" data-bs-target="#form-mortgage-refinance" style="cursor: pointer;">    
                         <div class="card border-0 text-center align-items-center justify-content-center">
-                            <img src="https://fintos.com.my/newfintos_cms/assets/images/mortgage-icon.svg" alt="Mortgage Refinance Eligibility" data-aos="zoom-in" data-aos-delay="600"  />
+                            <img src="https://fintos.com.my/assets/images/mortgage-icon.svg" alt="Mortgage Refinance Eligibility" data-aos="zoom-in" data-aos-delay="600"  />
                             <div class="card-body p-0 mt-lg-4">
                             <h5 class="card-title m-0">Mortgage Refinance Eligibility</h5>
                             </div>
@@ -193,10 +193,10 @@
                         <div class="card border-0">
                             <div class="card-thumb">
                                 <div class="thumb-first z-1 position-absolute">
-                                    <img src="https://fintos.com.my/newfintos_cms/assets/images/tailored-financial.png" alt="Tailored Financial Solutions" data-aos="fade-up" data-aos-delay="200"/>
+                                    <img src="https://fintos.com.my/assets/images/tailored-financial.png" alt="Tailored Financial Solutions" data-aos="fade-up" data-aos-delay="200"/>
                                 </div>
                                 <div class="thumb-second">
-                                    <img src="https://fintos.com.my/newfintos_cms/assets/images/shape-tailored-financial.png" alt="Tailored Financial Solutions" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="5000" />
+                                    <img src="https://fintos.com.my/assets/images/shape-tailored-financial.png" alt="Tailored Financial Solutions" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="5000" />
                                 </div>
                             </div>
                             <div class="card-body p-0">
@@ -209,10 +209,10 @@
                         <div class="card border-0">
                             <div class="card-thumb">
                                 <div class="thumb-first z-1 position-absolute">
-                                    <img src="https://fintos.com.my/newfintos_cms/assets/images/full-spectrum.png" alt="Full-Spectrum Convenience" data-aos="fade-up" data-aos-delay="400" />
+                                    <img src="https://fintos.com.my/assets/images/full-spectrum.png" alt="Full-Spectrum Convenience" data-aos="fade-up" data-aos-delay="400" />
                                 </div>
                                 <div class="thumb-second">
-                                    <img src="https://fintos.com.my/newfintos_cms/assets/images/shape-fullspectrum.png" alt="Full-Spectrum Convenience" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="5000"/>
+                                    <img src="https://fintos.com.my/assets/images/shape-fullspectrum.png" alt="Full-Spectrum Convenience" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="5000"/>
                                 </div>
                             </div>
                             <div class="card-body p-0">
@@ -225,10 +225,10 @@
                         <div class="card border-0">
                             <div class="card-thumb">
                                 <div class="thumb-first z-1 position-absolute">
-                                    <img src="https://fintos.com.my/newfintos_cms/assets/images/transparent-trustworthy.png" alt="Full-Spectrum Convenience" data-aos="fade-up" data-aos-delay="600" />
+                                    <img src="https://fintos.com.my/assets/images/transparent-trustworthy.png" alt="Full-Spectrum Convenience" data-aos="fade-up" data-aos-delay="600" />
                                 </div>
                                 <div class="thumb-second">
-                                    <img src="https://fintos.com.my/newfintos_cms/assets/images/shape-transparent-trustworthy.png" alt="Full-Spectrum Convenience" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="5000"/>
+                                    <img src="https://fintos.com.my/assets/images/shape-transparent-trustworthy.png" alt="Full-Spectrum Convenience" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="5000"/>
                                 </div>
                             </div>
                             <div class="card-body p-0">
@@ -241,10 +241,10 @@
                         <div class="card border-0">
                             <div class="card-thumb">
                                 <div class="thumb-first z-1 position-absolute">
-                                    <img src="https://fintos.com.my/newfintos_cms/assets/images/Completely-free-service.png" alt="Completely Free Service" data-aos="fade-up" data-aos-delay="800"/>
+                                    <img src="https://fintos.com.my/assets/images/Completely-free-service.png" alt="Completely Free Service" data-aos="fade-up" data-aos-delay="800"/>
                                 </div>
                                 <div class="thumb-second">
-                                    <img src="https://fintos.com.my/newfintos_cms/assets/images/shape-completely-free-service.png" alt="Completely Free Service" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="5000" />
+                                    <img src="https://fintos.com.my/assets/images/shape-completely-free-service.png" alt="Completely Free Service" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="5000" />
                                 </div>
                             </div>
                             <div class="card-body p-0">
@@ -267,13 +267,13 @@
                     </div>
                     <div class="col-md-4 card-container">
                         <div class="card border-0 align-items-start">
-                            <img src="https://fintos.com.my/newfintos_cms/assets/images/FINTOSAdvice-logo-1.png" height="55px" alt="fintos advice" data-aos="zoom-in" />
+                            <img src="https://fintos.com.my/assets/images/FINTOSAdvice-logo-1.png" height="55px" alt="fintos advice" data-aos="zoom-in" />
                             <div class="card-body p-0 d-flex flex-column">
                             <h5 class="card-title">Navigation Better <br/>Financial Moves</h5>
                             <ul class="card-text list-unstyled text-start">
-                                <li class="d-flex flex-row gap-1 align-items-center"><img src="https://fintos.com.my/newfintos_cms/assets/images/check-circle.png" alt="check" />Mortgage Solution</li>
-                                <li class="d-flex flex-row gap-1 align-items-center"><img src="https://fintos.com.my/newfintos_cms/assets/images/check-circle.png" alt="check" />Debt Restructuring Program</li>
-                                <li class="d-flex flex-row gap-1 align-items-center"><img src="https://fintos.com.my/newfintos_cms/assets/images/check-circle.png" alt="check" />Property Investment</li>
+                                <li class="d-flex flex-row gap-1 align-items-center"><img src="https://fintos.com.my/assets/images/check-circle.png" alt="check" />Mortgage Solution</li>
+                                <li class="d-flex flex-row gap-1 align-items-center"><img src="https://fintos.com.my/assets/images/check-circle.png" alt="check" />Debt Restructuring Program</li>
+                                <li class="d-flex flex-row gap-1 align-items-center"><img src="https://fintos.com.my/assets/images/check-circle.png" alt="check" />Property Investment</li>
                             </ul>
                             <a href="fintos-advice.php" class="btn btn-primary btn-sm">Learn more</a>
                             </div>
@@ -281,13 +281,13 @@
                     </div>
                     <div class="col-md-4 card-container">
                         <div class="card border-0 align-items-start">
-                            <img src="https://fintos.com.my/newfintos_cms/assets/images/FINTOSCapital-logo-1.png" alt="fintos capital" height="55px" data-aos="zoom-in" data-aos-delay="200"  />
+                            <img src="https://fintos.com.my/assets/images/FINTOSCapital-logo-1.png" alt="fintos capital" height="55px" data-aos="zoom-in" data-aos-delay="200"  />
                             <div class="card-body p-0 d-flex flex-column">
                             <h5 class="card-title">Ace All of Life's <br/>Financial Needs</h5>
                             <ul class="card-text list-unstyled text-start">
-                                <li class="d-flex flex-row gap-1 align-items-center"><img src="https://fintos.com.my/newfintos_cms/assets/images/check-circle.png" alt="check" />Mortgage Refinance</li>
-                                <li class="d-flex flex-row gap-1 align-items-center"><img src="https://fintos.com.my/newfintos_cms/assets/images/check-circle.png" alt="check" />Property Financing </li>
-                                <li class="d-flex flex-row gap-1 align-items-center"><img src="https://fintos.com.my/newfintos_cms/assets/images/check-circle.png" alt="check" />Debt Consolidation</li>
+                                <li class="d-flex flex-row gap-1 align-items-center"><img src="https://fintos.com.my/assets/images/check-circle.png" alt="check" />Mortgage Refinance</li>
+                                <li class="d-flex flex-row gap-1 align-items-center"><img src="https://fintos.com.my/assets/images/check-circle.png" alt="check" />Property Financing </li>
+                                <li class="d-flex flex-row gap-1 align-items-center"><img src="https://fintos.com.my/assets/images/check-circle.png" alt="check" />Debt Consolidation</li>
                             </ul>
                             <a href="fintos-capital.php" class="btn btn-primary btn-sm">Learn more</a>
                             </div>
@@ -295,13 +295,13 @@
                     </div>
                     <div class="col-md-4 card-container">
                         <div class="card border-0 align-items-start">
-                            <img src="https://fintos.com.my/newfintos_cms/assets/images/FINTOSTech-logo-1.png" alt="fintos tech"  height="55px" data-aos="zoom-in" data-aos-delay="400"  />
+                            <img src="https://fintos.com.my/assets/images/FINTOSTech-logo-1.png" alt="fintos tech"  height="55px" data-aos="zoom-in" data-aos-delay="400"  />
                             <div class="card-body p-0 d-flex flex-column">
                             <h5 class="card-title">Better Decisions.<br/>Better Insights.</h5>
                             <ul class="card-text list-unstyled text-start">
-                                <li class="d-flex flex-row gap-1 align-items-center"><img src="https://fintos.com.my/newfintos_cms/assets/images/check-circle.png" alt="check" />Mortgage Solution System</li>
-                                <li class="d-flex flex-row gap-1 align-items-center"><img src="https://fintos.com.my/newfintos_cms/assets/images/check-circle.png" alt="check" />Lending Management System</li>
-                                <li class="d-flex flex-row gap-1 align-items-center"><img src="https://fintos.com.my/newfintos_cms/assets/images/check-circle.png" alt="check" />Agent Commission Software</li>
+                                <li class="d-flex flex-row gap-1 align-items-center"><img src="https://fintos.com.my/assets/images/check-circle.png" alt="check" />Mortgage Solution System</li>
+                                <li class="d-flex flex-row gap-1 align-items-center"><img src="https://fintos.com.my/assets/images/check-circle.png" alt="check" />Lending Management System</li>
+                                <li class="d-flex flex-row gap-1 align-items-center"><img src="https://fintos.com.my/assets/images/check-circle.png" alt="check" />Agent Commission Software</li>
                             </ul>
                             <a href="fintos-tech-a.php" class="btn btn-primary btn-sm">Learn more</a>
                             </div>
@@ -319,29 +319,29 @@
                     <div class="col-md-6 video-fn">
                         <div class="tagline text-start align-items-start d-flex flex-column">
                             <h5 class="fw-semibold">Meet Fintos</h5>
-                            <img src="https://fintos.com.my/newfintos_cms/assets/images/fintoslogo-highres.png" alt="google" />
+                            <img src="https://fintos.com.my/assets/images/fintoslogo-highres.png" alt="google" />
                             <p>We are committed to shaping a future where sustainability takes center stage, and we achieve this by harnessing the power of our innovative products, solutions, unwavering passion, and robust financial resilience.</p>
                             <a href="about.php" class="btn btn-primary btn-md">About us</a>
                             <div class="award">
                                 <ul class="list-unstyled d-flex flex-row award-container">
-                                    <li><img class="img-fluid" src="https://fintos.com.my/newfintos_cms/assets/images/award1.png" alt="award"/></li>
-                                    <li><img class="img-fluid" src="https://fintos.com.my/newfintos_cms/assets/images/award2.png" alt="award"/></li>
-                                    <li><img class="img-fluid" src="https://fintos.com.my/newfintos_cms/assets/images/award3.png" alt="award"/></li>
+                                    <li><img class="img-fluid" src="https://fintos.com.my/assets/images/award1.png" alt="award"/></li>
+                                    <li><img class="img-fluid" src="https://fintos.com.my/assets/images/award2.png" alt="award"/></li>
+                                    <li><img class="img-fluid" src="https://fintos.com.my/assets/images/award3.png" alt="award"/></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-lg-6">
                         <div class="videowrap position-relative">
-                            <a href="#" class="btn-play" data-bs-toggle="modal" data-bs-target="#videoplayer"><img src="https://fintos.com.my/newfintos_cms/assets/images/icon-play.png" alt="video" /></a>
-                            <img src="https://fintos.com.my/newfintos_cms/assets/images/MP7.jpg" alt="video" />
+                            <a href="#" class="btn-play" data-bs-toggle="modal" data-bs-target="#videoplayer"><img src="https://fintos.com.my/assets/images/icon-play.png" alt="video" /></a>
+                            <img src="https://fintos.com.my/assets/images/MP7.jpg" alt="video" />
                         </div>
                     </div>
                 </div>
                 <div class="row mt-5 gallery-fin">
-                    <div class="col-md-4 img-container"><img src="https://fintos.com.my/newfintos_cms/assets/images/home-img-1.jpg" alt="thumbnail" /></div>
-                    <div class="col-md-4 img-container"><img src="https://fintos.com.my/newfintos_cms/assets/images/home-img-2.jpg" alt="thumbnail" /></div>
-                    <div class="col-md-4 img-container"><img src="https://fintos.com.my/newfintos_cms/assets/images/home-img-3.jpg" alt="thumbnail" /></div>
+                    <div class="col-md-4 img-container"><img src="https://fintos.com.my/assets/images/home-img-1.jpg" alt="thumbnail" /></div>
+                    <div class="col-md-4 img-container"><img src="https://fintos.com.my/assets/images/home-img-2.jpg" alt="thumbnail" /></div>
+                    <div class="col-md-4 img-container"><img src="https://fintos.com.my/assets/images/home-img-3.jpg" alt="thumbnail" /></div>
                 </div>
             </div>
         </div><!--[end:aboutus]-->
@@ -350,7 +350,7 @@
                 <div class="row bglightyellow">
                     <div class="col-md-5 img-ct">
                         <div class="thumb-cta">
-                            <img src="https://fintos.com.my/newfintos_cms/assets/images/thumb-cta.png" alt="thumbnail" class="img-fluid"/>
+                            <img src="https://fintos.com.my/assets/images/thumb-cta.png" alt="thumbnail" class="img-fluid"/>
                         </div>
                     </div>
                     <div class="col-md-7">
@@ -397,9 +397,9 @@
                         <p><a href="tel:+60380809777">+603 8080 9777</a></p>
                         <p>Lot No. 11F-2, 11th Floor, Tower 4 @ PFCC, Jalan Puteri 1/2, Bandar Puteri Puchong, 47100 Puchong, Selangor</p>
                         <div class="socialmedia d-flex gap-5 mt-4">
-                            <a href="https://www.facebook.com/fintosventuregroup"><img src="https://fintos.com.my/newfintos_cms/assets/images/fb-icon.png" alt="facebook" /></a>
-                            <a href="https://www.linkedin.com/company/fintos-venture-group-official"><img src="https://fintos.com.my/newfintos_cms/assets/images/li-icon.png" alt="linkedin" /></a>
-                            <!--<a href="#"><img src="https://fintos.com.my/newfintos_cms/assets/images/tik-icon.png" alt="tiktok" /></a>-->
+                            <a href="https://www.facebook.com/fintosventuregroup"><img src="https://fintos.com.my/assets/images/fb-icon.png" alt="facebook" /></a>
+                            <a href="https://www.linkedin.com/company/fintos-venture-group-official"><img src="https://fintos.com.my/assets/images/li-icon.png" alt="linkedin" /></a>
+                            <!--<a href="#"><img src="https://fintos.com.my/assets/images/tik-icon.png" alt="tiktok" /></a>-->
                         </div>
                     </div>
                 </div>
@@ -407,7 +407,7 @@
             <div class="copyright pt-5 pb-5">
                 <div class="container">
                     <div class="row pt-3 text-center align-items-start">
-                        <a href="#" class="py-4"><img src="https://fintos.com.my/newfintos_cms/assets/images/fintos-logo-dark.png" alt="fintos"  /></a>
+                        <a href="#" class="py-4"><img src="https://fintos.com.my/assets/images/fintos-logo-dark.png" alt="fintos"  /></a>
                         <p>Fintos Venture Group (202001010295 (1366615-P)) &copy; 2024 - All rights reserved</p>
                         <ul class="list-unstyled d-flex flex-row justify-content-center gap-5">
                             <li><a href="#">Terms & Conditions</a></li>
@@ -415,9 +415,9 @@
                             <li><a href="#">Cookies</a></li>
                         </ul>
                         <div class="justify-content-center mobile-sosmed d-flex gap-5 mt-4">
-                            <a href="https://www.facebook.com/fintosventuregroup"><img src="https://fintos.com.my/newfintos_cms/assets/images/fb-icon.png" alt="facebook" /></a>
-                            <a href="https://my.linkedin.com/company/fintos-venture-group"><img src="https://fintos.com.my/newfintos_cms/assets/images/li-icon.png" alt="linkedin" /></a>
-                            <!--<a href="#"><img src="https://fintos.com.my/newfintos_cms/assets/images/tik-icon.png" alt="tiktok" /></a>-->
+                            <a href="https://www.facebook.com/fintosventuregroup"><img src="https://fintos.com.my/assets/images/fb-icon.png" alt="facebook" /></a>
+                            <a href="https://my.linkedin.com/company/fintos-venture-group"><img src="https://fintos.com.my/assets/images/li-icon.png" alt="linkedin" /></a>
+                            <!--<a href="#"><img src="https://fintos.com.my/assets/images/tik-icon.png" alt="tiktok" /></a>-->
                         </div>
                     </div>
                 </div>
