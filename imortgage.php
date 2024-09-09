@@ -35,35 +35,36 @@
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <cms:editable name='imortgage' label='Imortgage Page' type='richtext'>
-        <div class="site-header site--header bgdark d-flex align-items-center">
-            <div class="container">
-                <div class="row">
-                    <nav class="navbar navbar-dark navbar-expand-lg">
-                        <div class="container-fluid justify-content-between">
-                            <a class="navbar-brand" href="/"><img src="https://fintos.com.my/assets/images/logo-im2.png" alt="app" class="img-fluid"  /></a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link px-3" target="_blank" href="https://imortgage2u.com/package">Subscription</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a target="_blank" class="nav-link px-3" href="https://vps-v2.imortgage2u.com/">Login</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a data-bs-toggle="modal" data-bs-target="#form-tech-contact" class="open-modal nav-link nav-link--navbtn px-3" href="#">Book a Demo</a>
-                                    </li>
-                                    
-                                </ul>
-                            </div>
+    <div class="site-header site--header bgdark d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-dark navbar-expand-lg">
+                    <div class="container-fluid justify-content-between">
+                        <a class="navbar-brand" href="/"><img src="https://fintos.com.my/assets/images/logo-im2.png" alt="app" class="img-fluid"  /></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link px-3" target="_blank" href="https://imortgage2u.com/package">Subscription</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a target="_blank" class="nav-link px-3" href="https://vps-v2.imortgage2u.com/">Login</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a data-bs-toggle="modal" data-bs-target="#form-tech-contact" class="open-modal nav-link nav-link--navbtn px-3" href="#">Book a Demo</a>
+                                </li>
+                                
+                            </ul>
                         </div>
-                    </nav>
-                </div>
+                    </div>
+                </nav>
             </div>
         </div>
+    </div>
+
+    <cms:editable name='imortgage' label='Imortgage Page' type='richtext' height='550'>
         <div class="pageheader pageheader--videofull bgdark"><!--[start:pageheader]-->
             <div class="container">
                 <div class="row justify-content-center">
@@ -177,251 +178,253 @@
                 </div>
             </div>
         </div><!--[end: featured]-->
-
-        <!--[start: faq]-->
-        <div class="faq mb-5 pb-5">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="sectionheading text-center">
-                        <h2 class="heading">Frequently Ask Questions</h2>
-                    </div>
-                    <div class="col-md-8 justify-content-center pt-5">
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header bg-transparent">
-                                    <button class="accordion-button bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <div class="row w-100 justify-content-between">
-                                            <div class="col-10">
-                                                Is the subscription fee on a monthly or annual basis?
-                                            </div>
-                                            <div class="col-2 text-end">
-                                                <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
-                                            </div>
-                                        </div>
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        We offer subscriptions on annual bases. For details on fees, please contact us.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header bg-transparent">
-                                <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <div class="row w-100 justify-content-between">
-                                        <div class="col-10">
-                                            How long is the subscription period?
-                                        </div>
-                                        <div class="col-2 text-end">
-                                            <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
-                                        </div>
-                                    </div>
-                                </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        The subscription period is twelve (12) months from the date of subscription.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header bg-transparent">
-                                <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
-                                    <div class="row w-100 justify-content-between">
-                                        <div class="col-10">
-                                            What happens if subscribers fail to renew their subscriptions?
-                                        </div>
-                                        <div class="col-2 text-end">
-                                            <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
-                                        </div>
-                                    </div>
-                                </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        If the renewal transaction is not completed within this period, the account will be terminated, along with all associated data and records, without further notice.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header bg-transparent">
-                                <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
-                                    <div class="row w-100 justify-content-between">
-                                        <div class="col-10">
-                                            Can subscribers upgrade their plan after subscribing?
-                                        </div>
-                                        <div class="col-2 text-end">
-                                            <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
-                                        </div>
-                                    </div>
-                                </button>
-                                </h2>
-                                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Yes, subscribers can upgrade from the Standard to the Business Plan by contacting us at support@fintos.com.my and paying RM700.00 or redeeming 700 FinPoints through the platform.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header bg-transparent">
-                                <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
-                                    <div class="row w-100 justify-content-between">
-                                        <div class="col-10">
-                                            Is the iMortgage2u system safe and secure for use?
-                                        </div>
-                                        <div class="col-2 text-end">
-                                            <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
-                                        </div>
-                                    </div>
-                                </button>
-                                </h2>
-                                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Yes, it is. The iMortgage2u system protects data from SQL injection and is securely hosted on a private and secured Virtual Private Server (VPS).
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> 
-        </div>
-        <!--[end: faq]-->
-
-        <footer class="site-footer site-footer--imortgage bgprimary pt-5"><!--[start:site-footer]-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-left mb-5">
-                        <div class="tagline">
-                            <h2 class="fw-normal">Let's Get in Touch</h2>
-                            <p>Request a Demo from us to have a better understanding of our product.</p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#form-tech-contact" class="open-modal btn">Request Demo</a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-5 pt-5 pt-lg-0 col-right">
-                        
-                            <h3 class="fw-semibold">Contact</h3>
-                            <p><a href="tel:+60380809777">+603 8080 9777</a></p>
-                            <p><a href="#">support@fintos.com.my</a></p>
-                            <p class="text-center text-lg-start">Lot No. 11F-2, 11th Floor, Tower 4 @ PFCC, Jalan Puteri 1/2, Bandar Puteri Puchong, 47100 Puchong, Selangor</p>
-                    
-                    </div>
-                </div>
-            </div>
-            <div class="copyright pt-5 pb-5">
-                <div class="container">
-                    <div class="row pt-5 align-items-center text-center">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-7 p-lg-0 col-left">
-                            <div class="navbrand">
-                                <a href="/"><img src="https://fintos.com.my/assets/images/logo-im2.png" alt="app" class="img-fluid"  /></a>
-                                <ul class="list-unstyled d-flex flex-column flex-lg-row justify-content-center mb-0 gap-lg-5">
-                                    <li><a href="#">Terms & Conditions</a></li>
-                                    <li><a href="privacy-policy.php">Privacy Policy</a></li>
-                                    <li><a href="#">Cookies</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-5 p-lg-0 col-right">
-                            <p class="mb-0">Copyright &copy; 2024 imortgage2u, All rights reserved.</p>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </footer><!--[end:site-footer]-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="./assets/js/main.js"></script>
-        <!--[start:modal player]-->
-        <div class="modal fade" id="videoplayer" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="ratio ratio-16x9">
-                            <iframe src="https://www.youtube.com/embed/agE5P0uOTzI" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-        </div>
-        </div>
-        <!--[start:modal player]-->
-        <div class="modal fade" id="form-property-income" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <iframe src="https://sub.fintos.com.my/calculator/property_income"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--[start:modal player]-->
-        <div class="modal fade" id="form-property-income" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <iframe src="https://sub.fintos.com.my/calculator/property_income"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--[end: modal player]-->
-
-        <!--[start:modal player]-->
-        <div class="modal fade" id="form-mortgage-refinance" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <iframe src="https://sub.fintos.com.my/calculator/mortgage_refinance"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--[start:modal player]-->
-        <div class="modal fade" id="form-mortgage-refinance" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <iframe src="https://sub.fintos.com.my/calculator/mortgage_refinance"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--[end: modal player]-->
-
-        <!--[start:modal player]-->
-        <div class="modal fade" id="form-tech-contact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScHD9_jL4AK-9KCvdmEWyNqRAz-sMqDIR85yLhsOLkBOIAIHw/viewform?embedded=true" width="640" height="1143" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>               </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--[end: modal player]-->
     </cms:editable>
+
+    <!--[start: faq]-->
+    <div class="faq mb-5 pb-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="sectionheading text-center">
+                    <h2 class="heading">Frequently Ask Questions</h2>
+                </div>
+                <div class="col-md-8 justify-content-center pt-5">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header bg-transparent">
+                                <button class="accordion-button bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <div class="row w-100 justify-content-between">
+                                        <div class="col-10">
+                                            Is the subscription fee on a monthly or annual basis?
+                                        </div>
+                                        <div class="col-2 text-end">
+                                            <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
+                                        </div>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We offer subscriptions on annual bases. For details on fees, please contact us.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header bg-transparent">
+                            <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <div class="row w-100 justify-content-between">
+                                    <div class="col-10">
+                                        How long is the subscription period?
+                                    </div>
+                                    <div class="col-2 text-end">
+                                        <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
+                                    </div>
+                                </div>
+                            </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    The subscription period is twelve (12) months from the date of subscription.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header bg-transparent">
+                            <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
+                                <div class="row w-100 justify-content-between">
+                                    <div class="col-10">
+                                        What happens if subscribers fail to renew their subscriptions?
+                                    </div>
+                                    <div class="col-2 text-end">
+                                        <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
+                                    </div>
+                                </div>
+                            </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    If the renewal transaction is not completed within this period, the account will be terminated, along with all associated data and records, without further notice.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header bg-transparent">
+                            <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+                                <div class="row w-100 justify-content-between">
+                                    <div class="col-10">
+                                        Can subscribers upgrade their plan after subscribing?
+                                    </div>
+                                    <div class="col-2 text-end">
+                                        <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
+                                    </div>
+                                </div>
+                            </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Yes, subscribers can upgrade from the Standard to the Business Plan by contacting us at support@fintos.com.my and paying RM700.00 or redeeming 700 FinPoints through the platform.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header bg-transparent">
+                            <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
+                                <div class="row w-100 justify-content-between">
+                                    <div class="col-10">
+                                        Is the iMortgage2u system safe and secure for use?
+                                    </div>
+                                    <div class="col-2 text-end">
+                                        <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
+                                    </div>
+                                </div>
+                            </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Yes, it is. The iMortgage2u system protects data from SQL injection and is securely hosted on a private and secured Virtual Private Server (VPS).
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <!--[end: faq]-->
+
+    <footer class="site-footer site-footer--imortgage bgprimary pt-5"><!--[start:site-footer]-->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-left mb-5">
+                    <div class="tagline">
+                        <h2 class="fw-normal">Let's Get in Touch</h2>
+                        <p>Request a Demo from us to have a better understanding of our product.</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#form-tech-contact" class="open-modal btn">Request Demo</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 pt-5 pt-lg-0 col-right">
+                    
+                        <h3 class="fw-semibold">Contact</h3>
+                        <p><a href="tel:+60380809777">+603 8080 9777</a></p>
+                        <p><a href="#">support@fintos.com.my</a></p>
+                        <p class="text-center text-lg-start">Lot No. 11F-2, 11th Floor, Tower 4 @ PFCC, Jalan Puteri 1/2, Bandar Puteri Puchong, 47100 Puchong, Selangor</p>
+                
+                </div>
+            </div>
+        </div>
+        <div class="copyright pt-5 pb-5">
+            <div class="container">
+                <div class="row pt-5 align-items-center text-center">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-7 p-lg-0 col-left">
+                        <div class="navbrand">
+                            <a href="/"><img src="https://fintos.com.my/assets/images/logo-im2.png" alt="app" class="img-fluid"  /></a>
+                            <ul class="list-unstyled d-flex flex-column flex-lg-row justify-content-center mb-0 gap-lg-5">
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="privacy-policy.php">Privacy Policy</a></li>
+                                <li><a href="#">Cookies</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-5 p-lg-0 col-right">
+                        <p class="mb-0">Copyright &copy; 2024 imortgage2u, All rights reserved.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer><!--[end:site-footer]-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+    <!--[start:modal player]-->
+    <div class="modal fade" id="videoplayer" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/agE5P0uOTzI" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--[start:modal player]-->
+    <div class="modal fade" id="form-property-income" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://sub.fintos.com.my/calculator/property_income"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--[start:modal player]-->
+    <div class="modal fade" id="form-property-income" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://sub.fintos.com.my/calculator/property_income"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--[end: modal player]-->
+
+    <!--[start:modal player]-->
+    <div class="modal fade" id="form-mortgage-refinance" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://sub.fintos.com.my/calculator/mortgage_refinance"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--[start:modal player]-->
+    <div class="modal fade" id="form-mortgage-refinance" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://sub.fintos.com.my/calculator/mortgage_refinance"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--[end: modal player]-->
+
+    <!--[start:modal player]-->
+    <div class="modal fade" id="form-tech-contact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScHD9_jL4AK-9KCvdmEWyNqRAz-sMqDIR85yLhsOLkBOIAIHw/viewform?embedded=true" width="640" height="1143" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>               </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--[end: modal player]-->
 </body>
 </html>
 <?php COUCH::invoke(); ?>

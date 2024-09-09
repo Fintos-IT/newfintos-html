@@ -35,92 +35,93 @@
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <cms:editable name='career-detail-mortgage-specialist' label='Career Detail Page' type='richtext'>
-        <div class="site-header bgwhite d-flex align-items-center"><!--[start: site-header]-->
-            <div class="container">
-                <div class="row">
-                    <nav class="navbar navbar-expand-lg">
-                        <div class="container-fluid justify-content-between">
-                        <a class="navbar-brand" href="index.php"><img src="https://fintos.com.my/assets/images/fintos-logo-dark.png" alt="app" class="img-fluid"  /></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav gap-1 gap-lg-4 mt-3 mt-lg-0">
-                                <li class="nav-item dropdown" id="solutions-nav-item">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
-                                    Solutions
-                                    </a>
-                                    <ul class="dropdown-menu rounded-4 dropdown-menu--megamenu border-0">
-                                        <div class="d-flex py-3 px-4 mx-1 flex-col flex-lg-row gap-4 flex-column flex-md-row">
-                                            <div class="col">
-                                                <a href="fintos-advice.php" class="fw-semibold">
+    <div class="site-header bgwhite d-flex align-items-center"><!--[start: site-header]-->
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid justify-content-between">
+                    <a class="navbar-brand" href="index.php"><img src="https://fintos.com.my/assets/images/fintos-logo-dark.png" alt="app" class="img-fluid"  /></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav gap-1 gap-lg-4 mt-3 mt-lg-0">
+                            <li class="nav-item dropdown" id="solutions-nav-item">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
+                                Solutions
+                                </a>
+                                <ul class="dropdown-menu rounded-4 dropdown-menu--megamenu border-0">
+                                    <div class="d-flex py-3 px-4 mx-1 flex-col flex-lg-row gap-4 flex-column flex-md-row">
+                                        <div class="col">
+                                            <a href="fintos-advice.php" class="fw-semibold">
+                                            <div class="card card--nav border-0">
+                                                <div class="card-head mb-3">
+                                                    <img src="https://fintos.com.my/assets/images/fintos-advice-logo-nav.svg" alt="fintos advice" class="img-fluid"  />
+                                                    <p class="my-2">Make smart choices with your finances</p>
+                                                    <div class="more fw-semibold">Learn More <img src="https://fintos.com.my/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
+                                                </div>
+                                                <div class="card-body bgred">
+                                                    <img src="https://fintos.com.my/assets/images/thumb-fintosadvice-hero.png" alt="fintos advice" class="img-fluid"  />
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                        <div class="col">
+                                            <a href="fintos-capital.php" class="fw-semibold">
                                                 <div class="card card--nav border-0">
                                                     <div class="card-head mb-3">
-                                                        <img src="https://fintos.com.my/assets/images/fintos-advice-logo-nav.svg" alt="fintos advice" class="img-fluid"  />
-                                                        <p class="my-2">Make smart choices with your finances</p>
-                                                        <div class="more fw-semibold">Learn More <img src="https://fintos.com.my/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
+                                                        <img src="https://fintos.com.my/assets/images/fintos-finance-logo-nav.svg" alt="Fintos Capital" class="img-fluid"  />
+                                                        <p class="my-2">Regain own financial independence</p>
+                                                        <div class="more fw-semibold">Learn more<img src="https://fintos.com.my/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
                                                     </div>
-                                                    <div class="card-body bgred">
-                                                        <img src="https://fintos.com.my/assets/images/thumb-fintosadvice-hero.png" alt="fintos advice" class="img-fluid"  />
+                                                    <div class="card-body bggreen">
+                                                        <img src="https://fintos.com.my/assets/images/thumb-fintosfinance-hero.png" alt="fintos advice" class="img-fluid"  />
                                                     </div>
                                                 </div>
                                             </a>
-                                            </div>
-                                            <div class="col">
-                                                <a href="fintos-capital.php" class="fw-semibold">
-                                                    <div class="card card--nav border-0">
-                                                        <div class="card-head mb-3">
-                                                            <img src="https://fintos.com.my/assets/images/fintos-finance-logo-nav.svg" alt="Fintos Capital" class="img-fluid"  />
-                                                            <p class="my-2">Regain own financial independence</p>
-                                                            <div class="more fw-semibold">Learn more<img src="https://fintos.com.my/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
-                                                        </div>
-                                                        <div class="card-body bggreen">
-                                                            <img src="https://fintos.com.my/assets/images/thumb-fintosfinance-hero.png" alt="fintos advice" class="img-fluid"  />
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="col">
-                                                <a href="fintos-tech-a.php" class="fw-semibold">
-                                                    <div class="card card--nav border-0">
-                                                        <div class="card-head mb-3">
-                                                            <img src="https://fintos.com.my/assets/images/fintos-tech-logo-nav.svg" alt="fintos tech" class="img-fluid"  />
-                                                            <p class="my-2">Make smart choices with your finances</p>
-                                                            <div class="more fw-semibold">Learn More <img src="https://fintos.com.my/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
-                                                        </div>
-                                                        <div class="card-body bgyellow">
-                                                            <img src="https://fintos.com.my/assets/images/thumb-fintos-tech2.png" alt="fintos advice" class="img-fluid"  />
-                                                        </div>
-                                                    </div>
-                                                </a>    
-                                            </div>
                                         </div>
-                                    </ul>
-                                </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Product
-                                </a>
-                                <ul class="dropdown-menu">
-                                <li><a data-bs-toggle="modal" data-bs-target="#form-property-income" class="open-modal dropdown-item" href="#">Housing Loan</a></li>
-                                <li><a class="dropdown-item" href="#">Personal Loan (Coming Soon)</a></li>
-                                <li><a data-bs-toggle="modal" data-bs-target="#form-mortgage-refinance" class="open-modal dropdown-item" href="#">Mortgage Refinance</a></li>
+                                        <div class="col">
+                                            <a href="fintos-tech-a.php" class="fw-semibold">
+                                                <div class="card card--nav border-0">
+                                                    <div class="card-head mb-3">
+                                                        <img src="https://fintos.com.my/assets/images/fintos-tech-logo-nav.svg" alt="fintos tech" class="img-fluid"  />
+                                                        <p class="my-2">Make smart choices with your finances</p>
+                                                        <div class="more fw-semibold">Learn More <img src="https://fintos.com.my/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
+                                                    </div>
+                                                    <div class="card-body bgyellow">
+                                                        <img src="https://fintos.com.my/assets/images/thumb-fintos-tech2.png" alt="fintos advice" class="img-fluid"  />
+                                                    </div>
+                                                </div>
+                                            </a>    
+                                        </div>
+                                    </div>
                                 </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link px-0 px-lg-2" href="about.php">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link px-0 px-lg-2" href="contact.php">Contact</a>
-                            </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Product
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a data-bs-toggle="modal" data-bs-target="#form-property-income" class="open-modal dropdown-item" href="#">Housing Loan</a></li>
+                            <li><a class="dropdown-item" href="#">Personal Loan (Coming Soon)</a></li>
+                            <li><a data-bs-toggle="modal" data-bs-target="#form-mortgage-refinance" class="open-modal dropdown-item" href="#">Mortgage Refinance</a></li>
                             </ul>
-                        </div>
-                        </div>
-                    </nav>
-                </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-0 px-lg-2" href="about.php">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-0 px-lg-2" href="contact.php">Contact</a>
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
             </div>
-        </div><!--[end: site-header]-->
+        </div>
+    </div><!--[end: site-header]-->
+
+    <cms:editable name='career-detail-mortgage-specialist' label='Career Detail Page' type='richtext'>
         <div class="container gap-extra">
             <div class="row mt-5">
                 <div class="col-lg-8 pe-4">
@@ -268,11 +269,6 @@
                 </div>
             </div>
         </footer><!--[end:site-footer]-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="./assets/js/main.js"></script>
 
         <!--[start:modal player]-->
         <div class="modal fade" id="videoplayer" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -319,6 +315,12 @@
         </div>
         <!--[end: modal player]-->
     </cms:editable>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
 <?php COUCH::invoke(); ?>

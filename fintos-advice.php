@@ -35,91 +35,92 @@
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <cms:editable name='fintos-advice' label='Fintos Advice Page' type='richtext'>
-        <div class="site-header d-flex align-items-center"><!--[start: site-header]-->
-            <div class="container">
-                <div class="row">
-                    <nav class="navbar navbar-expand-lg">
-                        <div class="container-fluid justify-content-between">
-                        <a class="navbar-brand" href="index.php"><img src="https://fintos.com.my/assets/images/fintoslogo-highres.png" alt="app" class="img-fluid"  /></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav gap-1 gap-lg-4 mt-3 mt-lg-0">
-                                <li class="nav-item dropdown" id="solutions-nav-item">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
-                                    Solutions
-                                    </a>
-                                    <ul class="dropdown-menu rounded-4 dropdown-menu--megamenu border-0">
-                                        <div class="d-flex py-3 px-lg-4 mx-1 flex-col flex-lg-row gap-4 flex-column flex-md-row">
-                                            <div class="col">
-                                                <a href="fintos-advice.php" class="fw-semibold">
+    <div class="site-header d-flex align-items-center"><!--[start: site-header]-->
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid justify-content-between">
+                    <a class="navbar-brand" href="index.php"><img src="https://fintos.com.my/assets/images/fintoslogo-highres.png" alt="app" class="img-fluid"  /></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav gap-1 gap-lg-4 mt-3 mt-lg-0">
+                            <li class="nav-item dropdown" id="solutions-nav-item">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
+                                Solutions
+                                </a>
+                                <ul class="dropdown-menu rounded-4 dropdown-menu--megamenu border-0">
+                                    <div class="d-flex py-3 px-lg-4 mx-1 flex-col flex-lg-row gap-4 flex-column flex-md-row">
+                                        <div class="col">
+                                            <a href="fintos-advice.php" class="fw-semibold">
+                                            <div class="card card--nav border-0">
+                                                <div class="card-head mb-3">
+                                                    <img src="https://fintos.com.my/assets/images/FINTOSAdvice-logo-1.png" class="brandthumb" alt="fintos advice" class="img-fluid"  />
+                                                    <p class="my-2">Make smart choices with <br/>your finances</p>
+                                                    <div class="more fw-semibold">Learn More <img src="https://fintos.com.my/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
+                                                </div>
+                                                <div class="card-body bgred">
+                                                    <img src="https://fintos.com.my/assets/images/thumb-fintosadvice-hero.png" alt="fintos advice" class="img-fluid"  />
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                        <div class="col">
+                                            <a href="fintos-capital.php" class="fw-semibold">
                                                 <div class="card card--nav border-0">
                                                     <div class="card-head mb-3">
-                                                        <img src="https://fintos.com.my/assets/images/FINTOSAdvice-logo-1.png" class="brandthumb" alt="fintos advice" class="img-fluid"  />
-                                                        <p class="my-2">Make smart choices with <br/>your finances</p>
-                                                        <div class="more fw-semibold">Learn More <img src="https://fintos.com.my/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
+                                                        <img src="https://fintos.com.my/assets/images/FINTOSCapital-logo-1.png" class="brandthumb" alt="Fintos Capital" class="img-fluid"  />
+                                                        <p class="my-2">Regain own financial <br/>independence</p>
+                                                        <div class="more fw-semibold">Learn more<img src="https://fintos.com.my/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
                                                     </div>
-                                                    <div class="card-body bgred">
-                                                        <img src="https://fintos.com.my/assets/images/thumb-fintosadvice-hero.png" alt="fintos advice" class="img-fluid"  />
+                                                    <div class="card-body bggreen">
+                                                        <img src="https://fintos.com.my/assets/images/thumb-fintosfinance-hero.png" alt="fintos advice" class="img-fluid"  />
                                                     </div>
                                                 </div>
                                             </a>
-                                            </div>
-                                            <div class="col">
-                                                <a href="fintos-capital.php" class="fw-semibold">
-                                                    <div class="card card--nav border-0">
-                                                        <div class="card-head mb-3">
-                                                            <img src="https://fintos.com.my/assets/images/FINTOSCapital-logo-1.png" class="brandthumb" alt="Fintos Capital" class="img-fluid"  />
-                                                            <p class="my-2">Regain own financial <br/>independence</p>
-                                                            <div class="more fw-semibold">Learn more<img src="https://fintos.com.my/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
-                                                        </div>
-                                                        <div class="card-body bggreen">
-                                                            <img src="https://fintos.com.my/assets/images/thumb-fintosfinance-hero.png" alt="fintos advice" class="img-fluid"  />
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="col">
-                                                <a href="fintos-tech-a.php" class="fw-semibold">
-                                                    <div class="card card--nav border-0">
-                                                        <div class="card-head mb-3">
-                                                            <img src="https://fintos.com.my/assets/images/FINTOSTech-logo-1.png" class="brandthumb" alt="fintos tech" class="img-fluid"  />
-                                                            <p class="my-2">Transform financial<br/>management</p>
-                                                            <div class="more fw-semibold">Learn More <img src="https://fintos.com.my/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
-                                                        </div>
-                                                        <div class="card-body bgyellow">
-                                                            <img src="https://fintos.com.my/assets/images/thumb-fintos-tech2.png" alt="fintos advice" class="img-fluid"  />
-                                                        </div>
-                                                    </div>
-                                                </a>    
-                                            </div>
                                         </div>
-                                    </ul>
-                                </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Product
-                                </a>
-                                <ul class="dropdown-menu">
-                                <li><a data-bs-toggle="modal" data-bs-target="#form-property-income" class="open-modal dropdown-item" href="#">Housing Loan</a></li>
-                                <li><a data-bs-toggle="modal" data-bs-target="#form-mortgage-refinance" class="open-modal dropdown-item" href="#">Mortgage Refinance</a></li>
+                                        <div class="col">
+                                            <a href="fintos-tech-a.php" class="fw-semibold">
+                                                <div class="card card--nav border-0">
+                                                    <div class="card-head mb-3">
+                                                        <img src="https://fintos.com.my/assets/images/FINTOSTech-logo-1.png" class="brandthumb" alt="fintos tech" class="img-fluid"  />
+                                                        <p class="my-2">Transform financial<br/>management</p>
+                                                        <div class="more fw-semibold">Learn More <img src="https://fintos.com.my/assets/images/arrow-right.svg" alt="fintos advice" class="img-fluid ps-1"  /></div>
+                                                    </div>
+                                                    <div class="card-body bgyellow">
+                                                        <img src="https://fintos.com.my/assets/images/thumb-fintos-tech2.png" alt="fintos advice" class="img-fluid"  />
+                                                    </div>
+                                                </div>
+                                            </a>    
+                                        </div>
+                                    </div>
                                 </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link px-0 px-lg-2" href="about.php">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link px-0 px-lg-2" href="contact.php">Contact</a>
-                            </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Product
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a data-bs-toggle="modal" data-bs-target="#form-property-income" class="open-modal dropdown-item" href="#">Housing Loan</a></li>
+                            <li><a data-bs-toggle="modal" data-bs-target="#form-mortgage-refinance" class="open-modal dropdown-item" href="#">Mortgage Refinance</a></li>
                             </ul>
-                        </div>
-                        </div>
-                    </nav>
-                </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-0 px-lg-2" href="about.php">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-0 px-lg-2" href="contact.php">Contact</a>
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
             </div>
-        </div><!--[end: site-header]-->
+        </div>
+    </div><!--[end: site-header]-->
+
+    <cms:editable name='fintos-advice' label='Fintos Advice Page' type='richtext' height='550'>
         <div class="mainhero align-items-end mainhero--heroheight bgred">
             <div class="container h-100">
                 <div class="row h-100">
@@ -337,305 +338,306 @@
                 </div> -->
             </div>
         </div><!--[end:aboutus]-->
-
-        <!--[start: faq]-->
-        <div class="faq">    
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="sectionheading text-center">
-                        <h2 class="heading">Frequently Ask Questions</h2>
-                    </div>
-                    <div class="col-12 col-md-8 justify-content-center pt-md-2 pt-xl-3">
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header bg-transparent">
-                                    <button class="accordion-button bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <div class="row w-100 justify-content-between">
-                                            <div class="col-11">
-                                                What sets FINTOS Advice Consultancy differently from other financial advisory firms?
-                                            </div>
-                                            <div class="col-1 text-end">
-                                                <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
-                                            </div>
-                                        </div>
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        FINTOS Advice Consultancy distinguishes itself through a personalized approach, offering a comprehensive range of services paired with a steadfast commitment to our clients. We specialize in tailoring advice to perfectly fit each client's unique financial situation and goals.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header bg-transparent">
-                                <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <div class="row w-100 justify-content-between">
-                                        <div class="col-11">
-                                            How can FINTOS financial planning benefit me?
-                                        </div>
-                                        <div class="col-1 text-end">
-                                            <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
-                                        </div>
-                                    </div>
-                                </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        FINTOS financial planning benefits you by providing personalized, comprehensive services tailored to your unique financial goals, offering expert guidance to navigate complex decisions and achieve peace of mind.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header bg-transparent">
-                                <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
-                                    <div class="row w-100 justify-content-between">
-                                        <div class="col-11">
-                                            If I don't have debt issues, can I still seek FINTOS advisory services?
-                                        </div>
-                                        <div class="col-1 text-end">
-                                            <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
-                                        </div>
-                                    </div>
-                                </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Yes, FINTOS offers a wide range of financial advisory services, including property investment, loan consultancy, and insurance coverage.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header bg-transparent">
-                                <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
-                                    <div class="row w-100 justify-content-between">
-                                        <div class="col-11">
-                                            How can I be sure FINTOS is providing a proper advisory work?
-                                        </div>
-                                        <div class="col-1 text-end">
-                                            <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
-                                        </div>
-                                    </div>
-                                </button>
-                                </h2>
-                                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        FINTOS employs certified financial advisors and coaches, adheres to regulatory standards, and provides transparent, personalized advice based on comprehensive financial assessments.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header bg-transparent">
-                                <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
-                                    <div class="row w-100 justify-content-between">
-                                        <div class="col-11">
-                                            What are the FINTOS advisory fees and charges?
-                                        </div>
-                                        <div class="col-1 text-end">
-                                            <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
-                                        </div>
-                                    </div>
-                                </button>
-                                </h2>
-                                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Our fees and charges vary depending on the services provided. We offer a free initial consultation, after which detailed fee structures will be explained based on your needs.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header bg-transparent">
-                                <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseTwo">
-                                    <div class="row w-100 justify-content-between">
-                                        <div class="col-11">
-                                            How do you trust and ensure the confidentiality of my financial information and financial matters?
-                                        </div>
-                                        <div class="col-1 text-end">
-                                            <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
-                                        </div>
-                                    </div>
-                                </button>
-                                </h2>
-                                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        FINTOS Advice Consultancy is committed to transparency, confidentiality, and ethical practices. Our advisors are certified professionals with a proven track record of helping clients achieve financial stability and growth. We follow strict confidentiality policies and use advanced security measures to protect your financial information. Your data is handled with the utmost care and privacy.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header bg-transparent">
-                                <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseTwo">
-                                    <div class="row w-100 justify-content-between">
-                                        <div class="col-11">
-                                            If I have a bad credit profile, can FINTOS still assist me?
-                                        </div>
-                                        <div class="col-1 text-end">
-                                            <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
-                                        </div>
-                                    </div>
-                                </button>
-                                </h2>
-                                <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Yes, FINTOS specializes in assisting individuals with complex financial situations. Our experienced advisors will work closely with you to create a customized debt restructuring plan to improve your financial health.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--[end: faq]-->
-
-        <div class="cta cta--boxed"><!--[start: cta]-->
-            <div class="container">
-                <div class="row bglightyellow">
-                    <div class="col-md-5 img-ct cta--withphone">
-                        <div class="thumb-cta">
-                            <img src="https://fintos.com.my/assets/images/advice-cta.png" alt="thumbnail" class="img-fluid"/>
-                        </div>
-                    </div>
-                    <div class="col-md-7">
-                        <div class="sectionheading h-100 d-flex flex-column align-items-start pe-lg-5">
-                            <h2 class="heading">Want to Explore Your Path <br/>to Financial Freedom?</h2>
-                            <p>Let us assist you in making informed financial decisions to secure your future.</p>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#form-contact" class="open-modal btn btn-primary btn-lg fw-semibold">Schedule a Free Consultation</a>
-                            <div class="phone-cta">
-                                <img src="https://fintos.com.my/assets/images/phone.png" alt="phone"/>
-                                Contact us at: 03-8080 9777 (#10052)
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!--[end: cta]-->
-
-        <footer class="site-footer bgprimary pt-5"><!--[start:site-footer]-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 footer-1">
-                        <h3 class="fw-semibold">Products</h3>
-                        <ul class="list-unstyled d-flex flex-column">
-                            <li><a data-bs-toggle="modal" data-bs-target="#form-property-income" class="open-modal" href="#">Housing Loan</a></li>
-                            <li><a data-bs-toggle="modal" data-bs-target="#form-mortgage-refinance" class="open-modal" href="#">Mortgage Refinance</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 footer-2">
-                        <h3 class="fw-semibold">Solutions</h3>
-                        <ul class="list-unstyled d-flex flex-column">
-                            <li><a href="fintos-advice.php">Fintos Advice</a></li>
-                            <li><a href="fintos-capital.php">Fintos Capital</a></li>
-                            <li><a href="fintos-tech-a.php">Fintos Tech</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 footer-3">
-                        <h3 class="fw-semibold">Company</h3>
-                        <ul class="list-unstyled d-flex flex-column">
-                            <li><a href="about.php">About</a></li>
-                            <li><a href="career.php">Career</a></li>
-                            <li><a href="contact.php">Contact</a></li>
-                            <!-- <li><a href="#">Partners</a></li>-->
-                        </ul>
-                    </div>
-                    <div class="col-md-3 footer-4">
-                        <h3 class="fw-semibold">Contact</h3>
-                        <p>Mon - Fri: 9.30am - 6.30pm</p>
-                        <a href="tel:+60380809777">+603 8080 9777</a>
-                        <p>Lot No. 11F-2, 11th Floor, Tower 4 @ PFCC, Jalan Puteri 1/2, Bandar Puteri Puchong, 47100 Puchong, Selangor</p>
-                        <div class="socialmedia d-flex gap-5 mt-4">
-                            <a href="https://www.facebook.com/fintosventuregroup"><img src="https://fintos.com.my/assets/images/fb-icon.png" alt="facebook" /></a>
-                            <a href="https://www.linkedin.com/company/fintos-venture-group-official"><img src="https://fintos.com.my/assets/images/li-icon.png" alt="linkedin" /></a>
-                            <!--<a href="#"><img src="https://fintos.com.my/assets/images/tik-icon.png" alt="tiktok" /></a>-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="copyright pt-5 pb-5">
-                <div class="container">
-                    <div class="row pt-3 text-center align-items-start">
-                        <a href="#" class="py-4"><img src="https://fintos.com.my/assets/images/fintos-logo-dark.png" alt="fintos"  /></a>
-                        <p>Fintos Venture Group (202001010295 (1366615-P)) © 2024 - All rights reserved</p>
-                        <ul class="list-unstyled d-flex flex-row justify-content-center gap-5">
-                            <li><a href="#">Terms & Conditions</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Cookies</a></li>
-                        </ul>
-                        <div class="justify-content-center mobile-sosmed d-flex gap-5 mt-4">
-                            <a href="https://www.facebook.com/fintosventuregroup"><img src="https://fintos.com.my/assets/images/fb-icon.png" alt="facebook" /></a>
-                            <a href="https://my.linkedin.com/company/fintos-venture-group"><img src="https://fintos.com.my/assets/images/li-icon.png" alt="linkedin" /></a>
-                            <!--<a href="#"><img src="https://fintos.com.my/assets/images/tik-icon.png" alt="tiktok" /></a>-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer><!--[end:site-footer]-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="./assets/js/main.js"></script>
-
-        <!--[start:modal player]-->
-        <div class="modal fade" id="videoplayer" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="ratio ratio-16x9">
-                            <video class="embed-responsive-item" controls>
-                                <source src="https://fintos.com.my/assets/videos/testimonialvideoadvice.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="form-contact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDNqtIpuJ20_Z9oni1807cwOlSkKnvPr_UKrun6h4rjzgiKw/viewform?embedded=true" width="640" height="1107" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--[start:modal player]-->
-        <div class="modal fade" id="form-property-income" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <iframe src="https://sub.fintos.com.my/calculator/property_income"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--[end: modal player]-->
-
-        <!--[start:modal player]-->
-        <div class="modal fade" id="form-mortgage-refinance" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <iframe src="https://sub.fintos.com.my/calculator/mortgage_refinance"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--[end: modal player]-->
     </cms:editable>
+
+    <!--[start: faq]-->
+    <div class="faq">    
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="sectionheading text-center">
+                    <h2 class="heading">Frequently Ask Questions</h2>
+                </div>
+                <div class="col-12 col-md-8 justify-content-center pt-md-2 pt-xl-3">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header bg-transparent">
+                                <button class="accordion-button bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <div class="row w-100 justify-content-between">
+                                        <div class="col-11">
+                                            What sets FINTOS Advice Consultancy differently from other financial advisory firms?
+                                        </div>
+                                        <div class="col-1 text-end">
+                                            <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
+                                        </div>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    FINTOS Advice Consultancy distinguishes itself through a personalized approach, offering a comprehensive range of services paired with a steadfast commitment to our clients. We specialize in tailoring advice to perfectly fit each client's unique financial situation and goals.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header bg-transparent">
+                            <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <div class="row w-100 justify-content-between">
+                                    <div class="col-11">
+                                        How can FINTOS financial planning benefit me?
+                                    </div>
+                                    <div class="col-1 text-end">
+                                        <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
+                                    </div>
+                                </div>
+                            </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    FINTOS financial planning benefits you by providing personalized, comprehensive services tailored to your unique financial goals, offering expert guidance to navigate complex decisions and achieve peace of mind.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header bg-transparent">
+                            <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
+                                <div class="row w-100 justify-content-between">
+                                    <div class="col-11">
+                                        If I don't have debt issues, can I still seek FINTOS advisory services?
+                                    </div>
+                                    <div class="col-1 text-end">
+                                        <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
+                                    </div>
+                                </div>
+                            </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Yes, FINTOS offers a wide range of financial advisory services, including property investment, loan consultancy, and insurance coverage.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header bg-transparent">
+                            <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+                                <div class="row w-100 justify-content-between">
+                                    <div class="col-11">
+                                        How can I be sure FINTOS is providing a proper advisory work?
+                                    </div>
+                                    <div class="col-1 text-end">
+                                        <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
+                                    </div>
+                                </div>
+                            </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    FINTOS employs certified financial advisors and coaches, adheres to regulatory standards, and provides transparent, personalized advice based on comprehensive financial assessments.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header bg-transparent">
+                            <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
+                                <div class="row w-100 justify-content-between">
+                                    <div class="col-11">
+                                        What are the FINTOS advisory fees and charges?
+                                    </div>
+                                    <div class="col-1 text-end">
+                                        <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
+                                    </div>
+                                </div>
+                            </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Our fees and charges vary depending on the services provided. We offer a free initial consultation, after which detailed fee structures will be explained based on your needs.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header bg-transparent">
+                            <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseTwo">
+                                <div class="row w-100 justify-content-between">
+                                    <div class="col-11">
+                                        How do you trust and ensure the confidentiality of my financial information and financial matters?
+                                    </div>
+                                    <div class="col-1 text-end">
+                                        <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
+                                    </div>
+                                </div>
+                            </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    FINTOS Advice Consultancy is committed to transparency, confidentiality, and ethical practices. Our advisors are certified professionals with a proven track record of helping clients achieve financial stability and growth. We follow strict confidentiality policies and use advanced security measures to protect your financial information. Your data is handled with the utmost care and privacy.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header bg-transparent">
+                            <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseTwo">
+                                <div class="row w-100 justify-content-between">
+                                    <div class="col-11">
+                                        If I have a bad credit profile, can FINTOS still assist me?
+                                    </div>
+                                    <div class="col-1 text-end">
+                                        <img class="icon-caret" src="https://fintos.com.my/assets/images/caret-down.png" />
+                                    </div>
+                                </div>
+                            </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Yes, FINTOS specializes in assisting individuals with complex financial situations. Our experienced advisors will work closely with you to create a customized debt restructuring plan to improve your financial health.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--[end: faq]-->
+
+    <div class="cta cta--boxed"><!--[start: cta]-->
+        <div class="container">
+            <div class="row bglightyellow">
+                <div class="col-md-5 img-ct cta--withphone">
+                    <div class="thumb-cta">
+                        <img src="https://fintos.com.my/assets/images/advice-cta.png" alt="thumbnail" class="img-fluid"/>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="sectionheading h-100 d-flex flex-column align-items-start pe-lg-5">
+                        <h2 class="heading">Want to Explore Your Path <br/>to Financial Freedom?</h2>
+                        <p>Let us assist you in making informed financial decisions to secure your future.</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#form-contact" class="open-modal btn btn-primary btn-lg fw-semibold">Schedule a Free Consultation</a>
+                        <div class="phone-cta">
+                            <img src="https://fintos.com.my/assets/images/phone.png" alt="phone"/>
+                            Contact us at: 03-8080 9777 (#10052)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--[end: cta]-->
+
+    <footer class="site-footer bgprimary pt-5"><!--[start:site-footer]-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 footer-1">
+                    <h3 class="fw-semibold">Products</h3>
+                    <ul class="list-unstyled d-flex flex-column">
+                        <li><a data-bs-toggle="modal" data-bs-target="#form-property-income" class="open-modal" href="#">Housing Loan</a></li>
+                        <li><a data-bs-toggle="modal" data-bs-target="#form-mortgage-refinance" class="open-modal" href="#">Mortgage Refinance</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-2">
+                    <h3 class="fw-semibold">Solutions</h3>
+                    <ul class="list-unstyled d-flex flex-column">
+                        <li><a href="fintos-advice.php">Fintos Advice</a></li>
+                        <li><a href="fintos-capital.php">Fintos Capital</a></li>
+                        <li><a href="fintos-tech-a.php">Fintos Tech</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-3">
+                    <h3 class="fw-semibold">Company</h3>
+                    <ul class="list-unstyled d-flex flex-column">
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="career.php">Career</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                        <!-- <li><a href="#">Partners</a></li>-->
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-4">
+                    <h3 class="fw-semibold">Contact</h3>
+                    <p>Mon - Fri: 9.30am - 6.30pm</p>
+                    <a href="tel:+60380809777">+603 8080 9777</a>
+                    <p>Lot No. 11F-2, 11th Floor, Tower 4 @ PFCC, Jalan Puteri 1/2, Bandar Puteri Puchong, 47100 Puchong, Selangor</p>
+                    <div class="socialmedia d-flex gap-5 mt-4">
+                        <a href="https://www.facebook.com/fintosventuregroup"><img src="https://fintos.com.my/assets/images/fb-icon.png" alt="facebook" /></a>
+                        <a href="https://www.linkedin.com/company/fintos-venture-group-official"><img src="https://fintos.com.my/assets/images/li-icon.png" alt="linkedin" /></a>
+                        <!--<a href="#"><img src="https://fintos.com.my/assets/images/tik-icon.png" alt="tiktok" /></a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright pt-5 pb-5">
+            <div class="container">
+                <div class="row pt-3 text-center align-items-start">
+                    <a href="#" class="py-4"><img src="https://fintos.com.my/assets/images/fintos-logo-dark.png" alt="fintos"  /></a>
+                    <p>Fintos Venture Group (202001010295 (1366615-P)) © 2024 - All rights reserved</p>
+                    <ul class="list-unstyled d-flex flex-row justify-content-center gap-5">
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                    <div class="justify-content-center mobile-sosmed d-flex gap-5 mt-4">
+                        <a href="https://www.facebook.com/fintosventuregroup"><img src="https://fintos.com.my/assets/images/fb-icon.png" alt="facebook" /></a>
+                        <a href="https://my.linkedin.com/company/fintos-venture-group"><img src="https://fintos.com.my/assets/images/li-icon.png" alt="linkedin" /></a>
+                        <!--<a href="#"><img src="https://fintos.com.my/assets/images/tik-icon.png" alt="tiktok" /></a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!--[end:site-footer]-->
+
+    <!--[start:modal player]-->
+    <div class="modal fade" id="videoplayer" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <video class="embed-responsive-item" controls>
+                            <source src="https://fintos.com.my/assets/videos/testimonialvideoadvice.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="form-contact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDNqtIpuJ20_Z9oni1807cwOlSkKnvPr_UKrun6h4rjzgiKw/viewform?embedded=true" width="640" height="1107" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--[start:modal player]-->
+    <div class="modal fade" id="form-property-income" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://sub.fintos.com.my/calculator/property_income"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--[end: modal player]-->
+
+    <!--[start:modal player]-->
+    <div class="modal fade" id="form-mortgage-refinance" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://sub.fintos.com.my/calculator/mortgage_refinance"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--[end: modal player]-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
 <?php COUCH::invoke(); ?>
