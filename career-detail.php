@@ -68,7 +68,7 @@
                                             </a>
                                             </div>
                                             <div class="col">
-                                                <a href="fintos-capital.php" class="fw-semibold">
+                                                <a href="fintos-capital" class="fw-semibold">
                                                     <div class="card card--nav border-0">
                                                         <div class="card-head mb-3">
                                                             <img src="https://fintos.com.my/assets/images/fintos-finance-logo-nav.svg" alt="Fintos Capital" class="img-fluid"  />
@@ -229,7 +229,7 @@
                         <h3 class="fw-semibold">Solutions</h3>
                         <ul class="list-unstyled d-flex flex-column">
                             <li><a href="fintos-advice">Fintos Advice</a></li>
-                            <li><a href="fintos-capital.php">Fintos Capital</a></li>
+                            <li><a href="fintos-capital">Fintos Capital</a></li>
                             <li><a href="fintos-tech-a.php">Fintos Tech</a></li>
                         </ul>
                     </div>
