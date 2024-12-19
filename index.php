@@ -433,7 +433,7 @@
                         <p>Fintos Venture Group (202001010295 (1366615-P)) &copy; 2024 - All rights reserved</p>
                         <ul class="list-unstyled d-flex flex-row justify-content-center gap-5">
                             <li><a href="#">Terms & Conditions</a></li>
-                            <li><a href="privacy-policy.php">Privacy Policy</a></li>
+                            <li><a href="privacy-policy">Privacy Policy</a></li>
                             <li><a href="#">Cookies</a></li>
                         </ul>
                         <div class="justify-content-center mobile-sosmed d-flex gap-5 mt-4">

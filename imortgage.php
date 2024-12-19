@@ -317,7 +317,7 @@
                                 <a href="/"><img src="https://fintos.com.my/assets/images/logo-im2.png" alt="app" class="img-fluid"  /></a>
                                 <ul class="list-unstyled d-flex flex-column flex-lg-row justify-content-center mb-0 gap-lg-5">
                                     <li><a href="#">Terms & Conditions</a></li>
-                                    <li><a href="privacy-policy.php">Privacy Policy</a></li>
+                                    <li><a href="privacy-policy">Privacy Policy</a></li>
                                     <li><a href="#">Cookies</a></li>
                                 </ul>
                             </div>
