@@ -82,7 +82,7 @@
                                                 </a>
                                             </div>
                                             <div class="col">
-                                                <a href="fintos-tech-a.php" class="fw-semibold">
+                                                <a href="fintos-tech-a" class="fw-semibold">
                                                     <div class="card card--nav border-0">
                                                         <div class="card-head mb-3">
                                                             <img src="https://fintos.com.my/assets/images/fintos-tech-logo-nav.svg" alt="fintos tech" class="img-fluid"  />
@@ -238,7 +238,7 @@
                         <ul class="list-unstyled d-flex flex-column">
                             <li><a href="fintos-advice">Fintos Advice</a></li>
                             <li><a href="fintos-capital">Fintos Capital</a></li>
-                            <li><a href="fintos-tech-a.php">Fintos Tech</a></li>
+                            <li><a href="fintos-tech-a">Fintos Tech</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3 footer-3">
