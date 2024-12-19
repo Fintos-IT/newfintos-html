@@ -41,7 +41,7 @@
                 <div class="row">
                     <nav class="navbar navbar-expand-lg">
                         <div class="container-fluid justify-content-between">
-                        <a class="navbar-brand" href="index.php"><img src="https://fintos.com.my/assets/images/fintoslogo-highres.png" alt="app" class="img-fluid"  /></a>
+                        <a class="navbar-brand" href="index"><img src="https://fintos.com.my/assets/images/fintoslogo-highres.png" alt="app" class="img-fluid"  /></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -200,7 +200,7 @@
                     <p>If you have any questions about this Privacy Policy, please contact us:</p>
                     <ul>
                         <li><strong>By email:</strong> <a href="mailto:sasinquiry@fintos.com.my">sasinquiry@fintos.com.my</a></li>
-                        <li><strong>By visiting this page on our website:</strong> <a href="index.php">fintos.com.my</a></li>
+                        <li><strong>By visiting this page on our website:</strong> <a href="index">fintos.com.my</a></li>
                         <li><strong>By phone number:</strong> 03-8080 9777</li>
                         <li><strong>By mail:</strong> Lot No. 11F-2, 11th Floor, Tower, 4 @ PFCC, Jalan Puteri 1/2, Bandar Puteri, 47100 Puchong, Selangor</li>
                     </ul>
