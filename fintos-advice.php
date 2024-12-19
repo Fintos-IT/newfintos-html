@@ -54,7 +54,7 @@
                                     <ul class="dropdown-menu rounded-4 dropdown-menu--megamenu border-0">
                                         <div class="d-flex py-3 px-lg-4 mx-1 flex-col flex-lg-row gap-4 flex-column flex-md-row">
                                             <div class="col">
-                                                <a href="fintos-advice.php" class="fw-semibold">
+                                                <a href="fintos-advice" class="fw-semibold">
                                                 <div class="card card--nav border-0">
                                                     <div class="card-head mb-3">
                                                         <img src="https://fintos.com.my/assets/images/FINTOSAdvice-logo-1.png" class="brandthumb" alt="fintos advice" class="img-fluid"  />
@@ -523,7 +523,7 @@
                     <div class="col-md-3 footer-2">
                         <h3 class="fw-semibold">Solutions</h3>
                         <ul class="list-unstyled d-flex flex-column">
-                            <li><a href="fintos-advice.php">Fintos Advice</a></li>
+                            <li><a href="fintos-advice">Fintos Advice</a></li>
                             <li><a href="fintos-capital.php">Fintos Capital</a></li>
                             <li><a href="fintos-tech-a.php">Fintos Tech</a></li>
                         </ul>
