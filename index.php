@@ -108,7 +108,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-0 px-lg-2" href="about.php">About</a>
+                                <a class="nav-link px-0 px-lg-2" href="about">About</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link px-0 px-lg-2" href="contact.php">Contact</a>
@@ -343,7 +343,7 @@
                             <h5 class="fw-semibold">Meet Fintos</h5>
                             <img src="https://fintos.com.my/assets/images/fintoslogo-highres.png" alt="google" />
                             <p>We are committed to shaping a future where sustainability takes center stage, and we achieve this by harnessing the power of our innovative products, solutions, unwavering passion, and robust financial resilience.</p>
-                            <a href="about.php" class="btn btn-primary btn-md">About us</a>
+                            <a href="about" class="btn btn-primary btn-md">About us</a>
                             <div class="award">
                                 <ul class="list-unstyled d-flex flex-row award-container">
                                     <li><img class="img-fluid" src="https://fintos.com.my/assets/images/award1.png" alt="award"/></li>
@@ -407,7 +407,7 @@
                     <div class="col-md-3 footer-3">
                         <h3 class="fw-semibold">Company</h3>
                         <ul class="list-unstyled d-flex flex-column">
-                            <li><a href="about.php">About</a></li>
+                            <li><a href="about">About</a></li>
                             <li><a href="career.php">Career</a></li>
                             <li><a href="contact.php">Contact</a></li>
                             <!-- <li><a href="#">Partners</a></li>-->

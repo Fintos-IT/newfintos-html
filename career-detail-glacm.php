@@ -109,7 +109,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-0 px-lg-2" href="about.php">About</a>
+                                <a class="nav-link px-0 px-lg-2" href="about">About</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link px-0 px-lg-2" href="contact.php">Contact</a>
@@ -239,7 +239,7 @@
                     <div class="col-md-3 footer-3">
                         <h3 class="fw-semibold">Company</h3>
                         <ul class="list-unstyled d-flex flex-column">
-                            <li><a href="about.php">About</a></li>
+                            <li><a href="about">About</a></li>
                             <li><a href="career.php">Career</a></li>
                             <li><a href="contact.php">Contact</a></li>
                             <!-- <li><a href="#">Partners</a></li>-->
