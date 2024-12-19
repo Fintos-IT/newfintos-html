@@ -111,7 +111,7 @@
                                 <a class="nav-link px-0 px-lg-2" href="about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-0 px-lg-2" href="contact.php">Contact</a>
+                                <a class="nav-link px-0 px-lg-2" href="contact">Contact</a>
                             </li>
                             </ul>
                         </div>
@@ -238,7 +238,7 @@
                         <ul class="list-unstyled d-flex flex-column">
                             <li><a href="about">About</a></li>
                             <li><a href="career.php">Career</a></li>
-                            <li><a href="contact.php">Contact</a></li>
+                            <li><a href="contact">Contact</a></li>
                             <!-- <li><a href="#">Partners</a></li>-->
                         </ul>
                     </div>
