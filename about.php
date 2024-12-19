@@ -414,7 +414,7 @@
                         <h3 class="fw-semibold">Company</h3>
                         <ul class="list-unstyled d-flex flex-column">
                             <li><a href="about">About</a></li>
-                            <li><a href="career.php">Career</a></li>
+                            <li><a href="career">Career</a></li>
                             <li><a href="contact">Contact</a></li>
                             <!-- <li><a href="#">Partners</a></li>-->
                         </ul>

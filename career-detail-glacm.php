@@ -127,7 +127,7 @@
                     <div class="entry-content me-sm-0 me-lg-5 pe-sm-0">
                         <div class="back-career">
                             <img src="https://fintos.com.my/assets/images/arrow-left.png" alt="app" class="img-fluid me-1" />
-                            <a href="career.php">Back</a>
+                            <a href="career">Back</a>
                         </div>
                         <h2 class="heading-single fw-semibold mt-4 pt-2 mb-4 pb-3">Group Legal & Compliance Manager</h2>
                         <p class="mb-2"><b>Job Highlights</b></p>
@@ -240,7 +240,7 @@
                         <h3 class="fw-semibold">Company</h3>
                         <ul class="list-unstyled d-flex flex-column">
                             <li><a href="about">About</a></li>
-                            <li><a href="career.php">Career</a></li>
+                            <li><a href="career">Career</a></li>
                             <li><a href="contact">Contact</a></li>
                             <!-- <li><a href="#">Partners</a></li>-->
                         </ul>
